@@ -1,0 +1,3854 @@
+[
+  {
+    "id": "1600008583",
+    "date": "2016-02-01 09:34:00.0",
+    "description": "CRASH NO INJURIES / INJURY",
+    "location": "EISENHOWER CORPORATE PARK WEST",
+    "address": "2850 S INDUSTRIAL HWY",
+    "disposition": "INCIDENT REPORT# 16-000464",
+    "narrative": "A pedestrian was struck by a vehicle in a parking lot.  He was taken by ambulance to U-M Emerg Dept for evaluation.",
+    "status": "- open"
+  },
+  {
+    "id": "1600008612",
+    "date": "2016-02-01 11:30:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "FULLER RD / FULLER CT",
+    "disposition": "INCIDENT REPORT# 16-000466",
+    "narrative": "During a traffic stop, the driver was cited for speeding."
+  },
+  {
+    "id": "1600008615",
+    "date": "2016-02-01 11:38:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "FULLER CT / FULLER RD",
+    "disposition": "INCIDENT REPORT# 16-000467",
+    "narrative": "During a traffic stop, the driver was cited for speeding."
+  },
+  {
+    "id": "1600008629",
+    "date": "2016-02-01 12:39:00.0",
+    "description": "OBSTRUCTING JUSTICE",
+    "location": "CAMPUS SAFETY SERVICES BUILDING",
+    "address": "1239 KIPKE DR",
+    "disposition": "INCIDENT REPORT# 16-000469",
+    "narrative": "A bench warrant was canceled for a subject who appeared in court (#15-163 failure to appear traffic offense). \r\n",
+    "status": "- closed as of 2/1/2016",
+    "arrest": "2/1/2016"
+  },
+  {
+    "id": "1600008630",
+    "date": "2016-02-01 12:39:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "FRANKEL SAMUEL AND JEAN CARDIOVASCULAR CENTER",
+    "address": "1425 E ANN ST",
+    "disposition": "INCIDENT REPORT# 16-000470",
+    "narrative": "An employee reported the theft of food items from an employee area between 5:15 and 8:30am.  No suspects.",
+    "status": "- closed as of 2/2/2016"
+  },
+  {
+    "id": "1600008637",
+    "date": "2016-02-01 13:13:00.0",
+    "description": "OBSTRUCTING JUSTICE",
+    "location": "CAMPUS SAFETY SERVICES BUILDING",
+    "address": "1239 KIPKE DR",
+    "disposition": "INCIDENT REPORT# 16-000471",
+    "narrative": "A bench warrant was canceled for a subject who appeared in court (failure to appear, minor in possession of alcohol #15-1864). \r\n",
+    "status": "- closed as of 2/1/2016",
+    "arrest": "2/1/2016"
+  },
+  {
+    "id": "1600008642",
+    "date": "2016-02-01 13:26:00.0",
+    "description": "ASSAULT OR BATTERY",
+    "location": "MOTT CHILDRENS VON VOIGTLANDER WOMENS HOSPITALS",
+    "address": "1540 E HOSPITAL DR",
+    "disposition": "INCIDENT REPORT# 16-000472",
+    "narrative": "An employee reportedly slapped a supervisor. The two were separated.",
+    "status": "- at court"
+  },
+  {
+    "id": "1600008661",
+    "date": "2016-02-01 15:03:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "MICHIGAN UNION",
+    "address": "530 S STATE ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600008675",
+    "date": "2016-02-01 16:10:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "BURSLEY JOSEPH A & MARGUERITE K HALL",
+    "address": "1931 DUFFIELD ST",
+    "disposition": "INCIDENT REPORT# 16-000475",
+    "narrative": "A subject reportedly took food from the kitchen.  Suspect identified.",
+    "status": "- closed as of 2/4/2016"
+  },
+  {
+    "id": "1600008690",
+    "date": "2016-02-01 18:00:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "MOTT CHILDRENS VON VOIGTLANDER WOMENS HOSPITALS",
+    "address": "1540 E HOSPITAL DR",
+    "disposition": "INCIDENT REPORT# 16-000478",
+    "narrative": "Visitor reported theft of cell phone on Jan. 31 between 2 and 4:40pm.  No suspects.",
+    "status": "- closed as of 2/2/2016"
+  },
+  {
+    "id": "1600008692",
+    "date": "2016-02-01 18:13:00.0",
+    "description": "CRASH NO INJURIES / NO INJURY",
+    "location": "",
+    "address": "WASHTENAW AVE / S FOREST AVE",
+    "disposition": "INCIDENT REPORT# 16-000477",
+    "narrative": "Two-vehicle accident resulted in no injuries, but one vehicle was towed from the scene.",
+    "status": "- closed as of 2/12/2016"
+  },
+  {
+    "id": "1600008697",
+    "date": "2016-02-01 18:35:00.0",
+    "description": "MISSING PERSON NON-CRIMINAL",
+    "location": "",
+    "address": "PLYMOUTH RD / NIXON RD",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Report of a subject who reportedly was lost around 3:30pm.  Subject was found in residence room without incident."
+  },
+  {
+    "id": "1600008722",
+    "date": "2016-02-01 20:09:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "HILL ST / S 5TH AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights."
+  },
+  {
+    "id": "1600008727",
+    "date": "2016-02-01 20:34:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "LOT NC43",
+    "address": "2109 FULLER RD",
+    "disposition": "VERBAL WARNING,",
+    "narrative": "During a traffic stop, the driver was warned for expired license plate."
+  },
+  {
+    "id": "1600008737",
+    "date": "2016-02-01 21:04:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER CT / FULLER RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for speeding."
+  },
+  {
+    "id": "1600008765",
+    "date": "2016-02-01 23:40:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "1500 BLK E MEDICAL CENTER DR",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600008769",
+    "date": "2016-02-01 23:52:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "LOT M31",
+    "address": "1500 E MEDICAL CENTER DR",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600008772",
+    "date": "2016-02-02 00:05:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER RD / BEAL AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for speeding."
+  },
+  {
+    "id": "1600008780",
+    "date": "2016-02-02 01:09:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "S STATE ST / S UNIVERSITY AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights."
+  },
+  {
+    "id": "1600008811",
+    "date": "2016-02-02 05:32:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "1500 BLOCK E MEDICAL CENTER",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600008815",
+    "date": "2016-02-02 05:45:00.0",
+    "description": "TRAFFIC STOP/DWLS",
+    "location": "",
+    "address": "1500 BLOCK E MEDICAL DR",
+    "disposition": "INCIDENT REPORT# 16-000480",
+    "narrative": "During a traffic stop, the driver was cited for driving with a suspended license.",
+    "status": "- closed as of 2/2/2016",
+    "arrest": "2/2/2016"
+  },
+  {
+    "id": "1600009122",
+    "date": "2016-02-03 08:49:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "HILL ST / S DIVISION ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation."
+  },
+  {
+    "id": "1600009139",
+    "date": "2016-02-03 09:43:00.0",
+    "description": "TRESPASS",
+    "location": "MICHIGAN LEAGUE",
+    "address": "911 N UNIVERSITY AVE",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Two visitors reportedly were sleeping in the lounge.  They were awoken and directed to leave the building."
+  },
+  {
+    "id": "1600009177",
+    "date": "2016-02-03 12:05:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "EAST ANN ARBOR HEALTH AND GERIATRICS CENTER",
+    "address": "4260 PLYMOUTH RD",
+    "disposition": "INCIDENT REPORT# 16-000497",
+    "narrative": "Cash reportedly was taken from a wallet that was left unattended at a coffee cart between 8:55 and 9:10am.  No suspects.",
+    "status": "- closed as of 2/8/2016"
+  },
+  {
+    "id": "1600009178",
+    "date": "2016-02-03 12:08:00.0",
+    "description": "FRAUDULENT ACTIVITY",
+    "location": "CAMPUS SAFETY SERVICES BUILDING",
+    "address": "1239 KIPKE DR",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Assistance provided to a subject who reported several unauthorized transactions made to his credit cards."
+  },
+  {
+    "id": "1600009179",
+    "date": "2016-02-03 12:25:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "BROWN GEORGE GRANGER MEMORIAL LABORATORIES",
+    "address": "2350 HAYWARD ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Medical assistance was provided to a subject."
+  },
+  {
+    "id": "1600009186",
+    "date": "2016-02-03 12:48:00.0",
+    "description": "HARASSMENT",
+    "location": "",
+    "address": "1239 KIPKE DR",
+    "disposition": "INCIDENT REPORT# 16-000499",
+    "narrative": "Report of communications received in violation of bond conditions in a stalking case.",
+    "status": "- open"
+  },
+  {
+    "id": "1600009187",
+    "date": "2016-02-03 12:50:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "ALICE LLOYD",
+    "address": "100 S OBSERVATORY ST",
+    "disposition": "INFORMATION ONLY",
+    "narrative": "Initial report that a bicycle had been stolen within the past two months.  Owner to re-contact department to complete report."
+  },
+  {
+    "id": "1600009228",
+    "date": "2016-02-03 15:50:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "N INGALLS ST / E HURON ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a red light."
+  },
+  {
+    "id": "1600009236",
+    "date": "2016-02-03 16:21:00.0",
+    "description": "FRAUDULENT ACTIVITY",
+    "location": "TAUBMAN A ALFRED HEALTH CARE CTR",
+    "address": "1620 E MEDICAL CENTER DR",
+    "disposition": "INCIDENT REPORT# 16-000503",
+    "narrative": "Initial report of possible fraudulent use of a grant. ",
+    "status": "- open"
+  },
+  {
+    "id": "1600009240",
+    "date": "2016-02-03 16:28:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "2900 S STATE ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for expired license plate."
+  },
+  {
+    "id": "1600009247",
+    "date": "2016-02-03 17:28:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "MOTT CHILDRENS VON VOIGTLANDER WOMENS HOSPITALS",
+    "address": "1540 E HOSPITAL DR",
+    "disposition": "INCIDENT REPORT# 16-000504",
+    "narrative": "Cash and gift cards reportedly taken from a valet-parked vehicle on Jan. 29.  No initial suspects.   UPDATE 2/17/16 - Owner reported she later had found the gift cards.  ",
+    "status": "- closed as of 2/19/2016"
+  },
+  {
+    "id": "1600009285",
+    "date": "2016-02-03 19:46:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER CT / FULLER RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for failure to yield."
+  },
+  {
+    "id": "1600009288",
+    "date": "2016-02-03 19:54:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "BAITS VERA II COMAN HOUSE",
+    "address": "1440 HUBBARD RD",
+    "disposition": "UTL/GOA",
+    "narrative": "Report of smell of marijuana.  Source could not be located."
+  },
+  {
+    "id": "1600009336",
+    "date": "2016-02-04 00:02:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "INCIDENT REPORT# 16-000506",
+    "narrative": "Two subjects were arrested, processed and released pending warrant authorization for possession of suspected marijuana.",
+    "status": "- open"
+  },
+  {
+    "id": "1600009338",
+    "date": "2016-02-04 00:08:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "EAST QUAD",
+    "address": "701 E UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000507",
+    "narrative": "Two subjects were arrested, processed and released pending warrant authorization for possession of suspected marijuana.",
+    "status": "- open",
+    "arrest": "2/4/2016"
+  },
+  {
+    "id": "1600009350",
+    "date": "2016-02-04 01:26:00.0",
+    "description": "TRESPASS",
+    "location": "MICHIGAN STADIUM",
+    "address": "1201 S MAIN ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "Officers located several people who were inside the stadium.  They were escorted out."
+  },
+  {
+    "id": "1600009384",
+    "date": "2016-02-04 04:48:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "E MEDICAL CENTER DR / NICHOLS DR",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600009385",
+    "date": "2016-02-04 05:06:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "1500 BLK E MEDICAL CENTER DR",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600009389",
+    "date": "2016-02-04 05:20:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "LOT M51",
+    "address": "1825 E MEDICAL CENTER DR",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a red light."
+  },
+  {
+    "id": "1600009390",
+    "date": "2016-02-04 05:32:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "E MEDICAL CENTER DR / E HOSPITAL DR",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a red light."
+  },
+  {
+    "id": "1600009432",
+    "date": "2016-02-04 08:40:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER ST / GLEN AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for prohibited turn."
+  },
+  {
+    "id": "1600009440",
+    "date": "2016-02-04 08:51:00.0",
+    "description": "HARASSMENT",
+    "location": "CAMPUS SAFETY SERVICES BUILDING",
+    "address": "1239 KIPKE DR",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Initial report that a pedestrian was harassed as she walked across Thayer St Feb 2 around 5:15pm.  This may have been a bias-motivated incident (religion bias).  "
+  },
+  {
+    "id": "1600009470",
+    "date": "2016-02-04 10:23:00.0",
+    "description": "TRESPASS",
+    "location": "GALLERIA BUILDING",
+    "address": "1214 S UNIVERSITY AVE",
+    "disposition": "VERBAL WARNING, ",
+    "narrative": "A visitor was found sleeping in the lobby.  He was awoken and escorted from the building."
+  },
+  {
+    "id": "1600009472",
+    "date": "2016-02-04 10:33:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "ANGELL JAMES B HALL AND TISCH HALL",
+    "address": "435 S STATE ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Medical assistance was provided to a subject.."
+  },
+  {
+    "id": "1600009475",
+    "date": "2016-02-04 10:36:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "LOT NC8",
+    "address": "2200 FULLER RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for failure to yield."
+  },
+  {
+    "id": "1600009491",
+    "date": "2016-02-04 11:24:00.0",
+    "description": "CRASH NO INJURIES / HIT/RUN",
+    "location": "M22 P4",
+    "address": "1535 E HOSPITAL DR",
+    "disposition": "INCIDENT REPORT# 16-000509",
+    "narrative": "An unknown vehicle struck a vehicle parked in the structure resulting in substantial damage.  No suspects."
+  },
+  {
+    "id": "1600009526",
+    "date": "2016-02-04 13:56:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "ZINA PITCHER PL / CATHERINE RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for prohibited turn."
+  },
+  {
+    "id": "1600009543",
+    "date": "2016-02-04 15:20:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "HURON/S THAYER",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for prohibited turn."
+  },
+  {
+    "id": "1600009579",
+    "date": "2016-02-04 18:50:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "CATHERINE ST / GLEN AVE",
+    "disposition": "INCIDENT REPORT# 16-000512",
+    "narrative": "During a traffic stop, the driver was cited for prohibited turn."
+  },
+  {
+    "id": "1600009591",
+    "date": "2016-02-04 19:43:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "BURSLEY JOSEPH A & MARGUERITE K HALL",
+    "address": "1931 DUFFIELD ST",
+    "disposition": "UTL/GOA",
+    "narrative": "Report of smell of marijuana.  Source could not be located."
+  },
+  {
+    "id": "1600009601",
+    "date": "2016-02-04 20:33:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "OXFORD RD / GEDDES AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation."
+  },
+  {
+    "id": "1600009606",
+    "date": "2016-02-04 20:56:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "SOUTH QUAD",
+    "address": "600 E MADISON ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Medical assistance was provided to a subject."
+  },
+  {
+    "id": "1600009611",
+    "date": "2016-02-04 21:18:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "N UNIVERSITY AVE / CHURCH ST",
+    "disposition": "INCIDENT REPORT# 16-000516",
+    "narrative": "During a traffic stop, the driver was cited for stop sign violation."
+  },
+  {
+    "id": "1600009629",
+    "date": "2016-02-04 22:17:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "BURSLEY JOSEPH A & MARGUERITE K HALL",
+    "address": "1931 DUFFIELD ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible marijuana violation to be handled internally by staff."
+  },
+  {
+    "id": "1600009630",
+    "date": "2016-02-04 22:18:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "PLYMOUTH RD / GREEN RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment."
+  },
+  {
+    "id": "1600009636",
+    "date": "2016-02-04 22:47:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "STATE/I94",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for speeding."
+  },
+  {
+    "id": "1600009655",
+    "date": "2016-02-04 23:58:00.0",
+    "description": "MIP",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "INCIDENT REPORT# 16-000519",
+    "narrative": "Two subjects were arrested for minor in possession of alcohol.  One was released at the scene while the other was taken by ambulance to U-M Emerg Dept for treatment.",
+    "status": "- closed as of 2/11/2016",
+    "arrest": "2/5/2016"
+  },
+  {
+    "id": "1600009659",
+    "date": "2016-02-05 00:12:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER/M78",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment."
+  },
+  {
+    "id": "1600009665",
+    "date": "2016-02-05 00:23:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "COUZENS HALL",
+    "address": "1300 E ANN ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible marijuana violation to be handled internally by staff."
+  },
+  {
+    "id": "1600009672",
+    "date": "2016-02-05 00:42:00.0",
+    "description": "TRAFFIC STOP/VCSA",
+    "location": "",
+    "address": "CAMBRIDGE RD / WASHTENAW AVE",
+    "disposition": "INCIDENT REPORT# 16-000520",
+    "narrative": "During a traffic stop, a subject was arrested for possession of suspected marijuana.  She was processed and released pending warrant authorization. ",
+    "status": "- open",
+    "arrest": "2/5/2016"
+  },
+  {
+    "id": "1600009689",
+    "date": "2016-02-05 02:48:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible marjiuana violations with four subjects to be handled internally by staff."
+  },
+  {
+    "id": "1600009691",
+    "date": "2016-02-05 02:57:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "CAMBRIDGE RD / WASHTENAW AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment."
+  },
+  {
+    "id": "1600009712",
+    "date": "2016-02-05 05:24:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "E MEDICAL CENTER DR / E HOSPITAL DR",
+    "disposition": "INCIDENT REPORT# 16-000521",
+    "narrative": "During a traffic stop, the driver was cited for obstructed view and warned for disregarding a red light and not having possession of driver's license.  "
+  },
+  {
+    "id": "1600009717",
+    "date": "2016-02-05 06:15:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "LOT M71",
+    "address": "1100 FULLER RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for speeding."
+  },
+  {
+    "id": "1600009722",
+    "date": "2016-02-05 06:47:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "GEDDES AVE / WASHTENAW AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600009733",
+    "date": "2016-02-05 07:56:00.0",
+    "description": "CRASH NO INJURIES / HIT/RUN",
+    "location": "LOT SC34",
+    "address": "2500 S STATE ST",
+    "disposition": "INCIDENT REPORT# 16-000524",
+    "narrative": "A service vehicle reportedly was struck by an unknown vehicle while parked in the lot between 3:30pm Feb 4 and 7:50am Feb 5 resulting in a damaged bumper.  No suspects.",
+    "status": "- closed as of 2/5/2016"
+  },
+  {
+    "id": "1600009740",
+    "date": "2016-02-05 08:24:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "N UNIVERSITY AVE / FLETCHER ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600009741",
+    "date": "2016-02-05 08:26:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "E HURON ST / N STATE ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for failure to yield."
+  },
+  {
+    "id": "1600009749",
+    "date": "2016-02-05 08:59:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "1500 BLK E MEDICAL CENTER DR",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign and not possessing vehicle registration."
+  },
+  {
+    "id": "1600009759",
+    "date": "2016-02-05 09:35:00.0",
+    "description": "PROPERTY DAMAGE / ACCIDENTAL",
+    "location": "BRIARWOOD 2",
+    "address": "400 E EISENHOWER PKWY",
+    "disposition": "INCIDENT REPORT# 16-000526",
+    "narrative": "Two-vehicle accident resulted in no injuries."
+  },
+  {
+    "id": "1600009790",
+    "date": "2016-02-05 11:44:00.0",
+    "description": "HARASSMENT",
+    "location": "PERRY BUILDING",
+    "address": "330 PACKARD ST",
+    "disposition": "INCIDENT REPORT# 16-000529",
+    "narrative": "Report of threatening phone call from an unknown subject.",
+    "status": "- closed as of 2/8/2016"
+  },
+  {
+    "id": "1600009797",
+    "date": "2016-02-05 12:11:00.0",
+    "description": "TRESPASS",
+    "location": "CAMPUS SAFETY SERVICES BUILDING",
+    "disposition": "WRITTEN WARNING",
+    "narrative": "A subject was directed not to return to Student Activites Building due to previous disruptive behavior."
+  },
+  {
+    "id": "1600009804",
+    "date": "2016-02-05 12:31:00.0",
+    "description": "MEDICAL ASSISTANCE / PI",
+    "location": "NCRB",
+    "disposition": "INCIDENT REPORT# 16-000530",
+    "narrative": "A subject was taken by an officer to U-M Emerg Dept for treatment. ",
+    "address": "2375 HUBBARD RD",
+    "status": "- closed as of 2/5/2016"
+  },
+  {
+    "id": "1600009818",
+    "date": "2016-02-05 13:23:00.0",
+    "description": "ORDINANCE VIOLATION / SKATEBRD",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "Subjects were warned for skateboarding on U-M property and in roadway.",
+    "address": "KIPKE DR / GREENE ST"
+  },
+  {
+    "id": "1600009837",
+    "date": "2016-02-05 14:33:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "NORTH QUAD",
+    "disposition": "UTL/GOA",
+    "narrative": "Report of smell of marijuana.  Source could not be located.",
+    "address": "105 S STATE ST"
+  },
+  {
+    "id": "1600009841",
+    "date": "2016-02-05 14:49:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for failure to yield.",
+    "address": "TAPPAN AVE / S UNIVERSITY AVE"
+  },
+  {
+    "id": "1600009845",
+    "date": "2016-02-05 15:08:00.0",
+    "description": "DISORDERLY CONDUCT",
+    "location": "CENTRAL CAMPUS REC BLD STORAGE FACILITY",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Report of subject using another subject's MCard for entry.  Confirmed the card's owner had granted permission.  Subject was warned not to use another's ID.",
+    "address": "401 WASHTENAW AVE"
+  },
+  {
+    "id": "1600009854",
+    "date": "2016-02-05 15:56:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "MOTT CHILDRENS VON VOIGTLANDER WOMENS HOSPITALS",
+    "disposition": "INCIDENT REPORT# 16-000533",
+    "narrative": "A wallet reportedly was taken between Feb 3 and Feb 5.  No suspects.",
+    "address": "1540 E HOSPITAL DR",
+    "status": "- closed as of 2/9/2016"
+  },
+  {
+    "id": "1600009866",
+    "date": "2016-02-05 16:38:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving the wrong way on a one-way street.",
+    "address": "HILL/MADISON"
+  },
+  {
+    "id": "1600009878",
+    "date": "2016-02-05 18:10:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "",
+    "disposition": "INCIDENT REPORT# 16-000534",
+    "narrative": "A purse reportedly was taken from outside the BSRB when left unattended between 5:45 and 6:10pm.  Purse was turned in as found property but was missing cash.  No suspects.",
+    "address": "ANN/CATHERINE STREETS",
+    "status": "- closed as of 2/5/2016"
+  },
+  {
+    "id": "1600009885",
+    "date": "2016-02-05 18:41:00.0",
+    "description": "FRAUD",
+    "location": "TAUBMAN A ALFRED BIOMEDICAL SCIENCE RESEARCH BLDG",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Unauthorized transaction reported on a credit card earlier in the day after it had been used at a vending machine in the building.  No skimming device was located.  No suspects.",
+    "address": "109 ZINA PITCHER PL"
+  },
+  {
+    "id": "1600009886",
+    "date": "2016-02-05 18:42:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "disposition": "INCIDENT REPORT# 16-000535",
+    "narrative": "During a traffic stop, the driver was cited for a prohibited turn.",
+    "address": "WASHTENAW/WASHTENAW COURT"
+  },
+  {
+    "id": "1600009896",
+    "date": "2016-02-05 19:31:00.0",
+    "description": "UDAA",
+    "location": "LOT W16",
+    "disposition": "INFORMATION ONLY",
+    "narrative": "Report that a ZipCar had been stolen from the lot sometime since 3:30pm.  Determined vehicle had been returned to ZipCar.  No problems found.  UNFOUNDED INCIDENT.   ",
+    "address": "625 THOMPSON ST"
+  },
+  {
+    "id": "1600009902",
+    "date": "2016-02-05 20:06:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "INCIDENT REPORT# 16-000536",
+    "narrative": "During a traffic stop, the driver was cited for disregarding a traffic control device and warned for failure to yield, not possessing proof of insurance or driver's license. ",
+    "address": "FULLER RD / CEDAR BEND ST"
+  },
+  {
+    "id": "1600009905",
+    "date": "2016-02-05 20:22:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "INCIDENT REPORT# 16-000537",
+    "narrative": "During a traffic stop, the driver was cited for driving the wrong way on a one-way street.",
+    "address": "E MADISON ST / PACKARD ST"
+  },
+  {
+    "id": "1600009928",
+    "date": "2016-02-05 22:47:00.0",
+    "description": "MIP",
+    "location": "WEST QUADRANGLE",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible alcohol violations to be handled internally by staff.",
+    "address": "541 THOMPSON ST"
+  },
+  {
+    "id": "1600009931",
+    "date": "2016-02-05 22:53:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "YOST",
+    "disposition": "INCIDENT REPORT# 16-000539",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. ",
+    "address": "1116 S STATE ST",
+    "status": "- closed as of 2/7/2016"
+  },
+  {
+    "id": "1600009939",
+    "date": "2016-02-05 23:11:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment.",
+    "address": "S UNIVERSITY AVE / TAPPAN AVE"
+  },
+  {
+    "id": "1600009945",
+    "date": "2016-02-05 23:34:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a red light.",
+    "address": "WASHTENAW AVE / S UNIVERSITY AVE"
+  },
+  {
+    "id": "1600009947",
+    "date": "2016-02-05 23:41:00.0",
+    "description": "MIP",
+    "location": "WEST QUADRANGLE",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Alcohol violations with four subjects. Alcohol was poured out.",
+    "address": "541 THOMPSON ST"
+  },
+  {
+    "id": "1600009948",
+    "date": "2016-02-05 23:42:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for speeding.",
+    "address": "PLYMOUTH RD / BEAL AVE"
+  },
+  {
+    "id": "1600009956",
+    "date": "2016-02-06 00:05:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for failure to yield.",
+    "address": "1469(1500) BLK WASHTENAW AVE"
+  },
+  {
+    "id": "1600009959",
+    "date": "2016-02-06 00:14:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment and not possessing their driver's license.",
+    "address": "PLYMOUTH RD / NIXON RD"
+  },
+  {
+    "id": "1600009963",
+    "date": "2016-02-06 00:23:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "INCIDENT REPORT# 16-000540",
+    "narrative": "During a traffic stop, the driver was cited for disregarding a stop sign.",
+    "address": "GEDDES AVE / CHURCH ST"
+  },
+  {
+    "id": "1600009966",
+    "date": "2016-02-06 00:30:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "LOT NC33",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights.",
+    "address": "1440 HUBBARD RD"
+  },
+  {
+    "id": "1600009968",
+    "date": "2016-02-06 00:34:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights and license plate violation.",
+    "address": "CHURCH ST / HILL ST"
+  },
+  {
+    "id": "1600009972",
+    "date": "2016-02-06 00:45:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights.",
+    "address": "S STATE ST / E WILLIAM ST"
+  },
+  {
+    "id": "1600009974",
+    "date": "2016-02-06 00:51:00.0",
+    "description": "MIP",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "disposition": "TOT OTHER DEPT",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. ",
+    "address": "1503 WASHINGTON HTS"
+  },
+  {
+    "id": "1600009976",
+    "date": "2016-02-06 00:53:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "CHURCH ST PARKING STRUCTURE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for impeding traffic.",
+    "address": "525 CHURCH ST"
+  },
+  {
+    "id": "1600009977",
+    "date": "2016-02-06 00:56:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment.",
+    "address": "S UNIVERSITY AVE / TAPPAN AVE"
+  },
+  {
+    "id": "1600009982",
+    "date": "2016-02-06 01:12:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving the wrong way on a one-way street.",
+    "address": "1400 BLK WASHTENAW AVE"
+  },
+  {
+    "id": "1600009983",
+    "date": "2016-02-06 01:13:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation and defective vehicle equipment.",
+    "address": "S OBSERVATORY ST / WASHINGTON HTS"
+  },
+  {
+    "id": "1600009988",
+    "date": "2016-02-06 01:22:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "Moped driver was warned for driving on the sidewalk.",
+    "address": "MURFIN AVE / HUBBARD ST"
+  },
+  {
+    "id": "1600009992",
+    "date": "2016-02-06 01:28:00.0",
+    "description": "MIP",
+    "location": "SOUTH QUAD",
+    "disposition": "TOT OTHER DEPT, DISCIPLINARY REFERRAL",
+    "narrative": "An incapacitated student was taken by ambulance to U-M Emerg Dept for treatment.",
+    "address": "600 E MADISON ST"
+  },
+  {
+    "id": "1600009993",
+    "date": "2016-02-06 01:34:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign.",
+    "address": "CHURCH ST / GEDDES AVE"
+  },
+  {
+    "id": "1600009994",
+    "date": "2016-02-06 01:34:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for a traffic violation.",
+    "address": "1800 BLK WILLOW TREE LN"
+  },
+  {
+    "id": "1600010001",
+    "date": "2016-02-06 02:03:00.0",
+    "description": "MIP",
+    "location": "SOUTH QUAD",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. ",
+    "address": "600 E MADISON ST"
+  },
+  {
+    "id": "1600010045",
+    "date": "2016-02-06 10:35:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER/GLEN COURT",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for speeding."
+  },
+  {
+    "id": "1600010046",
+    "date": "2016-02-06 10:41:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "N UNIVERSITY AVE / S THAYER ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600010051",
+    "date": "2016-02-06 11:01:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "FULLER RD / BEAL AVE",
+    "disposition": "INCIDENT REPORT# 16-000541",
+    "narrative": "During a traffic stop, the driver was cited for speeding."
+  },
+  {
+    "id": "1600010054",
+    "date": "2016-02-06 11:11:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "STADIUM/MAIN",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for speeding."
+  },
+  {
+    "id": "1600010091",
+    "date": "2016-02-06 16:03:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "CRISLER CENTER",
+    "address": "333 E STADIUM BLVD",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600010095",
+    "date": "2016-02-06 16:26:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "HOSPITAL",
+    "address": "1500 E MEDICAL CENTER DR",
+    "disposition": "INCIDENT REPORT# 16-000545",
+    "narrative": "Suspected marijuana was confiscated from a patient.  Upon discharge, the subject was arrested on outstanding warrants from other agencies and taken to jail.",
+    "status": "- open",
+    "arrest": "2/6/2016"
+  },
+  {
+    "id": "1600010100",
+    "date": "2016-02-06 16:34:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "HILL ST / PACKARD ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for improper turn."
+  },
+  {
+    "id": "1600010107",
+    "date": "2016-02-06 17:29:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "HENRY ST / S STATE ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving the wrong way on a one-way street."
+  },
+  {
+    "id": "1600010109",
+    "date": "2016-02-06 17:50:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "2000 BLK WASHTENAW AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation."
+  },
+  {
+    "id": "1600010113",
+    "date": "2016-02-06 18:17:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "N UNIVERSITY AVE / S STATE ST",
+    "disposition": "INCIDENT REPORT# 16-000546",
+    "narrative": "During a traffic stop, the driver was cited for a traffic violation."
+  },
+  {
+    "id": "1600010114",
+    "date": "2016-02-06 18:32:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "MCKINLEY TOWNE CENTRE II",
+    "address": "500 E WASHINGTON ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for improper lane use."
+  },
+  {
+    "id": "1600010115",
+    "date": "2016-02-06 18:32:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "GEDDES AVE / WASHTENAW AVE",
+    "disposition": "INCIDENT REPORT# 16-000547",
+    "narrative": "During a traffic stop, the driver was cited for disregarding a stop sign."
+  },
+  {
+    "id": "1600010117",
+    "date": "2016-02-06 18:37:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "N DIVISION ST / E HURON ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation and expiration."
+  },
+  {
+    "id": "1600010118",
+    "date": "2016-02-06 18:45:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "E MEDICAL CENTER DR / NICHOLS DR",
+    "disposition": "INCIDENT REPORT# 16-000548",
+    "narrative": "During a traffic stop, the driver was cited for expired driver's license and license plate and warned for no proof of insurance and disregarding a stop sign. ",
+    "status": "- closed as of 2/7/2016",
+    "arrest": "2/6/2016"
+  },
+  {
+    "id": "1600010138",
+    "date": "2016-02-06 20:39:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "GEDDES AVE / WASHTENAW AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights."
+  },
+  {
+    "id": "1600010139",
+    "date": "2016-02-06 20:41:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "UNIVERSITY HOSPITAL",
+    "address": "1500 E MEDICAL CENTER DR",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600010158",
+    "date": "2016-02-06 22:44:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "NORTHWOOD II APTS ",
+    "address": "2200 BLK CRAM PL",
+    "disposition": "UTL/GOA",
+    "narrative": "Report of smell of marijuana.  Source could not be located."
+  },
+  {
+    "id": "1600010162",
+    "date": "2016-02-06 22:58:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "KINGLSEY/DETROIT",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving the wrong way on a one-way street."
+  },
+  {
+    "id": "1600010167",
+    "date": "2016-02-06 23:10:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "PACKARD ST / S DIVISION ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving the wrong way on a one-way street."
+  },
+  {
+    "id": "1600010172",
+    "date": "2016-02-06 23:34:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "WASHTENAW AVE / GEDDES AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a red light."
+  },
+  {
+    "id": "1600010173",
+    "date": "2016-02-06 23:38:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "CHURCH ST / WILLARD ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation."
+  },
+  {
+    "id": "1600010174",
+    "date": "2016-02-06 23:42:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "E WILLIAM ST / S STATE ST",
+    "disposition": "INCIDENT REPORT# 16-000549",
+    "narrative": "During a traffic stop, the driver was cited for expired license plate."
+  },
+  {
+    "id": "1600010178",
+    "date": "2016-02-06 23:48:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "S STATE ST / S UNIVERSITY AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights."
+  },
+  {
+    "id": "1600010181",
+    "date": "2016-02-07 00:09:00.0",
+    "description": "MIP",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "TOT OTHER DEPT",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment"
+  },
+  {
+    "id": "1600010185",
+    "date": "2016-02-07 00:23:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "1500 BLK E MEDICAL CENTER DR",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation."
+  },
+  {
+    "id": "1600010187",
+    "date": "2016-02-07 00:29:00.0",
+    "description": "MIP",
+    "location": "WEST QUADRANGLE",
+    "address": "541 THOMPSON ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Possible alcohol violations with two subjects  to be handled internally by staff."
+  },
+  {
+    "id": "1600010198",
+    "date": "2016-02-07 01:00:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "200 S THAYER ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment."
+  },
+  {
+    "id": "1600010199",
+    "date": "2016-02-07 01:02:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "S 1ST ST / W LIBERTY ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving the wrong way on a one-way street."
+  },
+  {
+    "id": "1600010204",
+    "date": "2016-02-07 01:15:00.0",
+    "description": "ORDINANCE VIOLATION",
+    "location": "NICHOLS ARBORETUM",
+    "address": "NICHOLS ARBORETUM",
+    "disposition": "VERBAL WARNING",
+    "narrative": "Five subjects were warned for being in the Arb after hours."
+  },
+  {
+    "id": "1600010207",
+    "date": "2016-02-07 01:16:00.0",
+    "description": "MIP",
+    "location": "SOUTH QUADRANGLE",
+    "address": "600 E MADISON ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600010210",
+    "date": "2016-02-07 01:38:00.0",
+    "description": "MIP",
+    "location": "LLOYD ALICE CROCKER HALL",
+    "address": "100 S OBSERVATORY ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible alcohol violation to be handled internally by staff."
+  },
+  {
+    "id": "1600010217",
+    "date": "2016-02-07 02:12:00.0",
+    "description": "TRESPASS",
+    "location": "STADIUM",
+    "address": "1201 S MAIN ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "Two subjects were found attempting to enter the Stadium.  They were given warnings. "
+  },
+  {
+    "id": "1600010260",
+    "date": "2016-02-07 09:34:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "LOT NC43",
+    "address": "2109 FULLER RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for speeding."
+  },
+  {
+    "id": "1600010265",
+    "date": "2016-02-07 10:33:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "MOSHER JORDAN",
+    "address": "200 S OBSERVATORY ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600010271",
+    "date": "2016-02-07 11:08:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "SOUTH QUAD",
+    "address": "600 E MADISON ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Medical assistance was provided to a subject."
+  },
+  {
+    "id": "1600010294",
+    "date": "2016-02-07 14:49:00.0",
+    "description": "TRESPASS",
+    "location": "UNIVERSITY HOSPITAL",
+    "address": "1500 E MEDICAL CENTER DR",
+    "disposition": "INCIDENT REPORT# 16-000551",
+    "narrative": "A visitor was escorted from the building after he was found with a large bag of returnable bottles from elsewhere in the building."
+  },
+  {
+    "id": "1600010313",
+    "date": "2016-02-07 17:19:00.0",
+    "description": "LARCENY-ALL TYPES / IP",
+    "location": "DUDERSTADT JAMES AND ANNE CENTER",
+    "address": "2281 BONISTEEL BLVD",
+    "disposition": "INCIDENT REPORT# 16-000553",
+    "narrative": "A backpack reportedly was taken when left unattended between 4:55 and 5:05pm.  No suspects.",
+    "status": "- closed as of 2/8/2016"
+  },
+  {
+    "id": "1600010328",
+    "date": "2016-02-07 18:42:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "STOCKWELL",
+    "address": "324 S OBSERVATORY ST",
+    "disposition": "UTL/GOA",
+    "narrative": "Report of smell of marijuana.  Source could not be located."
+  },
+  {
+    "id": "1600010369",
+    "date": "2016-02-07 22:46:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "1800 BLK WASHTENAW AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment."
+  },
+  {
+    "id": "1600010371",
+    "date": "2016-02-07 22:59:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "200 BLOCK OBSERVATORY",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for impeding traffic."
+  },
+  {
+    "id": "1600010379",
+    "date": "2016-02-08 00:03:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "S FOREST AVE / S UNIVERSITY AVE",
+    "disposition": "VERBAL WARNING, ",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment."
+  },
+  {
+    "id": "1600010718",
+    "date": "2016-02-09 08:13:00.0",
+    "description": "PROPERTY DAMAGE / MDOP",
+    "location": "MEDICAL SCIENCE UNIT II",
+    "address": "1137 CATHERINE ST",
+    "disposition": "INCIDENT REPORT# 16-000569",
+    "narrative": "Wall-mounted signs in two rooms were found damaged and furniture overturned.  Occurred overnight.  No suspects.",
+    "status": "- closed as of 2/9/2016"
+  },
+  {
+    "id": "1600010727",
+    "date": "2016-02-09 08:41:00.0",
+    "description": "PROPERTY DAMAGE / MDOP",
+    "location": "MEDICAL SCIENCE UNIT I",
+    "address": "1301 CATHERINE ST",
+    "disposition": "INCIDENT REPORT# 16-000572",
+    "narrative": "A piece of training equipment in a third-floor room was found intentionally damaged.  The incident likely occurred overnight.  No suspects.",
+    "status": "- closed as of 2/10/2016"
+  },
+  {
+    "id": "1600010729",
+    "date": "2016-02-09 09:02:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "S DIVISION ST / E WILLIAM ST",
+    "disposition": "INCIDENT REPORT# 16-000570",
+    "narrative": "During a traffic stop, the driver was cited for failure to register the vehicle and warned for disregarding a stop sign. "
+  },
+  {
+    "id": "1600010734",
+    "date": "2016-02-09 09:19:00.0",
+    "description": "OBSTRUCTING JUSTICE",
+    "location": "CAMPUS SAFETY SERVICES BUILDING",
+    "address": "1239 KIPKE DR",
+    "disposition": "INCIDENT REPORT# 16-000571",
+    "narrative": "A bench warrant was canceled for a subject who appeared in court (failure to appear, driving with a suspended license #15-076)\r\n",
+    "status": "- closed as of 2/9/2016",
+    "arrest": "2/9/2016"
+  },
+  {
+    "id": "1600010746",
+    "date": "2016-02-09 10:16:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "LORCH HALL",
+    "address": "611 TAPPAN ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Initial report that a chair was taken from an office between 11:30pm Feb 7 and 9am Feb 8.  No suspects."
+  },
+  {
+    "id": "1600010747",
+    "date": "2016-02-09 10:19:00.0",
+    "description": "MEDICAL ASSISTANCE / PI",
+    "location": "TAUBMAN A ALFRED HEALTH CARE CTR",
+    "address": "1620 E MEDICAL CENTER DR",
+    "disposition": "INCIDENT REPORT# 16-000573",
+    "narrative": "A subject was taken to the U-M Emerg Dept for treatment after a fall."
+  },
+  {
+    "id": "1600010751",
+    "date": "2016-02-09 10:40:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "RACKHAM",
+    "address": "915 E WASHINGTON ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Report of smell of marijuana.  Source could not be located."
+  },
+  {
+    "id": "1600010757",
+    "date": "2016-02-09 11:09:00.0",
+    "description": "PROPERTY DAMAGE / MDOP",
+    "location": "TAUBMAN A ALFRED HEALTH CARE CTR",
+    "address": "1620 E MEDICAL CENTER DR",
+    "disposition": "INCIDENT REPORT# 16-000574",
+    "narrative": "Three hallway signs were found torn down and broken.  Occurred between 5pm Feb 8 and 8am Feb 9.  No suspects.",
+    "status": "- closed as of 2/9/2016"
+  },
+  {
+    "id": "1600010770",
+    "date": "2016-02-09 11:49:00.0",
+    "description": "DOMESTIC ASSAULT",
+    "location": "MOTT CHILDRENS VON VOIGTLANDER WOMENS HOSPITALS",
+    "address": "1540 E HOSPITAL DR",
+    "disposition": "INCIDENT REPORT# 16-000575",
+    "narrative": "Family dispute. One subject stated he was assaulted by a family member, who then left the building.  "
+  },
+  {
+    "id": "1600010785",
+    "date": "2016-02-09 12:50:00.0",
+    "description": "CRASH NO INJURIES / OFF ROAD",
+    "location": "PLYMOUTH PARK",
+    "address": "2101 COMMONWEALTH BLVD",
+    "disposition": "INCIDENT REPORT# 16-000576",
+    "narrative": "A vehicle reportedly struck a bus resulting in no injuries but minor damage.",
+    "status": "- open"
+  },
+  {
+    "id": "1600010827",
+    "date": "2016-02-09 14:59:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "MLB",
+    "address": "812 E WASHINGTON ST",
+    "disposition": "INCIDENT REPORT# 16-000582",
+    "narrative": "An unattended cell phone reportedly was taken from an auditorium between 2:20 and 2:30pm.  No suspects. ",
+    "status": "- closed as of 2/22/2016"
+  },
+  {
+    "id": "1600010828",
+    "date": "2016-02-09 15:00:00.0",
+    "description": "ASSIST OUTSIDE LE AGENCY",
+    "location": "CAMPUS SAFETY SERVICES BUILDING",
+    "address": "1239 KIPKE DR",
+    "disposition": "INCIDENT REPORT# 16-000580",
+    "narrative": "Officer assisted another agency with an investigation.",
+    "status": "- closed as of 2/11/2016"
+  },
+  {
+    "id": "1600010841",
+    "date": "2016-02-09 14:22:00.0",
+    "description": "DOMESTIC ASSAULT",
+    "location": "MOTT CHILDRENS VON VOIGTLANDER WOMENS HOSPITALS",
+    "address": "1540 E HOSPITAL DR",
+    "disposition": "INCIDENT REPORT# 16-000581",
+    "narrative": "Subject reported that she was assaulted by a known subject around 2pm. The suspect was arrested for domestic violence.  During processing, the suspect is alleged to have assaulted two police officers before being taken to jail. ",
+    "status": "- open",
+    "arrest": "2/9/2016"
+  },
+  {
+    "id": "1600010901",
+    "date": "2016-02-09 19:04:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "NORTH UNIVERSITY/CHURCH",
+    "disposition": "INCIDENT REPORT# 16-000584",
+    "narrative": "During a traffic stop, the driver was cited for disregarding a stop sign."
+  },
+  {
+    "id": "1600010906",
+    "date": "2016-02-09 19:24:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "E HURON ST / FLETCHER ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights."
+  },
+  {
+    "id": "1600010924",
+    "date": "2016-02-09 20:35:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "E EISENHOWER PKWY / S STATE ST",
+    "disposition": "VERBAL WARNING, ",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment."
+  },
+  {
+    "id": "1600010942",
+    "date": "2016-02-09 21:57:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "BURSLEY JOSEPH A & MARGUERITE K HALL",
+    "address": "1931 DUFFIELD ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible marijuana violation to be handled internally by staff."
+  },
+  {
+    "id": "1600010955",
+    "date": "2016-02-09 23:37:00.0",
+    "description": "MEDICAL ASSISTANCE / PI",
+    "location": "NORTHWOOD II APTS",
+    "address": "1600 BLK CRAM CIR",
+    "disposition": "INCIDENT REPORT# 16-000586",
+    "narrative": "A subject was taken to U-M Emerg Dept for treatment after a fall."
+  },
+  {
+    "id": "1600010982",
+    "date": "2016-02-10 01:44:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "ALICE LLOYD",
+    "address": "100 S OBSERVATORY ST",
+    "disposition": "UTL/GOA",
+    "narrative": "Report of smell of marijuana.  Source could not be located."
+  },
+  {
+    "id": "1600010983",
+    "date": "2016-02-10 01:56:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "ALICE LLOYD",
+    "address": "100 S OBSERVATORY ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible marijuana violations to be handled internally by staff."
+  },
+  {
+    "id": "1600011009",
+    "date": "2016-02-10 06:25:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER CT / BONISTEEL BLVD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment and speeding."
+  },
+  {
+    "id": "1600011010",
+    "date": "2016-02-10 06:39:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER RD / N MEDICAL CENTER DR",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for failure to yield."
+  },
+  {
+    "id": "1600011063",
+    "date": "2016-02-10 11:49:00.0",
+    "description": "CRASH NO INJURIES / HIT/RUN",
+    "location": "M18 P2",
+    "address": "1600 E MEDICAL CENTER DR",
+    "disposition": "INCIDENT REPORT# 16-000591",
+    "narrative": "A vehicle reportedly was struck by an unknown vehicle while parked in the structure."
+  },
+  {
+    "id": "1600011128",
+    "date": "2016-02-10 17:25:00.0",
+    "description": "ASSIST OUTSIDE LE AGENCY",
+    "location": "UNIVERSITY HOSPITAL",
+    "address": "1500 E MEDICAL CENTER DR",
+    "disposition": "INCIDENT REPORT# 16-000593",
+    "narrative": "Officer assisted another agency with evidence collection.",
+    "status": "- closed as of 2/10/2016"
+  },
+  {
+    "id": "1600011135",
+    "date": "2016-02-10 18:27:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "GEDDES AVE / OXFORD RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation."
+  },
+  {
+    "id": "1600011136",
+    "date": "2016-02-10 18:31:00.0",
+    "description": "CRASH NO INJURIES / NO INJURY",
+    "location": "",
+    "address": "S MAIN ST / PAULINE BLVD",
+    "disposition": "INCIDENT REPORT# 16-000594",
+    "narrative": "Two-vehicle accident resulted in no injuries.",
+    "status": "- open"
+  },
+  {
+    "id": "1600011140",
+    "date": "2016-02-10 18:54:00.0",
+    "description": "CRASH NO INJURIES / NO INJURY",
+    "location": "FRANKEL SAMUEL AND JEAN CARDIOVASCULAR CENTER",
+    "address": "1425 E ANN ST",
+    "disposition": "INCIDENT REPORT# 16-000595",
+    "narrative": "Two-vehicle accident in circle driveway resulted in no injuries."
+  },
+  {
+    "id": "1600011146",
+    "date": "2016-02-10 19:23:00.0",
+    "description": "CRASH NO INJURIES / HIT/RUN",
+    "location": "M22 P4",
+    "address": "1535 E HOSPITAL DR",
+    "disposition": "INCIDENT REPORT# 16-000596",
+    "narrative": "A vehicle reportedly was struck by an unknown vehicle while parked in the structure throughout the day.  No suspects."
+  },
+  {
+    "id": "1600011158",
+    "date": "2016-02-10 20:07:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "NORTH UNIVERSITY/CHURCH",
+    "disposition": "INCIDENT REPORT# 16-000597",
+    "narrative": "During a traffic stop, the driver was cited for prohibited turn."
+  },
+  {
+    "id": "1600011179",
+    "date": "2016-02-10 21:51:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "HATCHER H NORTH GRADUATE LIBRARY",
+    "address": "913 S UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000600",
+    "narrative": "A wallet reportedly was taken from a backpack in a fifth-floor study area between 7 and 7:10pm.  No suspects.",
+    "status": "- closed as of 2/11/2016"
+  },
+  {
+    "id": "1600011189",
+    "date": "2016-02-10 22:24:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "OBSERVATORY/S MEDICAL CENTER",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600011192",
+    "date": "2016-02-10 22:32:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "S UNIVERSITY AVE / CHURCH ST",
+    "disposition": "INCIDENT REPORT# 16-000601",
+    "narrative": "During a traffic stop, the driver was cited for disregarding a stop sign."
+  },
+  {
+    "id": "1600011213",
+    "date": "2016-02-10 23:52:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "CHURCH/NORTH UNIVERSITY",
+    "disposition": "INCIDENT REPORT# 16-000602",
+    "narrative": "During a traffic stop, the driver was cited for disregarding a stop sign."
+  },
+  {
+    "id": "1600011225",
+    "date": "2016-02-11 00:56:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "HILL ST / S DIVISION ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a red light."
+  },
+  {
+    "id": "1600011269",
+    "date": "2016-02-11 06:31:00.0",
+    "description": "TRESPASS",
+    "location": "TAUBMAN A ALFRED HEALTH SCIENCES LIBRARY",
+    "address": "1135 CATHERINE ST",
+    "disposition": "INFORMATION ONLY",
+    "narrative": "Subject found sleeping in a room.  Determined he was a student."
+  },
+  {
+    "id": "1600011586",
+    "date": "2016-02-12 08:33:00.0",
+    "description": "CRASH NO INJURIES",
+    "location": "LOT M7",
+    "address": "1500 E MEDICAL CENTER DR",
+    "disposition": "INFORMATION ONLY",
+    "narrative": "A vehicle struck an obstruction and became lodged.  Service vehicle assisted in dislodging the vehicle."
+  },
+  {
+    "id": "1600011589",
+    "date": "2016-02-12 08:37:00.0",
+    "description": "OBSTRUCTING JUSTICE",
+    "location": "CAMPUS SAFETY SERVICES BUILDING",
+    "address": "1239 KIPKE DR",
+    "disposition": "INCIDENT REPORT# 16-000625",
+    "narrative": "Bench warrant canceled for a subject who appeared in court (failure to appear driving with a suspended license #13-2217).",
+    "status": "- closed as of 2/12/2016",
+    "arrest": "2/12/2016"
+  },
+  {
+    "id": "1600011599",
+    "date": "2016-02-12 08:59:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "LOT NC91",
+    "address": "2800 PLYMOUTH RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600011615",
+    "date": "2016-02-12 10:07:00.0",
+    "description": "PROPERTY DAMAGE / ACCIDENTAL",
+    "location": "LURIE ANN AND ROBERT H BIOMEDICAL ENGINEERING BLD",
+    "address": "1101 BEAL AVE",
+    "disposition": "INCIDENT REPORT# 16-000626",
+    "narrative": "Exterior window found damaged, likely accidental.  ",
+    "status": "- closed as of 2/12/2016"
+  },
+  {
+    "id": "1600011629",
+    "date": "2016-02-12 11:07:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "E HOOVER AVE / BROWN ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600011716",
+    "date": "2016-02-12 17:06:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "CHURCH ST / S UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000631",
+    "narrative": "During a traffic stop, the driver was cited for disregarding a stop sign and warned for not possessing proof of insurance.   "
+  },
+  {
+    "id": "1600011750",
+    "date": "2016-02-12 19:39:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "S STATE ST / E MADISON ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights and not possessing proof of insurance."
+  },
+  {
+    "id": "1600011769",
+    "date": "2016-02-12 20:50:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "N UNIVERSITY/CHURCH",
+    "disposition": "INCIDENT REPORT# 16-000632",
+    "narrative": "During a traffic stop, the driver was cited for improper turn."
+  },
+  {
+    "id": "1600011771",
+    "date": "2016-02-12 20:54:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "N UNIVERSITY AVE / S STATE ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment."
+  },
+  {
+    "id": "1600011773",
+    "date": "2016-02-12 21:03:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "700 BLK S FOREST AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment."
+  },
+  {
+    "id": "1600011776",
+    "date": "2016-02-12 21:12:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER/FULLER BRIDGE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights."
+  },
+  {
+    "id": "1600011780",
+    "date": "2016-02-12 21:18:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "PACKARD ST / S STATE ST",
+    "disposition": "INCIDENT REPORT# 16-000633",
+    "narrative": "During a traffic stop, the driver was cited for disregarding a traffic signal.  "
+  },
+  {
+    "id": "1600011797",
+    "date": "2016-02-12 22:26:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible marijuana violation to be handled internally by staff."
+  },
+  {
+    "id": "1600011800",
+    "date": "2016-02-12 22:38:00.0",
+    "description": "MIP",
+    "location": "SOUTH QUADRANGLE",
+    "address": "600 E MADISON ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible alcohol violation to be handled internally by staff."
+  },
+  {
+    "id": "1600011810",
+    "date": "2016-02-12 23:11:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "INDOOR TRACK BUILDING",
+    "address": "1150 S STATE ST",
+    "disposition": "INFORMATION ONLY",
+    "narrative": "Initial report that a phone had been taken from an unattended jacket.  Owner later reported that she located her phone."
+  },
+  {
+    "id": "1600011813",
+    "date": "2016-02-12 23:20:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "GLEN CT / FULLER ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for illegal turn and license plate violation. "
+  },
+  {
+    "id": "1600011828",
+    "date": "2016-02-13 00:11:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "E LIBERTY ST / S DIVISION ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights."
+  },
+  {
+    "id": "1600011833",
+    "date": "2016-02-13 00:46:00.0",
+    "description": "MIP",
+    "location": "BURSLEY JOSEPH A & MARGUERITE K HALL",
+    "address": "1931 DUFFIELD ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible alcohol violation to be handled internally by staff."
+  },
+  {
+    "id": "1600011852",
+    "date": "2016-02-13 02:13:00.0",
+    "description": "DISORDERLY CONDUCT",
+    "location": "MICHIGAN UNION",
+    "address": "530 S STATE ST",
+    "disposition": "UTL/GOA",
+    "narrative": "Report of subject outside the building harassing pedestrians.  Officers were unable to locate the subject."
+  },
+  {
+    "id": "1600011853",
+    "date": "2016-02-13 02:19:00.0",
+    "description": "TRESPASS",
+    "location": "MICHIGAN STADIUM",
+    "address": "1201 S MAIN ST",
+    "disposition": " VERBAL WARNING",
+    "narrative": "Nine subjects were found in the stadium, escorted out and warned for illegal entry."
+  },
+  {
+    "id": "1600011860",
+    "date": "2016-02-13 03:04:00.0",
+    "description": "DISORDERLY CONDUCT",
+    "location": "COUZENS HALL",
+    "address": "1300 E ANN ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "Subject tore down a poster from the wall, then attempted to return it.  He was warned for his actions."
+  },
+  {
+    "id": "1600011882",
+    "date": "2016-02-13 05:29:00.0",
+    "description": "NOISE COMPLAINT/MIP",
+    "location": "STOCKWELL MADELON LOUISA HALL",
+    "address": "324 S OBSERVATORY ST",
+    "disposition": "DISCIPLINARY REFERRAL, VERBAL WARNING",
+    "narrative": "Alcohol violations to be handled internally by staff."
+  },
+  {
+    "id": "1600011883",
+    "date": "2016-02-13 05:36:00.0",
+    "description": "DRUG VIOLATION / VCSA/ MIP",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "INCIDENT REPORT# 16-000635",
+    "narrative": "A subject was found sleeping in a lounge and then ran from officers.  He was taken by ambulance to U-M Emerg Dept for treatment of injuries after falling.  Charges will be sought for minor in possession of alcohol and possession of marijuana.",
+    "status": "- open",
+    "arrest": "2/13/2016"
+  },
+  {
+    "id": "1600011909",
+    "date": "2016-02-13 08:19:00.0",
+    "description": "CRASH NO INJURIES / OFF ROAD",
+    "location": "LOT M29",
+    "address": "LOT M29",
+    "disposition": "INCIDENT REPORT# 16-000637",
+    "narrative": "A vehicle struck a parked vehicle resulting in no injuries."
+  },
+  {
+    "id": "1600011939",
+    "date": "2016-02-13 10:29:00.0",
+    "description": "PROPERTY DAMAGE / MDOP",
+    "location": "EAST QUAD",
+    "address": "701 E UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000639",
+    "narrative": "Men's room door found damaged, likely intentionally.  Occurred sometime between 10am Feb 12 and 10am Feb 13.  No suspects.",
+    "status": "- closed as of 2/16/2016"
+  },
+  {
+    "id": "1600011971",
+    "date": "2016-02-13 12:24:00.0",
+    "description": "ASSAULT OR BATTERY",
+    "location": "NORTH QUADRANGLE RESIDENTIAL AND ACADEMIC COMPLEX",
+    "address": "105 S STATE ST",
+    "disposition": "INCIDENT REPORT# 16-000641",
+    "narrative": "A subject reported being struck by a bottle thrown by a known subject.  She did not seek medical treatment.",
+    "status": "- closed as of 2/16/2016"
+  },
+  {
+    "id": "1600011974",
+    "date": "2016-02-13 12:29:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER CT / FULLER RD",
+    "disposition": "INCIDENT REPORT# 16-000640",
+    "narrative": "During a traffic stop, the driver was cited for speeding."
+  },
+  {
+    "id": "1600011980",
+    "date": "2016-02-13 12:42:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "HUBBARD ST / STONE RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600011994",
+    "date": "2016-02-13 14:03:00.0",
+    "description": "SUSPICIOUS INCIDENT OR PERSON",
+    "location": "DUDERSTADT JAMES AND ANNE CENTER",
+    "address": "2281 BONISTEEL BLVD",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Report of a dispute occurring.  Determined no assault occurred and subjects were requested to quiet down."
+  },
+  {
+    "id": "1600011997",
+    "date": "2016-02-13 14:29:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "DUFFIELD DR / MURFIN AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign and having an expired registration."
+  },
+  {
+    "id": "1600012013",
+    "date": "2016-02-13 16:06:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "CRISLER CENTER",
+    "address": "333 E STADIUM BLVD",
+    "disposition": "INCIDENT REPORT# 16-000644",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. ",
+    "status": "- closed as of 2/13/2016"
+  },
+  {
+    "id": "1600012020",
+    "date": "2016-02-13 16:38:00.0",
+    "description": "CRASH NO INJURIES / NO INJURY",
+    "location": "",
+    "address": "S MAIN ST / BERKLEY AVE",
+    "disposition": "INCIDENT REPORT# 16-000643",
+    "narrative": "Two-vehicle accident resulted in no injuries but minor vehicle damage.",
+    "status": "- open"
+  },
+  {
+    "id": "1600012023",
+    "date": "2016-02-13 17:32:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "MURFIN AVE / BONISTEEL BLVD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for an illegal turn.  "
+  },
+  {
+    "id": "1600012047",
+    "date": "2016-02-13 18:58:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "SOUTH QUAD",
+    "address": "600 E MADISON ST",
+    "disposition": "INCIDENT REPORT# 16-000646",
+    "narrative": "A wallet reportedly was taken from an employee lounge between 4:30 and 5pm.  The wallet later was turned into to staff but was missing cash.  No suspects.",
+    "status": "- closed as of 2/16/2016"
+  },
+  {
+    "id": "1600012057",
+    "date": "2016-02-13 20:00:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "WILLARD ST / CHURCH ST",
+    "disposition": "INCIDENT REPORT# 16-000647",
+    "narrative": "During a traffic stop, the driver was cited for impeding traffic and driving without possession of driver's license."
+  },
+  {
+    "id": "1600012083",
+    "date": "2016-02-13 22:15:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "SOUTH UNVIERSITY/CHURCH",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights."
+  },
+  {
+    "id": "1600012092",
+    "date": "2016-02-13 22:54:00.0",
+    "description": "MIP",
+    "location": "LLOYD ALICE CROCKER HALL",
+    "address": "100 S OBSERVATORY ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible alcohol violation to be handled internally by staff."
+  },
+  {
+    "id": "1600012094",
+    "date": "2016-02-13 22:57:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "HUBBARD ST / MURFIN AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights."
+  },
+  {
+    "id": "1600012095",
+    "date": "2016-02-13 22:59:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "CENTRAL CAMPUS REC BLD BELL MARGARET POOL",
+    "address": "401 WASHTENAW AVE",
+    "disposition": "INCIDENT REPORT# 16-000649",
+    "narrative": "A wallet reportedly was taken from a hallway locker between 9:45 and 11pm. No suspects.  UPDATE 2/14/16 - wallet and contents were found and turned into staff.  UNFOUNDED INCIDENT.",
+    "status": "- closed as of 2/14/2016"
+  },
+  {
+    "id": "1600012102",
+    "date": "2016-02-13 23:32:00.0",
+    "description": "MIP",
+    "location": "SOUTH QUADRANGLE",
+    "address": "600 E MADISON ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "An incapacitated student was taken by ambulance to U-M Emerg Dept for treatment."
+  },
+  {
+    "id": "1600012113",
+    "date": "2016-02-14 00:15:00.0",
+    "description": "MIP",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "INCIDENT REPORT# 16-000650",
+    "narrative": "An intoxicated student was arrested for minor in possession of alcohol and taken by ambulance to U-M Emerg Dept for treatment.",
+    "status": "- closed as of 2/16/2016",
+    "arrest": "2/14/2016"
+  },
+  {
+    "id": "1600012133",
+    "date": "2016-02-14 01:36:00.0",
+    "description": "MIP",
+    "location": "LLOYD ALICE CROCKER HALL",
+    "address": "100 S OBSERVATORY ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "An incapacitated student was taken by ambulance to U-M Emerg Dept for treatment."
+  },
+  {
+    "id": "1600012139",
+    "date": "2016-02-14 01:57:00.0",
+    "description": "MIP",
+    "location": "LLOYD ALICE CROCKER HALL",
+    "address": "100 S OBSERVATORY ST",
+    "disposition": "INCIDENT REPORT# 16-000651",
+    "narrative": "A subject was arrested and released for minor in possession of alcohol.",
+    "status": "- closed as of 2/16/2016",
+    "arrest": "2/14/2016"
+  },
+  {
+    "id": "1600012144",
+    "date": "2016-02-14 02:16:00.0",
+    "description": "MIP",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible alcohol violation to be handled internally by staff."
+  },
+  {
+    "id": "1600012145",
+    "date": "2016-02-14 02:17:00.0",
+    "description": "MIP",
+    "location": "LLOYD ALICE CROCKER HALL",
+    "address": "100 S OBSERVATORY ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "An incapacitated student was taken by ambulance to U-M Emerg Dept for treatment."
+  },
+  {
+    "id": "1600012148",
+    "date": "2016-02-14 02:38:00.0",
+    "description": "MIP",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible alcohol violation to be handled internally by staff."
+  },
+  {
+    "id": "1600012150",
+    "date": "2016-02-14 02:41:00.0",
+    "description": "MIP/RESISTING OFFICER",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "INCIDENT REPORT# 16-000652",
+    "narrative": "Uncooperative subject arrested for minor in possession of alcohol.  During the incident, she also repeatedly attempted to fight with officers and damage the patrol vehicle.  She was arrested for resisting a police officer and taken to jail.",
+    "status": "- at court",
+    "arrest": "2/14/2016"
+  },
+  {
+    "id": "1600012160",
+    "date": "2016-02-14 03:58:00.0",
+    "description": "MIP",
+    "location": "EAST QUAD",
+    "address": "701 E UNIVERSITY AVE",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible alcohol violation to be handled internally by staff."
+  },
+  {
+    "id": "1600012181",
+    "date": "2016-02-14 07:02:00.0",
+    "description": "SMELL OR SIGHT OF SMOKE",
+    "location": "CANCER CENTER",
+    "address": "1400 E MEDICAL CENTER DR",
+    "disposition": "TOT OTHER DEPT",
+    "narrative": "Report of smell of something burning.  Determined to be computer equipment that then was unplugged by maintenance.  No fire or smoke."
+  },
+  {
+    "id": "1600012208",
+    "date": "2016-02-14 10:07:00.0",
+    "description": "SUSPICIOUS INCIDENT OR PERSON",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Subject found sleeping in lounge.  Was escorted to room."
+  },
+  {
+    "id": "1600012212",
+    "date": "2016-02-14 10:41:00.0",
+    "description": "ORDINANCE VIOLATION / BIKE",
+    "location": "UNIVERSITY HOSPITAL SOUTH UNIT 2",
+    "address": "1505 SIMPSON RD",
+    "disposition": "INFORMATION ONLY",
+    "narrative": "A bicycle was found chained to a post and was marked for removal."
+  },
+  {
+    "id": "1600012213",
+    "date": "2016-02-14 10:50:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "HUBBARD ST / HAYWARD ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600012229",
+    "date": "2016-02-14 12:03:00.0",
+    "description": "HARASSMENT",
+    "location": "CAMPUS SAFETY SERVICES BUILDING",
+    "address": "1239 KIPKE DR",
+    "disposition": "ASSISTANCE PROVIDED, ",
+    "narrative": "A subject reported receiving harassing communications from a known subject several times during the past months.  Investigation pending. "
+  },
+  {
+    "id": "1600012253",
+    "date": "2016-02-14 15:07:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "SHAPIRO HAROLD T AND VIVIAN B LIBRARY",
+    "address": "919 S UNIVERSITY AVE",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Possible fraudulent activity at cafe while making change."
+  },
+  {
+    "id": "1600012263",
+    "date": "2016-02-14 16:14:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "PERRY BUILDING",
+    "address": "330 PACKARD ST",
+    "disposition": "INCIDENT REPORT# 16-000655",
+    "narrative": "Report that a pair of glasses and wallet were taken from a desk on Feb 11 and Feb 13.  No suspects.",
+    "status": "- closed as of 2/14/2016"
+  },
+  {
+    "id": "1600012320",
+    "date": "2016-02-14 22:43:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "HILL ST / PACKARD ST",
+    "disposition": "VERBAL WARNING, ",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600012321",
+    "date": "2016-02-14 23:02:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "OXFORD RESIDENCES",
+    "address": "603 OXFORD RD",
+    "disposition": "INCIDENT REPORT# 16-000658",
+    "narrative": "Suspected marijuana was confiscated from a subject, who was arrested and released pending warrant authorization.",
+    "status": "- open",
+    "arrest": "2/15/2016"
+  },
+  {
+    "id": "1600012341",
+    "date": "2016-02-15 00:41:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "BONISTEEL BLVD / FULLER RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for a traffic offense."
+  },
+  {
+    "id": "1600012343",
+    "date": "2016-02-15 01:07:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "SHAPIRO HAROLD T AND VIVIAN B LIBRARY",
+    "address": "919 S UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000659",
+    "narrative": "Wallet reportedly was taken from first-floor computing area between 12:30 and 1am.  No suspects.",
+    "status": "- open"
+  },
+  {
+    "id": "1600012372",
+    "date": "2016-02-15 06:23:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "LOT M75",
+    "address": "1800 FULLER RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving too fast for the conditions and not having possession of driver's license and registration. "
+  },
+  {
+    "id": "1600012374",
+    "date": "2016-02-15 06:43:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "GLAZIER WAY / FULLER RD",
+    "disposition": "VERBAL WARNING, ",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a traffic control device."
+  },
+  {
+    "id": "1600012377",
+    "date": "2016-02-15 06:56:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "LOT NC78",
+    "address": "1900 FULLER RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a red light."
+  },
+  {
+    "id": "1600012407",
+    "date": "2016-02-15 09:12:00.0",
+    "description": "MEDICAL ASSISTANCE / PI",
+    "location": "NORTH CAMPUS RECREATION BUILDING",
+    "address": "2375 HUBBARD RD",
+    "disposition": "INCIDENT REPORT# 16-000662",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. ",
+    "status": "- closed as of 2/17/2016"
+  },
+  {
+    "id": "1600012408",
+    "date": "2016-02-15 09:15:00.0",
+    "description": "MEDICAL ASSISTANCE / PI",
+    "location": "DENTAL BLDG AND W K KELLOGG FOUNDATION INSTITUTE",
+    "address": "1011 N UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000661",
+    "narrative": "Report of a subject injured during a fall.  Family member to provide transportation to medical treatment.",
+    "status": "- closed as of 2/18/2016"
+  },
+  {
+    "id": "1600012430",
+    "date": "2016-02-15 10:12:00.0",
+    "description": "CRASH NO INJURIES",
+    "location": "LOT M61",
+    "address": "333 GLEN AVE",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A vehicle accidentally struck an overhead sign, knocking it down.  No injuries."
+  },
+  {
+    "id": "1600012443",
+    "date": "2016-02-15 11:42:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "BAHNA WRESTLING  CENTER",
+    "address": "2350 S STATE ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600012467",
+    "date": "2016-02-15 13:39:00.0",
+    "description": "FRAUDULENT ACTIVITY",
+    "location": "",
+    "address": "825 N UNIVERSITY",
+    "disposition": "INCIDENT REPORT# 16-000665",
+    "narrative": "A subject reported possible fraudulent activity connected with selling his vehicle through an internet posting.  Bank later reported check was valid and funds were available.",
+    "status": "- closed as of 2/17/2016"
+  },
+  {
+    "id": "1600012500",
+    "date": "2016-02-15 16:18:00.0",
+    "description": "ORDINANCE VIOLATION",
+    "location": "HILL AUDITORIUM",
+    "address": "825 N UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000667",
+    "narrative": "A loaded handgun was confiscated from a visitor connected with a possible fraud (#16-664).  Subject was released pending warrant authorization. ",
+    "status": "- open"
+  },
+  {
+    "id": "1600012522",
+    "date": "2016-02-15 18:08:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER CT / FULLER RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for failure to yield."
+  },
+  {
+    "id": "1600012525",
+    "date": "2016-02-15 18:20:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER RD / CEDAR BEND ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for failure to yield."
+  },
+  {
+    "id": "1600012529",
+    "date": "2016-02-15 18:35:00.0",
+    "description": "CRASH NO INJURIES / OFF ROAD",
+    "location": "DIAG",
+    "address": "920 N UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000669",
+    "narrative": "Service vehicle accidentally struck a handrail resulting in no injuries but minor damage to vehicle.",
+    "status": "- open"
+  },
+  {
+    "id": "1600012554",
+    "date": "2016-02-15 20:05:00.0",
+    "description": "CRASH NO INJURIES / NO INJURY",
+    "location": "",
+    "address": "MURFIN AVE / HUBBARD ST",
+    "disposition": "INCIDENT REPORT# 16-000670",
+    "narrative": "Two-vehicle accident resulted in no injuries.",
+    "status": "- open"
+  },
+  {
+    "id": "1600012564",
+    "date": "2016-02-15 20:44:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "MURFIN AVE / HUBBARD ST",
+    "disposition": "INCIDENT REPORT# 16-000671",
+    "narrative": "A subject was cited for an expired license plate."
+  },
+  {
+    "id": "1600012598",
+    "date": "2016-02-15 23:32:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "900 BLK S UNIVERSITY AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment."
+  },
+  {
+    "id": "1600012606",
+    "date": "2016-02-16 00:02:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "S UNIVERSITY AVE / E UNIVERSITY AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights."
+  },
+  {
+    "id": "1600012620",
+    "date": "2016-02-16 02:16:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "SOUTH QUAD",
+    "address": "600 E MADISON ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600012621",
+    "date": "2016-02-16 02:19:00.0",
+    "description": "MEDICAL ASSISTANCE / PI",
+    "location": "MOSHER JORDAN",
+    "address": "200 S OBSERVATORY ST",
+    "disposition": "INCIDENT REPORT# 16-000675",
+    "narrative": "A subject was taken by a Housing Security Officer to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600012690",
+    "date": "2016-02-16 09:27:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "PALMER COMMONS",
+    "address": "100 WASHTENAW AVE",
+    "disposition": "INCIDENT REPORT# 16-000676",
+    "narrative": "A tool box reportedly was taken from a buiding maintenance room sometime between Jan 28 and Feb 1.  No suspects.",
+    "status": "- closed as of 2/17/2016"
+  },
+  {
+    "id": "1600012696",
+    "date": "2016-02-16 10:13:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "UNIVERSITY HOSPITAL",
+    "address": "1500 E MEDICAL CENTER DR",
+    "disposition": "INCIDENT REPORT# 16-000677",
+    "narrative": "A piece of contruction equipment reportedly was taken from a building maintenance room sometime since November 2015.  No suspects.",
+    "status": "- closed as of 2/17/2016"
+  },
+  {
+    "id": "1600012718",
+    "date": "2016-02-16 11:31:00.0",
+    "description": "CRIMINAL SEXUAL CONDUCT",
+    "location": "WEST QUADRANGLE",
+    "address": "541 THOMPSON ST",
+    "disposition": "INCIDENT REPORT# 16-000680",
+    "narrative": "A subject reported that she had been sexually assaulted in October 2003 by a known subject.  She sought medical treatment at that time but did not previously report it to police. ",
+    "status": "- open"
+  },
+  {
+    "id": "1600012722",
+    "date": "2016-02-16 11:50:00.0",
+    "description": "CRASH NO INJURIES / HIT/RUN",
+    "location": "FLETCHER ST PARKING STRUCTURE",
+    "address": "201 FLETCHER ST",
+    "disposition": "UTL/GOA",
+    "narrative": "Report to a booth attendant that a vehicle had struck a parked vehicle in the structure and then left the scene.  No damaged vehicle was located."
+  },
+  {
+    "id": "1600012724",
+    "date": "2016-02-16 11:58:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "DENTAL BLDG AND W K KELLOGG FOUNDATION INSTITUTE",
+    "address": "1011 N UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000679",
+    "narrative": "Suspected marijuana was confiscated from a purse that had been found by staff.  No owner information.",
+    "status": "- closed as of 2/23/2016"
+  },
+  {
+    "id": "1600012736",
+    "date": "2016-02-16 13:08:00.0",
+    "description": "PROPERTY DAMAGE / ACCIDENTAL",
+    "location": "LOT NW41",
+    "address": "1800 BEAL AVE",
+    "disposition": "INCIDENT REPORT# 16-000681",
+    "narrative": "A vehicle reportedly was damaged while parked in the lot since Feb 14."
+  },
+  {
+    "id": "1600012752",
+    "date": "2016-02-16 14:19:00.0",
+    "description": "SUSPICIOUS INCIDENT OR PERSON/HARASSMENT",
+    "location": "PALMER COMMONS",
+    "address": "100 WASHTENAW AVE",
+    "disposition": "INCIDENT REPORT# 16-000683",
+    "narrative": "A subject reported receiving harassing communications from a known subject. Resources and support options provided.  Investigation pending.",
+    "status": "- open"
+  },
+  {
+    "id": "1600012754",
+    "date": "2016-02-16 14:20:00.0",
+    "description": "DISORDERLY CONDUCT/DIVIL DISPUTE/ASSAULT",
+    "location": "MOTT CHILDRENS VON VOIGTLANDER WOMENS HOSPITALS",
+    "address": "1540 E HOSPITAL DR",
+    "disposition": "INCIDENT REPORT# 16-000684",
+    "narrative": "A patient's family members reportedly were arguing. One subject reportedly pushed another subject and then left the buillding.",
+    "status": "- closed as of 2/18/2016"
+  },
+  {
+    "id": "1600012758",
+    "date": "2016-02-16 14:52:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "CAMPUS SAFETY SERVICES BUILDING",
+    "address": "1239 KIPKE DR",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "An MCard reportedly was stolen while in Mexico.  The owner was provided assistance with options."
+  },
+  {
+    "id": "1600012805",
+    "date": "2016-02-16 18:59:00.0",
+    "description": "TRAFFIC STOP/EXPIRED LICENSE",
+    "location": "",
+    "address": "FULLER CT / BONISTEEL BLVD",
+    "disposition": "INCIDENT REPORT# 16-000687",
+    "narrative": "During a traffic stop, the driver was cited for driving with an expired driver's license and license plate, and warned for failure to yield. \r\n",
+    "status": "- closed as of 2/16/2016",
+    "arrest": "2/16/2016"
+  },
+  {
+    "id": "1600012820",
+    "date": "2016-02-16 20:00:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "S OBSERVATORY ST / WASHINGTON HTS",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for distracted driving."
+  },
+  {
+    "id": "1600012835",
+    "date": "2016-02-16 20:57:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "CENTRAL CAMPUS REC BLD STORAGE FACILITY",
+    "address": "401 WASHTENAW AVE",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600012847",
+    "date": "2016-02-16 21:51:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "MUNGER GRADUATE RESIDENCES",
+    "address": "540 THOMPSON ST",
+    "disposition": "INCIDENT REPORT# 16-000688",
+    "narrative": "A backpack reportedly was taken from a study area between 6:20 and 9:45pm.  The backpack and all contents later were found by a Housing Security Officer and returned to the resident."
+  },
+  {
+    "id": "1600012878",
+    "date": "2016-02-16 23:58:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "INCIDENT REPORT# 16-000690",
+    "narrative": "A wallet reportedly had been lost at Weiser Hall Jan 15.  The wallet was found at Weiser, but when returned to the owner, it reportedly was missing cash.  No suspects.  "
+  },
+  {
+    "id": "1600012883",
+    "date": "2016-02-17 00:29:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "SOUTH QUAD",
+    "address": "600 E MADISON ST",
+    "disposition": "TOT OTHER DEPT",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600012888",
+    "date": "2016-02-17 00:50:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER RD / CEDAR BEND ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for careless driving."
+  },
+  {
+    "id": "1600012891",
+    "date": "2016-02-17 01:28:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "SOUTH QUADRANGLE",
+    "address": "600 E MADISON ST",
+    "disposition": "TOT OTHER DEPT",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600012895",
+    "date": "2016-02-17 01:58:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "WEST QUADRANGLE",
+    "address": "541 THOMPSON ST",
+    "disposition": "INCIDENT REPORT# 16-000692",
+    "narrative": "Two intoxicated subjects were found.  One was taken by ambulance to U-M Emerg Dept for treatment of injuries sustained in a fall.  Fake IDs were confiscated. Both will be submitted for displianary referral. "
+  },
+  {
+    "id": "1600012958",
+    "date": "2016-02-17 08:55:00.0",
+    "description": "CRASH NO INJURIES / HIT/RUN",
+    "location": "EISENHOWER CORPORATE PARK WEST",
+    "address": "2850 S INDUSTRIAL HWY",
+    "disposition": "INCIDENT REPORT# 16-000693",
+    "narrative": "Vehicle reportedly was struck by an unknown vehicle while parked in the lot.  No suspects."
+  },
+  {
+    "id": "1600012964",
+    "date": "2016-02-17 09:33:00.0",
+    "description": "CRASH NO INJURIES",
+    "location": "",
+    "address": "PALMER DR / WASHTENAW AVE",
+    "disposition": "INCIDENT REPORT# 16-000694",
+    "narrative": "Vehicle backed into another vehicle resulting in no injuries but vehicle damage.",
+    "status": "- open"
+  },
+  {
+    "id": "1600012966",
+    "date": "2016-02-17 09:40:00.0",
+    "description": "PROPERTY DAMAGE / MDOP",
+    "location": "",
+    "address": "GREEN RD / PLYMOUTH RD",
+    "disposition": "INCIDENT REPORT# 16-000695",
+    "narrative": "Graffiti found on equipment.  Occurred sometime between Feb 12 and 16.  No suspects.",
+    "status": "- closed as of 2/17/2016"
+  },
+  {
+    "id": "1600013021",
+    "date": "2016-02-17 13:51:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER RD / FULLER CT",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for speeding."
+  },
+  {
+    "id": "1600013028",
+    "date": "2016-02-17 14:16:00.0",
+    "description": "PROPERTY DAMAGE / MDOP",
+    "location": "EAST HALL",
+    "address": "530 CHURCH ST",
+    "disposition": "INCIDENT REPORT# 16-000696",
+    "narrative": "Graffiti found on a wall.  Likely occured first week of February.  No suspects.",
+    "status": "- closed as of 2/19/2016"
+  },
+  {
+    "id": "1600013039",
+    "date": "2016-02-17 15:02:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "E HURON ST / N THAYER ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for prohibited turn."
+  },
+  {
+    "id": "1600013041",
+    "date": "2016-02-17 15:08:00.0",
+    "description": "ASSIST OUTSIDE LE AGENCY",
+    "location": "",
+    "address": "E MEDICAL CENTER DR / WASHINGTON HTS",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Officer assisted another agency with an incident."
+  },
+  {
+    "id": "1600013043",
+    "date": "2016-02-17 15:37:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "MAIDEN LN / MAIDEN LANE CT",
+    "disposition": "INCIDENT REPORT# 16-000698",
+    "narrative": "During a traffic stop, the driver was cited for no proof of insurance and warned for prohibited turn and expired license plate.  "
+  },
+  {
+    "id": "1600013051",
+    "date": "2016-02-17 16:25:00.0",
+    "description": "ORDINANCE VIOLATION / SKATEBRD",
+    "location": "ROSS SCHOOL OF BUSINESS BUILDING",
+    "address": "701 TAPPAN ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "Two subjects found skateboarding were directed to leave the area."
+  },
+  {
+    "id": "1600013063",
+    "date": "2016-02-17 17:31:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "GEDDES AVE / WASHTENAW CT",
+    "disposition": "INCIDENT REPORT# 16-000699",
+    "narrative": "During a traffic stop, the driver was cited for prohibited turn."
+  },
+  {
+    "id": "1600013089",
+    "date": "2016-02-17 19:12:00.0",
+    "description": "ORDINANCE VIOLATION / SALES",
+    "location": "NORTH QUAD",
+    "address": "105 S STATE ST",
+    "disposition": "INCIDENT REPORT# 16-000700",
+    "narrative": "Report of subject soliciting door-to-door.  Officer located a visitor attempting to sell candles.  He was cited for violating the Regents' Ordinance. "
+  },
+  {
+    "id": "1600013093",
+    "date": "2016-02-17 19:25:00.0",
+    "description": "ASSIST OUTSIDE LE AGENCY",
+    "location": "",
+    "address": "STADIUM/JACKSON",
+    "disposition": "ASSISTANCE PROVIDED, ",
+    "narrative": "Officer assisted another agency with an incident."
+  },
+  {
+    "id": "1600013103",
+    "date": "2016-02-17 19:57:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "SHAPIRO HAROLD T AND VIVIAN B LIBRARY",
+    "address": "919 S UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000702",
+    "narrative": "A bicycle reportedly was taken sometime Feb 16 between 4pm and midnight.  No suspects.  ",
+    "status": "- closed as of 2/23/2016"
+  },
+  {
+    "id": "1600013113",
+    "date": "2016-02-17 20:44:00.0",
+    "description": "SUSPICIOUS INCIDENT OR PERSON",
+    "location": "M22 P4",
+    "address": "1535 E HOSPITAL DR",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Report of careless driving within the structure.  Contact was made and the vehicle will leave."
+  },
+  {
+    "id": "1600013116",
+    "date": "2016-02-17 20:55:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "BETSY BARBOUR",
+    "address": "420 S STATE ST",
+    "disposition": "TOT OTHER DEPT",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600013117",
+    "date": "2016-02-17 20:56:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "HATCHER H NORTH GRADUATE LIBRARY",
+    "address": "913 S UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000703",
+    "narrative": "A wallet reportedly was stolen from a backpack on the fourth floor between 4 and 5pm.  No suspects.",
+    "status": "- closed as of 2/19/2016"
+  },
+  {
+    "id": "1600013123",
+    "date": "2016-02-17 21:26:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "BONISTELL/FULLER",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop with two vehicles, both drivers were warned for failure to yield."
+  },
+  {
+    "id": "1600013130",
+    "date": "2016-02-17 22:01:00.0",
+    "description": "MEDICAL ASSISTANCE / PI",
+    "location": "SOUTH QUAD",
+    "address": "600 E MADISON ST",
+    "disposition": "INCIDENT REPORT# 16-000704",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment after a fall."
+  },
+  {
+    "id": "1600013134",
+    "date": "2016-02-17 22:12:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "S STATE ST / S UNIVERSITY AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights."
+  },
+  {
+    "id": "1600013141",
+    "date": "2016-02-17 22:35:00.0",
+    "description": "PROPERTY DAMAGE / MDOP",
+    "location": "BAITS VERA II CROSS HOUSE",
+    "address": "1420 HUBBARD RD",
+    "disposition": "INCIDENT REPORT# 16-000705",
+    "narrative": "Intentional damage found on resident's personal property.  Suspect identified.",
+    "status": "- closed as of 2/18/2016"
+  },
+  {
+    "id": "1600013143",
+    "date": "2016-02-17 22:43:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject was taken to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600013144",
+    "date": "2016-02-17 22:51:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "CHURCH/N UNIVERSITY COURT",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600013163",
+    "date": "2016-02-18 00:11:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "UNIVERSITY HOSPITAL",
+    "address": "1500 E MEDICAL CENTER DR",
+    "disposition": "INCIDENT REPORT# 16-000706",
+    "narrative": "Cash reportedly was taken from a valet-parked vehicle between 5:30am Feb 15 and 11pm Feb 17.  No suspects.",
+    "status": "- open"
+  },
+  {
+    "id": "1600013164",
+    "date": "2016-02-18 00:14:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "INCIDENT REPORT# 16-000707",
+    "narrative": "Suspected marijuana was confiscated from a subject.  Investigation pending lab results.",
+    "status": "- open"
+  },
+  {
+    "id": "1600013179",
+    "date": "2016-02-18 01:43:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "OH LAUREL HARPER SEELEY HALL",
+    "address": "627 OXFORD RD",
+    "disposition": "INCIDENT REPORT# 16-000708",
+    "narrative": "Suspected marijuana and equipment were confiscated from four subjects.  Investigation pending lab results.",
+    "status": "- open"
+  },
+  {
+    "id": "1600013182",
+    "date": "2016-02-18 02:19:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "WEST QUAD",
+    "address": "541 THOMPSON ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600013190",
+    "date": "2016-02-18 03:33:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "LOT NW1",
+    "address": "1700 MURFIN",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600013213",
+    "date": "2016-02-18 07:28:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "SOUTH QUAD",
+    "address": "600 E MADISON ST",
+    "disposition": "INCIDENT REPORT# 16-000710",
+    "narrative": "A pair of shoes reportedly was stolen from an employee locker area between 7:45 am and 3pm Jan 18.  No suspects.",
+    "status": "- closed as of 2/19/2016"
+  },
+  {
+    "id": "1600013222",
+    "date": "2016-02-18 07:50:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "SOUTH QUADRANGLE",
+    "address": "600 E MADISON ST",
+    "disposition": "INCIDENT REPORT# 16-000711",
+    "narrative": "A pair of boots reportedly was stolen from an employee locker area between 7:15am and 3:45pm Feb 17.  No suspects.",
+    "status": "- closed as of 2/19/2016"
+  },
+  {
+    "id": "1600013223",
+    "date": "2016-02-18 07:54:00.0",
+    "description": "CRASH NO INJURIES / INJURY",
+    "location": "",
+    "address": "BONISTEEL BLVD / FULLER RD",
+    "disposition": "INCIDENT REPORT# 16-000713",
+    "narrative": "Two-vehicle accident resulted in one driver seeking medical evaluation.",
+    "status": "- open"
+  },
+  {
+    "id": "1600013226",
+    "date": "2016-02-18 08:04:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "LOT SC11",
+    "address": "300 E HOOVER AVE",
+    "disposition": "INCIDENT REPORT# 16-000712",
+    "narrative": "A U-M parking permit reportedly was taken from a vehicle parked in the lot Feb 17.  No signs of forced entry.  The owner later called to report the permit was located.  Report has been canceled.  ",
+    "status": "- closed as of 2/19/2016"
+  },
+  {
+    "id": "1600013228",
+    "date": "2016-02-18 08:06:00.0",
+    "description": "PROPERTY DAMAGE / ACCIDENTAL",
+    "location": "CHURCH ST PARKING STRUCTURE",
+    "address": "525 CHURCH ST",
+    "disposition": "INFORMATION ONLY",
+    "narrative": "Gate arm reportedly struck an entering vehicle resulting in minor damage.  Maintenance notified."
+  },
+  {
+    "id": "1600013262",
+    "date": "2016-02-18 10:09:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "MOTT CHILDRENS VON VOIGTLANDER WOMENS HOSPITALS",
+    "address": "1540 E HOSPITAL DR",
+    "disposition": "INCIDENT REPORT# 16-000717",
+    "narrative": "Food item taken from a refrigerator between 11pm Feb 15 and midnight Feb 16.  No suspects.",
+    "status": "- open"
+  },
+  {
+    "id": "1600013286",
+    "date": "2016-02-18 11:18:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "N INGALLS ST / CORNWELL RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving the wrong way on a one-way street."
+  },
+  {
+    "id": "1600013290",
+    "date": "2016-02-18 11:29:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "GEDDES AVE / WASHTENAW AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving the wrong way on a one-way street and not having a moped registration."
+  },
+  {
+    "id": "1600013292",
+    "date": "2016-02-18 11:35:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "UNIVERSITY HOSPITAL",
+    "address": "1500 E MEDICAL CENTER DR",
+    "disposition": "INCIDENT REPORT# 16-000718",
+    "narrative": "Locking device for lobby piano reportedly was stolen during an unknown timeframe.  No suspects."
+  },
+  {
+    "id": "1600013309",
+    "date": "2016-02-18 12:33:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "E HURON ST / N THAYER ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for prohibited turn and not possessing driver's license.  "
+  },
+  {
+    "id": "1600013314",
+    "date": "2016-02-18 12:59:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "DOMINO FARMS",
+    "address": "24 FRANK LLOYD WRIGHT DR",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600013316",
+    "date": "2016-02-18 13:13:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER RD / BONISTEEL BLVD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for speeding and not possessing vehicle registration or proof of insurance.  "
+  },
+  {
+    "id": "1600013324",
+    "date": "2016-02-18 13:30:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "600 BLK CHRUCH",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600013329",
+    "date": "2016-02-18 13:48:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "N UNIVERSITY AVE / FLETCHER ST",
+    "disposition": "INCIDENT REPORT# 16-000720",
+    "narrative": "During a traffic stop, the driver was cited for not having a motorcycle license endorsement or license plate and warned for not having a moped registration.  "
+  },
+  {
+    "id": "1600013339",
+    "date": "2016-02-18 14:35:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "S UNIVERSITY AVE / E UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000721",
+    "narrative": "During a traffic stop, the driver was cited for no proof of insurance and warned for failure to yield.   "
+  },
+  {
+    "id": "1600013359",
+    "date": "2016-02-18 16:15:00.0",
+    "description": "FRAUDULENT ACTIVITY",
+    "location": "UNIVERSITY HOSPITAL",
+    "address": "1500 E MEDICAL CENTER DR",
+    "disposition": "INCIDENT REPORT# 16-000723",
+    "narrative": "A subject reported his identification had been used by an unknown subject to obtain medical care."
+  },
+  {
+    "id": "1600013368",
+    "date": "2016-02-18 17:06:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "CHURCH ST / N UNIVERSITY AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600013376",
+    "date": "2016-02-18 17:28:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "THOMPSON ST / E MADISON ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation."
+  },
+  {
+    "id": "1600013384",
+    "date": "2016-02-18 17:55:00.0",
+    "description": "TRESPASS",
+    "location": "EECS",
+    "address": "1301 BEAL AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "A visitor reportedly disrupted a student event.  He was directed to leave the building by an officer."
+  },
+  {
+    "id": "1600013408",
+    "date": "2016-02-18 19:18:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "PLYMOUTH RD / BARTON DR",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for speeding."
+  },
+  {
+    "id": "1600013472",
+    "date": "2016-02-18 23:49:00.0",
+    "description": "SUSPICIOUS INCIDENT OR PERSON",
+    "location": "LAWYERS CLUB AND MUNGER CHARLES T RESIDENCES",
+    "address": "551 S STATE ST",
+    "disposition": "INCIDENT REPORT# 16-000727",
+    "narrative": "Subject reported possible harassing communications from a known subject.  The officer requested the communications stop.",
+    "status": "- closed as of 2/21/2016"
+  },
+  {
+    "id": "1600013478",
+    "date": "2016-02-19 00:20:00.0",
+    "description": "MIP",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "TOT OTHER DEPT",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600013486",
+    "date": "2016-02-19 00:36:00.0",
+    "description": "SUSPICIOUS INCIDENT OR PERSON",
+    "location": "CVC",
+    "address": "1425 E ANN ST",
+    "disposition": "INCIDENT REPORT# 16-000728",
+    "narrative": "Concerns reported about a co-worker's comments. ",
+    "status": "- open"
+  },
+  {
+    "id": "1600013505",
+    "date": "2016-02-19 02:06:00.0",
+    "description": "MIP",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600013537",
+    "date": "2016-02-19 05:19:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "MARKLEY",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600013546",
+    "date": "2016-02-19 06:12:00.0",
+    "description": "PROPERTY DAMAGE / MDOP",
+    "location": "",
+    "address": "700 BLK E UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000730",
+    "narrative": "Three vehicles sustained damage to exterior mirrors while parked between 8:30pm Feb 18 and 6:10am Feb 19.  No suspects.",
+    "status": "- open"
+  },
+  {
+    "id": "1600013565",
+    "date": "2016-02-19 07:50:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "3000 GLAZIER WAY",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation."
+  },
+  {
+    "id": "1600013604",
+    "date": "2016-02-19 09:27:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "2400 BLK HAYWARD ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation."
+  },
+  {
+    "id": "1600013609",
+    "date": "2016-02-19 09:46:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "PACKARD ST / HILL ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a traffic control device."
+  },
+  {
+    "id": "1600013613",
+    "date": "2016-02-19 10:01:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "VA ANN ARBOR MEDICAL CENTER",
+    "address": "2215 FULLER RD. - 00BG",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation."
+  },
+  {
+    "id": "1600013617",
+    "date": "2016-02-19 10:20:00.0",
+    "description": "CRASH NO INJURIES",
+    "location": "LOT SC10",
+    "address": "1200 KIPKE DR",
+    "disposition": "INCIDENT REPORT# 16-000733",
+    "narrative": "A vehicle accidentally backed into a parked truck resulting in minor vehicle damage.",
+    "status": "- open"
+  },
+  {
+    "id": "1600013628",
+    "date": "2016-02-19 11:11:00.0",
+    "description": "PROPERTY DAMAGE / MDOP",
+    "location": "FRANKEL SAMUEL AND JEAN CARDIOVASCULAR CENTER",
+    "address": "1425 E ANN ST",
+    "disposition": "INCIDENT REPORT# 16-000740",
+    "narrative": "Initially reported that an unknown subject had sawed off the bike lock.  Determined no crime occurred.  Plant Operations staff had determined the lock was abandoned and removed it.  UNFOUNDED INCIDENT",
+    "status": "- closed as of 2/23/2016"
+  },
+  {
+    "id": "1600013661",
+    "date": "2016-02-19 13:05:00.0",
+    "description": "MIP",
+    "location": "COUZENS HALL",
+    "address": "1300 E ANN ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Subjects found with alcohol, which was poured out."
+  },
+  {
+    "id": "1600013672",
+    "date": "2016-02-19 13:47:00.0",
+    "description": "CRASH NO INJURIES / INJURY",
+    "location": "KELLOGG W K EYE CENTER",
+    "address": "1000 WALL ST",
+    "disposition": "INCIDENT REPORT# 16-000736",
+    "narrative": "A driver lost control of his vehicle, ultimately striking a tree.  The driver was taken by ambulance to U-M Emerg Dept for evaluation and the vehicle was towed.",
+    "status": "- open"
+  },
+  {
+    "id": "1600013680",
+    "date": "2016-02-19 14:26:00.0",
+    "description": "CRASH NO INJURIES / OFF ROAD",
+    "location": "MEDICAL CENTER DR PARKING STRUCT",
+    "address": "1600 E MEDICAL CENTER DR",
+    "disposition": "INCIDENT REPORT# 16-000737",
+    "narrative": "Two-vehicle accident resulted in no injuries."
+  },
+  {
+    "id": "1600013681",
+    "date": "2016-02-19 14:26:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "MICHIGAN UNION",
+    "address": "530 S STATE ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600013693",
+    "date": "2016-02-19 15:17:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "WASHINGTON HEIGHTS/OBSERVATORY",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation."
+  },
+  {
+    "id": "1600013704",
+    "date": "2016-02-19 16:00:00.0",
+    "description": "SUSPICIOUS INCIDENT OR PERSON",
+    "location": "",
+    "address": "KIPKE DR / E KEECH AVE",
+    "disposition": "INFORMATION ONLY",
+    "narrative": "Two subjects found flying a drone were warned of the violation.  They cooperated and moved along."
+  },
+  {
+    "id": "1600013711",
+    "date": "2016-02-19 16:23:00.0",
+    "description": "SUSPICIOUS INCIDENT OR PERSON",
+    "location": "MICHIGAN UNION",
+    "address": "530 S STATE ST",
+    "disposition": "UTL/GOA",
+    "narrative": "Report of a subject soliciting donations in front of the building.  Officer was unable to locate the subject."
+  },
+  {
+    "id": "1600013740",
+    "date": "2016-02-19 19:24:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "NORTH UNIVERSITY/CHURCH",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for a prohibited turn."
+  },
+  {
+    "id": "1600013751",
+    "date": "2016-02-19 20:18:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "700 BLK S FOREST AVE",
+    "disposition": "INCIDENT REPORT# 16-000742",
+    "narrative": "During a traffic stop, the driver was cited for impeding traffic."
+  },
+  {
+    "id": "1600013753",
+    "date": "2016-02-19 20:25:00.0",
+    "description": "ASSIST OUTSIDE LE AGENCY",
+    "location": "",
+    "address": "YPSILANTI",
+    "disposition": "INCIDENT REPORT# 16-000743",
+    "narrative": "Officer assisted another agency with an investigation.",
+    "status": "- open"
+  },
+  {
+    "id": "1600013756",
+    "date": "2016-02-19 20:48:00.0",
+    "description": "ORDINANCE VIOLATION / SKATEBRD",
+    "location": "DIAG",
+    "address": "920 N UNIVERSITY AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "A subject was warned for skateboarding violation."
+  },
+  {
+    "id": "1600013764",
+    "date": "2016-02-19 21:38:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "PACKARD ST / THOMPSON ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation and defective equipment."
+  },
+  {
+    "id": "1600013780",
+    "date": "2016-02-19 22:25:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "MARKLEY MARY BUTLER HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible marijuana violation to be handled internally by staff."
+  },
+  {
+    "id": "1600013783",
+    "date": "2016-02-19 22:34:00.0",
+    "description": "ASSIST OUTSIDE LE AGENCY",
+    "location": "",
+    "address": "301 E HURON ST",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Officer assisted another agency with an investigation."
+  },
+  {
+    "id": "1600013789",
+    "date": "2016-02-19 22:55:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "E MADISON ST / S STATE ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for a traffic violation."
+  },
+  {
+    "id": "1600013799",
+    "date": "2016-02-20 00:04:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "LAWYERS CLUB AND MUNGER CHARLES T RESIDENCES",
+    "address": "551 S STATE ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible marijuana violation to be handled internally by staff."
+  },
+  {
+    "id": "1600013801",
+    "date": "2016-02-20 00:11:00.0",
+    "description": "MIP",
+    "location": "SOUTH QUADRANGLE",
+    "address": "600 E MADISON ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible alcohol violation to be handled internally by staff.  Alcohol poured out."
+  },
+  {
+    "id": "1600013809",
+    "date": "2016-02-20 00:30:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "EAST QUADRANGLE",
+    "address": "701 E UNIVERSITY AVE",
+    "disposition": "UTL/GOA",
+    "narrative": "Report of smell of marijuana.  Source could not be located."
+  },
+  {
+    "id": "1600013818",
+    "date": "2016-02-20 01:11:00.0",
+    "description": "MIP",
+    "location": "MARKLEY RES HALL",
+    "address": "1503 WASHINGTON HTS",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600013820",
+    "date": "2016-02-20 01:25:00.0",
+    "description": "MIP",
+    "location": "WEST QUADRANGLE",
+    "address": "541 THOMPSON ST",
+    "disposition": "TOT OTHER DEPT",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600013822",
+    "date": "2016-02-20 01:33:00.0",
+    "description": "TRESPASS",
+    "location": "MICHIGAN STADIUM",
+    "address": "1201 S MAIN ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "Four subjects were found in the Stadium, escorted out and given a warning."
+  },
+  {
+    "id": "1600013831",
+    "date": "2016-02-20 02:09:00.0",
+    "description": "NOISE COMPLAINT/MIP",
+    "location": "WEST QUADRANGLE",
+    "address": "541 THOMPSON ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Subjects found with alcohol, which was poured out."
+  },
+  {
+    "id": "1600013837",
+    "date": "2016-02-20 02:29:00.0",
+    "description": "MIP",
+    "location": "EAST QUADRANGLE",
+    "address": "701 E UNIVERSITY AVE",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "\r\nPossible alcohol violation to be handled internally by staff.\r\n"
+  },
+  {
+    "id": "1600013839",
+    "date": "2016-02-20 02:43:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "900(1000) BLK HILL ST",
+    "disposition": "VERBAL WARNING, ",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment."
+  },
+  {
+    "id": "1600013842",
+    "date": "2016-02-20 02:59:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "CHURCH ST / S UNIVERSITY AVE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for traffic violation."
+  },
+  {
+    "id": "1600013843",
+    "date": "2016-02-20 03:01:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "SOUTH QUADRANGLE",
+    "address": "600 E MADISON ST",
+    "disposition": "TOT OTHER DEPT",
+    "narrative": "An incapacitated student was taken by ambulance to U-M Emerg Dept for treatment."
+  },
+  {
+    "id": "1600013844",
+    "date": "2016-02-20 03:05:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "EAST UNIVERSITY/SOUTH UNIVERSITY",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights."
+  },
+  {
+    "id": "1600013868",
+    "date": "2016-02-20 05:37:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "SOUTH QUADRANGLE",
+    "address": "600 E MADISON ST",
+    "disposition": "INCIDENT REPORT# 16-000748",
+    "narrative": "Wallet taken from a study room around Feb 6.  No suspects.",
+    "status": "- closed as of 2/22/2016"
+  },
+  {
+    "id": "1600013879",
+    "date": "2016-02-20 07:31:00.0",
+    "description": "PROPERTY DAMAGE / ACCIDENTAL",
+    "location": "LOT SC33",
+    "address": "551 E HOOVER AVE",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A tree branch fell on several parked vehicles resulting in damage.  Efforts made to contact registered owners."
+  },
+  {
+    "id": "1600013903",
+    "date": "2016-02-20 09:37:00.0",
+    "description": "TRESPASS",
+    "location": "MEDICAL SCIENCES RESEARCH BLDG III",
+    "address": "1150 W MEDICAL CENTER DR",
+    "disposition": "INCIDENT REPORT# 16-000750",
+    "narrative": "A visitor was found in a conference room and arrested on an outstanding warrant.  She was processed, released and issued another trespass warning.",
+    "status": "- open",
+    "arrest": "2/20/2016"
+  },
+  {
+    "id": "1600013910",
+    "date": "2016-02-20 10:31:00.0",
+    "description": "ASSIST OUTSIDE LE AGENCY",
+    "location": "BOTANICAL GARDENS",
+    "address": "1800 DIXBORO RD",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Assistance provided to Ann Arbor Township Fire Dept for response to a downed electrical line."
+  },
+  {
+    "id": "1600013916",
+    "date": "2016-02-20 10:53:00.0",
+    "description": "ASSIST OUTSIDE LE AGENCY",
+    "location": "",
+    "address": "E HOOVER AVE / GREENE ST",
+    "disposition": "INCIDENT REPORT# 16-000752",
+    "narrative": "Officers assisted Ann Arbor Police with an incident.",
+    "status": "- closed as of 2/20/2016"
+  },
+  {
+    "id": "1600013941",
+    "date": "2016-02-20 13:14:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "N UNIVERSITY AVE / S THAYER ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600013961",
+    "date": "2016-02-20 14:44:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "THOMPSON/RICHARD KENNEDY",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for not possessing vehicle registration.  "
+  },
+  {
+    "id": "1600013987",
+    "date": "2016-02-20 18:07:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "WASHTENAW CT / GEDDES AVE",
+    "disposition": "INCIDENT REPORT# 16-000755",
+    "narrative": "During a traffic stop, the driver was cited for an expired license plate and warned for a prohibited turn.  "
+  },
+  {
+    "id": "1600013989",
+    "date": "2016-02-20 18:30:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "WASHINGTON HEIGHTS/OBSERVATORY",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving the wrong way on a one-way street."
+  },
+  {
+    "id": "1600014008",
+    "date": "2016-02-20 20:14:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "PLYMOUTH/HURON PKWAY",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for speeding."
+  },
+  {
+    "id": "1600014011",
+    "date": "2016-02-20 20:32:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "NIELSEN COURT/MAIDEN LANE",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for speeding and license plate violation."
+  },
+  {
+    "id": "1600014013",
+    "date": "2016-02-20 20:42:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "PLYMOUTH RD / BARTON DR",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for driving at night without headlights and speeding."
+  },
+  {
+    "id": "1600014017",
+    "date": "2016-02-20 20:59:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "PLYMOUTH RD / GREEN RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for defective vehicle equipment."
+  },
+  {
+    "id": "1600014023",
+    "date": "2016-02-20 21:16:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "S MAIN ST / E STADIUM BLVD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation."
+  },
+  {
+    "id": "1600014025",
+    "date": "2016-02-20 21:23:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "CHURCH ST / WILLARD ST",
+    "disposition": "INCIDENT REPORT# 16-000756",
+    "narrative": "During a traffic stop, the driver was cited for impeding traffic. "
+  },
+  {
+    "id": "1600014038",
+    "date": "2016-02-20 22:53:00.0",
+    "description": "MIP",
+    "location": "WEST QUADRANGLE",
+    "address": "541 THOMPSON ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Subjects found with alcohol, which was poured out."
+  },
+  {
+    "id": "1600014046",
+    "date": "2016-02-20 23:27:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "GLEN CT / DEPOT",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for license plate violation."
+  },
+  {
+    "id": "1600014048",
+    "date": "2016-02-20 23:28:00.0",
+    "description": "MIP",
+    "location": "SOUTH QUADRANGLE",
+    "address": "600 E MADISON ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Subject found with alcohol, which was poured out."
+  },
+  {
+    "id": "1600014066",
+    "date": "2016-02-21 00:44:00.0",
+    "description": "MIP",
+    "location": "SOUTH QUADRANGLE",
+    "address": "600 E MADISON ST",
+    "disposition": "DISCIPLINARY REFERRAL",
+    "narrative": "Possible alcohol violation to be handled internally by staff."
+  },
+  {
+    "id": "1600014069",
+    "date": "2016-02-21 00:56:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "HILL ST / SYBIL ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for a traffic violation."
+  },
+  {
+    "id": "1600014086",
+    "date": "2016-02-21 02:33:00.0",
+    "description": "ASSIST OUTSIDE LE AGENCY",
+    "location": "UNIVERSITY HOSPITAL",
+    "address": "1500 E MEDICAL CENTER DR",
+    "disposition": "INCIDENT REPORT# 16-000757",
+    "narrative": "Officer assisted another agency with an investigation.",
+    "status": "- closed as of 2/22/2016"
+  },
+  {
+    "id": "1600014092",
+    "date": "2016-02-21 03:12:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "OH LAUREL HARPER SEELEY HALL",
+    "address": "627 OXFORD RD",
+    "disposition": "INFORMATION ONLY",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600014136",
+    "date": "2016-02-21 12:03:00.0",
+    "description": "ASSAULT OR BATTERY",
+    "location": "CANHAM DONALD B NATATORIUM",
+    "address": "500 E HOOVER AVE",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject reported that he had been knocked in the head Jan 20 while standing in the stands at a swim meet.  No known suspects. "
+  },
+  {
+    "id": "1600014154",
+    "date": "2016-02-21 14:40:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "S STATE ST / MONROE ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600014185",
+    "date": "2016-02-21 18:55:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "CENTRAL CAMPUS REC BLD BELL MARGARET POOL",
+    "address": "401 WASHTENAW AVE",
+    "disposition": "INCIDENT REPORT# 16-000762",
+    "narrative": "Unattended wallet was taken from a men's locker room between 5:30 and 6:45pm.  It later was turned into staff but was missing cash.  No suspects.",
+    "status": "- closed as of 2/23/2016"
+  },
+  {
+    "id": "1600014189",
+    "date": "2016-02-21 19:41:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "S STATE ST / E OAKBROOK DR",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a red light."
+  },
+  {
+    "id": "1600014191",
+    "date": "2016-02-21 19:44:00.0",
+    "description": "CRASH NO INJURIES / NO INJURY / DWLS",
+    "location": "",
+    "address": "S OBSERVATORY ST / GEDDES AVE",
+    "disposition": "INCIDENT REPORT# 16-000763",
+    "narrative": "Two-vehicle accident resulted in no injuries.  One driver was cited for driving with a suspended license.",
+    "status": "- closed as of 2/22/2016",
+    "arrest": "2/21/2016"
+  },
+  {
+    "id": "1600014202",
+    "date": "2016-02-21 20:45:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "NORTHWOOD V APT ",
+    "address": "2100 BLK STONE RD",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Medical assistance was provided to a subject."
+  },
+  {
+    "id": "1600014203",
+    "date": "2016-02-21 20:52:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "SOUTH QUAD",
+    "address": "600 E MADISON ST",
+    "disposition": "UTL/GOA",
+    "narrative": "Report of smell of marijuana.  Source could not be located."
+  },
+  {
+    "id": "1600014208",
+    "date": "2016-02-21 21:21:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "ALICE LLOYD",
+    "address": "100 S OBSERVATORY ST",
+    "disposition": "TOT OTHER DEPT",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600014209",
+    "date": "2016-02-21 21:34:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "HATCHER HARLAN H SOUTH GRADUATE LIBRARY",
+    "address": "913 S UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000764",
+    "narrative": "A coat and keys reportedly were taken from a fourth-floor study area between 9 and 9:30pm.  No suspects.",
+    "status": "- closed as of 2/22/2016"
+  },
+  {
+    "id": "1600014214",
+    "date": "2016-02-21 22:07:00.0",
+    "description": "HARASSMENT",
+    "location": "NORTHWOOD IV APT ",
+    "address": "1100 BLK MCINTYRE DR",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Harassing communications received, likely sent to wrong subject."
+  },
+  {
+    "id": "1600014241",
+    "date": "2016-02-22 01:08:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "HATCHER HARLAN H SOUTH GRADUATE LIBRARY",
+    "address": "913 S UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000765",
+    "narrative": "Backpack with textbook reportedly was taken around 9pm Feb 21.  No suspects.",
+    "status": "- closed as of 2/23/2016"
+  },
+  {
+    "id": "1600014273",
+    "date": "2016-02-22 06:51:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "500 BLK CHURCH ST",
+    "disposition": "VERBAL WARNING, ",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600014339",
+    "date": "2016-02-22 11:39:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "S STATE ST / E EISENHOWER PKWY",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for speeding."
+  },
+  {
+    "id": "1600014350",
+    "date": "2016-02-22 12:31:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "YOST ICE ARENA",
+    "address": "1116 S STATE ST",
+    "disposition": "INCIDENT REPORT# 16-000768",
+    "narrative": "A subject was taken by ambulance to St Joseph Mercy Hospital for treatment after a fall. ",
+    "status": "- closed as of 2/22/2016"
+  },
+  {
+    "id": "1600014365",
+    "date": "2016-02-22 13:32:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "BEAL AVE / BONISTEEL BLVD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a stop sign."
+  },
+  {
+    "id": "1600014368",
+    "date": "2016-02-22 13:40:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "FRANKEL SAMUEL AND JEAN CARDIOVASCULAR CENTER",
+    "address": "1425 E ANN ST",
+    "disposition": "INCIDENT REPORT# 16-000769",
+    "narrative": "A subject reported that she accidentally dropped cash in a reception area.  It reportedly was turned into a staff member, but someone else claimed it.  No suspects.",
+    "status": "- open"
+  },
+  {
+    "id": "1600014377",
+    "date": "2016-02-22 14:10:00.0",
+    "description": "HARASSMENT",
+    "location": "EAST QUADRANGLE",
+    "address": "701 E UNIVERSITY AVE",
+    "disposition": "INCIDENT REPORT# 16-000772",
+    "narrative": "Harassing communication received by staff from an unknown source.",
+    "status": "- open"
+  },
+  {
+    "id": "1600014394",
+    "date": "2016-02-22 15:27:00.0",
+    "description": "HARASSMENT",
+    "location": "EAST QUAD",
+    "address": "701 E UNIVERSITY AVE",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "A subject reported receiving harassing communications from a known subject."
+  },
+  {
+    "id": "1600014397",
+    "date": "2016-02-22 15:34:00.0",
+    "description": "LARCENY-ALL TYPES",
+    "location": "DANCE BUILDING",
+    "address": "1310 N UNIVERSITY CT",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Report that wallet was stolen from a studio Feb 10 between 9 and 11am.  No unauthorized charges have been made to credit cards so more likely that the wallet was lost, not stolen. "
+  },
+  {
+    "id": "1600014463",
+    "date": "2016-02-22 20:06:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "N UNIVERSITY AVE / S THAYER ST",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for improper turn."
+  },
+  {
+    "id": "1600014492",
+    "date": "2016-02-22 21:52:00.0",
+    "description": "CRASH NO INJURIES / OFF ROAD",
+    "location": "MOTT CHILDRENS VON VOIGTLANDER WOMENS HOSPITALS",
+    "address": "1540 E HOSPITAL DR",
+    "disposition": "INCIDENT REPORT# 16-000774",
+    "narrative": "Two-vehicle accident resulted in no injuries."
+  },
+  {
+    "id": "1600014497",
+    "date": "2016-02-22 22:44:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "E STADIUM BLVD / KIPKE DR",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for speeding."
+  },
+  {
+    "id": "1600014502",
+    "date": "2016-02-22 23:04:00.0",
+    "description": "PROPERTY DAMAGE / MDOP",
+    "location": "LOT M71",
+    "address": "1100 FULLER RD",
+    "disposition": "INCIDENT REPORT# 16-000775",
+    "narrative": "A vehicle was found damaged from an unknown source while parked in the structure between 11pm Feb 21 to 11am Feb 22.  No suspects. ",
+    "status": "- closed as of 2/23/2016"
+  },
+  {
+    "id": "1600014508",
+    "date": "2016-02-22 23:43:00.0",
+    "description": "DRUG VIOLATION / VCSA",
+    "location": "UH ADULT EMERGENCY SERVICES",
+    "address": "1500 E MEDICAL CENTER DR",
+    "disposition": "INCIDENT REPORT# 16-000776",
+    "narrative": "Suspected marijuana confiscated from a patient's belongings.",
+    "status": "- closed as of 2/23/2016"
+  },
+  {
+    "id": "1600014517",
+    "date": "2016-02-22 23:58:00.0",
+    "description": "MEDICAL ASSISTANCE / AMBULANCE",
+    "location": "COUZENS HALL",
+    "address": "1300 E ANN ST",
+    "disposition": "TOT OTHER DEPT",
+    "narrative": "A subject was taken by ambulance to U-M Emerg Dept for treatment. "
+  },
+  {
+    "id": "1600014540",
+    "date": "2016-02-23 01:57:00.0",
+    "description": "SUSPICIOUS INCIDENT OR PERSON",
+    "location": "EAST QUADRANGLE",
+    "address": "701 E UNIVERSITY AVE",
+    "disposition": "ASSISTANCE PROVIDED",
+    "narrative": "Report of loud argument in hallway.  Determined no assault occurred and subjects separated."
+  },
+  {
+    "id": "1600014569",
+    "date": "2016-02-23 06:27:00.0",
+    "description": "TRAFFIC VIOLATION",
+    "location": "",
+    "address": "E MEDICAL CENTER DR / WASHINGTON HTS",
+    "disposition": "INCIDENT REPORT# 16-000778",
+    "narrative": "During a traffic stop, the driver was cited for expired license plate."
+  },
+  {
+    "id": "1600014575",
+    "date": "2016-02-23 06:55:00.0",
+    "description": "TRAFFIC STOP",
+    "location": "",
+    "address": "FULLER CT / FULLER RD",
+    "disposition": "VERBAL WARNING",
+    "narrative": "During a traffic stop, the driver was warned for disregarding a traffic control device."
+  }
+]

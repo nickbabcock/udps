@@ -14,6 +14,10 @@ app.use(require('webpack-dev-middleware')(compiler, {
 
 app.use(require('webpack-hot-middleware')(compiler));
 
+app.get('/app.json', function(req, res) {
+  res.sendFile(path.join(__dirname, 'test-data.json'));
+});
+
 app.get('*', function(req, res) {
   res.sendFile(path.join(__dirname, 'index.html'));
 });

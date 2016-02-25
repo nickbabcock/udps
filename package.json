@@ -13,6 +13,7 @@
     "material-ui": "^0.14.4",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
+    "react-gmaps": "^1.4.2",
     "react-redux": "^4.0.0",
     "redux": "^3.0.4",
     "redux-devtools": "^2.1.5",
