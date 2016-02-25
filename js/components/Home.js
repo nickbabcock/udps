@@ -7,6 +7,11 @@ import styles from '../../css/app.css';
 import Map from './Map';
 
 class Home extends Component {
+  componentDidMount() {
+    const { dispatch, selectedSubreddit } = this.props;
+    dispatch(HomeActions.fetchPostsIfNeeded());
+  }
+
   render() {
     const {title, dispatch} = this.props;
     const actions = bindActionCreators(HomeActions, dispatch);
