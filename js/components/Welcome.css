@@ -1,0 +1,13 @@
+@import './Main.css';
+
+.leader {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.largeFont {
+  & p {
+    font-size: 133%;
+    line-height: 133%;
+  }
+}

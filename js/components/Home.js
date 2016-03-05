@@ -7,6 +7,7 @@ import GridTile from 'material-ui/lib/grid-list/grid-tile';
 import styles from '../../css/app.css';
 import Header from './Header';
 import Map from './Map';
+import Welcome from './Welcome';
 
 class Home extends Component {
   componentDidMount() {
@@ -34,6 +35,7 @@ class Home extends Component {
     return (
       <main>
         <Header/>
+        <Welcome/>
         <Map/>
         <h1 className={styles.text}>Welcome {title}!</h1>
         <button onClick={(e) => actions.changeTitle(prompt())}>

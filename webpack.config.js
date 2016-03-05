@@ -38,6 +38,7 @@ module.exports = {
     loaders: [
       { test: /\.js$/, loaders: ['babel'], exclude: /node_modules/ },
       { test: /\.css$/, loaders: ['style', 'css?modules&sourceMap', 'postcss'] },
+      { test: /\.md$/, loaders: ['html', 'markdown'] },
       { test: /\.scss$/, loaders: ['style', 'css', 'sass'] }
     ]
   },
