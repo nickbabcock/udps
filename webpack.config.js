@@ -46,7 +46,14 @@ module.exports = {
       require('postcss-import')({
         addDependencyTo: webpack
       }),
-      require('postcss-cssnext')()]
+      require('postcss-cssnext')(),
+      require('autoprefixer')({
+        browsers: ['last 2 versions', 'IE > 8']
+      }),
+      require('postcss-reporter')({
+        clearMessages: true
+      })
+    ]
   },
   resolve: {
     extensions: ['', '.js', '.json']
