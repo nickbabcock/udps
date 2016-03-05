@@ -1,3 +1,5 @@
+@import './Colors.css';
+
 .banner {
-  background: red;
+  background: var(--color2);
 }

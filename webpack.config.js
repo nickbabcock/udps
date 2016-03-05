@@ -37,9 +37,16 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js$/, loaders: ['babel'], exclude: /node_modules/ },
-      { test: /\.css$/, loaders: ['style', 'css?modules', 'postcss'] },
+      { test: /\.css$/, loaders: ['style', 'css?modules&sourceMap', 'postcss'] },
       { test: /\.scss$/, loaders: ['style', 'css', 'sass'] }
     ]
+  },
+  postcss: function(webpack) {
+    return [
+      require('postcss-import')({
+        addDependencyTo: webpack
+      }),
+      require('postcss-cssnext')()]
   },
   resolve: {
     extensions: ['', '.js', '.json']
