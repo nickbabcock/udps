@@ -37,7 +37,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js$/, loaders: ['babel'], exclude: /node_modules/ },
-      { test: /\.css$/, loader: ExtractTextPlugin.extract('css-loader?module!cssnext-loader') },
+      { test: /\.css$/, loaders: ['style', 'css', 'postcss'] },
       { test: /\.scss$/, loaders: ['style', 'css', 'sass'] }
     ]
   },
