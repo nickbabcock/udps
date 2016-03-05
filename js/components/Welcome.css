@@ -1,13 +1,19 @@
 @import './Main.css';
 
 .leader {
-  width: 700px;
-  margin: 0 auto;
+  lost-center: 1100px;
+  lost-utility: clearfix;
 }
 
 .largeFont {
+  lost-column: 2/3;
   & p {
     font-size: 133%;
     line-height: 133%;
   }
+}
+
+.close {
+  align-self: 'flex-start';
+  margin-top: 14px;
 }
