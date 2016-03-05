@@ -1,31 +1,40 @@
-var path = require('path');
-var webpack = require('webpack');
-var express = require('express');
-var config = require('./webpack.config');
+const webpack = require('webpack');
+const express = require('express');
+const config = require('./webpack.config');
+const WebpackDevServer = require('webpack-dev-server');
+const serveStatic = require('serve-static');
+const host = '0.0.0.0';
+const port = 3000;
 
-var app = express();
-var compiler = webpack(config);
-
-app.use(require('webpack-dev-middleware')(compiler, {
-  noInfo: true,
+new WebpackDevServer(webpack(config), {
   publicPath: config.output.publicPath,
-  historyApiFallback: true
-}));
+  hot: true, // With hot reloading
+  inline: false,
+  historyApiFallback: true,
+  quiet: true, // Without logging
+  proxy: {
+    '*': `http://localhost:${port + 1}`
+  }
+}).listen(port, host, (err, result) => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log('Server started');
+    console.log(`Listening at ${host}:${port}`);
+  }
+});
 
-app.use(require('webpack-hot-middleware')(compiler));
-
-app.get('/app.json', function(req, res) {
+const app = express();
+app.use(serveStatic(__dirname));
+app.get('/app.json', (req, res) => {
   res.sendFile(path.join(__dirname, 'test-data.json'));
 });
 
-app.get('*', function(req, res) {
-  res.sendFile(path.join(__dirname, 'index.html'));
-});
-
-app.listen(3000, '0.0.0.0', function (err, result) {
+app.listen(port + 1, host, (err, result) => {
   if (err) {
     console.log(err);
   }
 
-  console.log('Listening at 0.0.0.0:3000');
+  console.log(`Listening at ${host}:${port + 1}`);
 });
+

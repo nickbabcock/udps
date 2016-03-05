@@ -6,12 +6,15 @@ var devFlagPlugin = new webpack.DefinePlugin({
   __DEV__: JSON.stringify(JSON.parse(process.env.DEBUG || 'false'))
 });
 
+const ip = require('ip').address();
+
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
   entry: [
     'eventsource-polyfill',
     'babel-polyfill',
-    'webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000',
+    `webpack-dev-server/client?http://${ip}:3000`,
+    'webpack/hot/only-dev-server',
     './js/index.js'
   ],
   output: {
