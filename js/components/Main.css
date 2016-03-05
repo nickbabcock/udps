@@ -1,5 +1,13 @@
 @import "normalize.css";
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700,400);
+
 @lost flexbox flex;
+
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
 }
