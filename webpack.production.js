@@ -8,6 +8,7 @@ var devFlagPlugin = new webpack.DefinePlugin({
 
 module.exports = {
   entry: [
+    'babel-polyfill',
     './js/index.js'
   ],
   output: {

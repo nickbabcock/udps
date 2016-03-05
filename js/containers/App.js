@@ -4,7 +4,7 @@ import configureStore from '../store/configureStore';
 import Home from '../components/Home';
 import DevTools from './DevTools';
 
-const store = configureStore();
+const store = configureStore({data: []});
 
 export default React.createClass({
   render() {
