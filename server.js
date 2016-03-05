@@ -3,6 +3,7 @@ const express = require('express');
 const config = require('./webpack.config');
 const WebpackDevServer = require('webpack-dev-server');
 const serveStatic = require('serve-static');
+const path = require('path');
 const host = '0.0.0.0';
 const port = 3000;
 
