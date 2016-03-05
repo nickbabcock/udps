@@ -47,6 +47,7 @@ module.exports = {
         addDependencyTo: webpack
       }),
       require('postcss-cssnext')(),
+      require('lost')(),
       require('postcss-reporter')({
         clearMessages: true
       })

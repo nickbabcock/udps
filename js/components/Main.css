@@ -1,0 +1,5 @@
+@import "normalize.css";
+@lost flexbox flex;
+* {
+  box-sizing: border-box;
+}
