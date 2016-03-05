@@ -14,14 +14,14 @@ export function changeTitle(text) {
 
 function fetchData(dispatch) {
   dispatch({ type: REQUEST_DPS });
-  return fetch('/app.json').then(x => x.json());
+  return fetch('/app.json').then((x) => x.json());
 }
 
 async function recent(data) {
   data = take(sortBy(data, x => -(+moment(x.date))), 10);
   const addrs =
     data.map((x) => getLatLng(x.address)
-      .then(geometry => merge(x, { geometry })));
+      .then((geometry) => merge(x, { geometry })));
   const res = await Promise.all(addrs);
 }
 
@@ -42,7 +42,7 @@ async function getLatLng(address) {
 }
 
 export function fetchPostsIfNeeded() {
-  return async dispatch => {
+  return async (dispatch) => {
     const lastUpdate = await localforage.getItem('last-update');
     const data = !lastUpdate || !moment().isSame(lastUpdate, 'day') ?
       await fetchData(dispatch) :

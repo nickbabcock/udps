@@ -39,7 +39,7 @@ class Home extends Component {
         />
         <Map/>
         <h1 className={styles.text}>Welcome {title}!</h1>
-        <button onClick={e => actions.changeTitle(prompt())}>
+        <button onClick={(e) => actions.changeTitle(prompt())}>
           Update Title
         </button>
         <div style={styles.root}>
