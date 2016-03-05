@@ -6,6 +6,7 @@ import AppBar from 'material-ui/lib/app-bar';
 import GridList from 'material-ui/lib/grid-list/grid-list';
 import GridTile from 'material-ui/lib/grid-list/grid-tile';
 import styles from '../../css/app.css';
+import Header from './Header';
 import Map from './Map';
 
 class Home extends Component {
@@ -33,10 +34,11 @@ class Home extends Component {
 
     return (
       <main>
-        <AppBar
+        <Header/>
+{/*        <AppBar
           title="Umich DPS"
           iconClassNameRight="muidocs-icon-navigation-expand-more"
-        />
+        />*/}
         <Map/>
         <h1 className={styles.text}>Welcome {title}!</h1>
         <button onClick={(e) => actions.changeTitle(prompt())}>

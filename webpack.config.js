@@ -37,7 +37,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js$/, loaders: ['babel'], exclude: /node_modules/ },
-      { test: /\.css$/, loaders: ['style', 'css', 'postcss'] },
+      { test: /\.css$/, loaders: ['style', 'css?modules', 'postcss'] },
       { test: /\.scss$/, loaders: ['style', 'css', 'sass'] }
     ]
   },
