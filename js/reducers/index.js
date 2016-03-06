@@ -1,4 +1,5 @@
 import { combineReducers } from 'redux';
+import { routerReducer } from 'react-router-redux'
 import Sample from './Sample';
 import mostRecent from './mostRecent';
 import data from './data';
@@ -8,5 +9,6 @@ export default combineReducers({
   Sample,
   mostRecent,
   data,
-  welcomeMessage
+  welcomeMessage,
+  routing: routerReducer
 });
