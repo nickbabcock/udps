@@ -3,7 +3,7 @@ import fetch from 'isomorphic-fetch';
 import * as localforage from 'localforage';
 const moment = require('moment');
 import geocode from '../utils/geocode';
-import { TITLE_CHANGED, REQUEST_DPS, REQUEST_DPS_DONE } from '../constants/ActionTypes';
+import { TITLE_CHANGED, REQUEST_DPS, REQUEST_DPS_DONE, SHOW_WELCOME } from '../constants/ActionTypes';
 
 export function changeTitle(text) {
   return {
@@ -39,6 +39,26 @@ async function getLatLng(address) {
 
     await localforage.setItem(address, result);
     return result;
+}
+
+export function updateWelcomeMessage() {
+  return async (dispatch) => {
+    const welcomeMessage = await localforage.getItem('showWelcomeMessage');
+    dispatch({
+      type: SHOW_WELCOME,
+      data: welcomeMessage
+    });
+  }
+}
+
+export function closeWelcomeMessage() {
+  return async (dispatch) => {
+    await localforage.setItem('showWelcomeMessage', false);
+    dispatch({
+      type: SHOW_WELCOME,
+      data: false
+    });
+  }
 }
 
 export function fetchPostsIfNeeded() {

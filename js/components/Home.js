@@ -11,12 +11,13 @@ import Welcome from './Welcome';
 
 class Home extends Component {
   componentDidMount() {
-    const { dispatch, selectedSubreddit } = this.props;
+    const { dispatch } = this.props;
     dispatch(HomeActions.fetchPostsIfNeeded());
+    dispatch(HomeActions.updateWelcomeMessage());
   }
 
   render() {
-    const {title, dispatch, data} = this.props;
+    const {title, dispatch, data, welcomeMessage} = this.props;
     const actions = bindActionCreators(HomeActions, dispatch);
     const styles = {
       root: {
@@ -35,7 +36,7 @@ class Home extends Component {
     return (
       <main>
         <Header/>
-        <Welcome/>
+        { welcomeMessage !== false ? <Welcome closeFn={actions.closeWelcomeMessage}/> : null }
         <Map/>
         <h1 className={styles.text}>Welcome {title}!</h1>
         <button onClick={(e) => actions.changeTitle(prompt())}>
@@ -60,7 +61,8 @@ class Home extends Component {
 
 function select(state) {
   return {
-    data: state.data
+    data: state.data,
+    welcomeMessage: state.welcomeMessage
   }
 }
 

@@ -10,13 +10,14 @@ export default class Welcome extends Component {
     };
   }
   render() {
+    const { closeFn } = this.props;
     return (
       <div className={styles.leader}>
         <div className={styles.largeFont}
              dangerouslySetInnerHTML={this.markup()}/>
         <FlatButton label="x"
            style={{ alignSelf: 'flex-start', marginTop: '14px' }}
-           onClick={(e) => alert('ehlo')}/>
+           onClick={closeFn}/>
       </div>
     )
   }
