@@ -18,7 +18,7 @@ function fetchData(dispatch) {
 }
 
 async function recent(data) {
-  data = take(sortBy(data, x => -(+moment(x.date))), 10);
+  data = take(sortBy(data, (x) => -(+moment(x.date))), 10);
   const addrs =
     data.map((x) => getLatLng(x.address)
       .then((geometry) => merge(x, { geometry })));

@@ -43,7 +43,7 @@ class Home extends Component {
         </button>
         <div style={styles.root}>
           <GridList cellHeight={300} style={styles.gridList} cols={4}>
-            {data.map(x =>
+            {data.map((x) =>
               <GridTile
                 key={x.id}
                 title={x.description}
