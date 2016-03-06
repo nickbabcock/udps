@@ -3,14 +3,7 @@ import fetch from 'isomorphic-fetch';
 import * as localforage from 'localforage';
 const moment = require('moment');
 import geocode from '../utils/geocode';
-import { TITLE_CHANGED, REQUEST_DPS, REQUEST_DPS_DONE, SHOW_WELCOME } from '../constants/ActionTypes';
-
-export function changeTitle(text) {
-  return {
-    type: TITLE_CHANGED,
-    text
-  }
-}
+import { REQUEST_DPS, REQUEST_DPS_DONE, SHOW_WELCOME } from '../constants/ActionTypes';
 
 function fetchData(dispatch) {
   dispatch({ type: REQUEST_DPS });
