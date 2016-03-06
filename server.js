@@ -14,7 +14,7 @@ new WebpackDevServer(webpack(config), {
   historyApiFallback: true,
   quiet: true, // Without logging
   proxy: {
-    '*': `http://localhost:${port + 1}`
+    '/app.json': `http://localhost:${port + 1}`
   }
 }).listen(port, host, (err, result) => {
   if (err) {

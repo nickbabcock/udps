@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router'
 import styles from './Header.css';
 
 export default class Header extends Component {
@@ -10,8 +11,8 @@ export default class Header extends Component {
             <h1>Umich DPS</h1>
           </div>
           <div className={styles.col}>
-            <div>Statistics</div>
-            <div>About</div>
+            <div><Link to='/statistics'>Statistics</Link></div>
+            <div><Link to='/about'>About</Link></div>
           </div>
         </div>
       </header>
