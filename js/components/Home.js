@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
 import GridList from 'material-ui/lib/grid-list/grid-list';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 import GridTile from 'material-ui/lib/grid-list/grid-tile';
 import styles from '../../css/app.css';
 import Map from './Map';
 import Welcome from './Welcome';
+import * as HomeActions from '../actions/HomeActions';
 
-export default class Home extends Component {
+class Home extends Component {
   componentDidMount() {
     const { dispatch } = this.props;
     dispatch(HomeActions.fetchPostsIfNeeded());
@@ -13,7 +16,9 @@ export default class Home extends Component {
   }
 
   render() {
-    const {data, welcomeMessage} = this.props;
+    const { dispatch, data, welcomeMessage } = this.props;
+    const actions = bindActionCreators(HomeActions, dispatch);
+    const closeFn = actions.closeWelcomeMessage;
     const styles = {
       root: {
         display: 'flex',
@@ -30,7 +35,7 @@ export default class Home extends Component {
 
     return (
       <main>
-        { welcomeMessage !== false ? <Welcome closeFn={actions.closeWelcomeMessage}/> : null }
+        { welcomeMessage !== false ? <Welcome closeFn={closeFn}/> : null }
         <Map/>
         <div style={styles.root}>
           <GridList cellHeight={300} style={styles.gridList} cols={4}>
@@ -48,3 +53,12 @@ export default class Home extends Component {
     );
   }
 }
+
+function select(state) {
+  return {
+    data: state.data,
+    welcomeMessage: state.welcomeMessage
+  }
+}
+
+export default connect(select)(Home)
