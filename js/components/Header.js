@@ -8,7 +8,7 @@ export default class Header extends Component {
       <header className={styles.header}>
         <div className={styles.nav}>
           <div className={styles.col}>
-            <h1><Link to="/" onlyActiveOnIndex>Umich DPS</Link></h1>
+           <Link to="/" onlyActiveOnIndex><h1>Umich DPS</h1></Link>
           </div>
           <div className={styles.col}>
             <div><Link to='/statistics'>Statistics</Link></div>
