@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Message from './About.md';
+import styles from './About.css';
 
 export default class About extends Component {
   markup() {
@@ -10,7 +11,7 @@ export default class About extends Component {
 
   render() {
     return (
-      <div dangerouslySetInnerHTML={this.markup()}/>
+      <div className={styles.textual} dangerouslySetInnerHTML={this.markup()}/>
     );
   }
 }

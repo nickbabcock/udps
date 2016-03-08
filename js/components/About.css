@@ -1,0 +1,9 @@
+.textual {
+  max-width: 960px;
+  margin: 20px auto;
+
+  & p, & li {
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
