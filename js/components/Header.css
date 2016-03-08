@@ -5,6 +5,7 @@
   width: 100%;
   background: color(var(--color3) blackness(10%));
   color: white;
+  box-shadow: 0 5px 5px #ddd;
 }
 
 .nav {
