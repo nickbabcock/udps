@@ -1,0 +1,22 @@
+@import './Main.css';
+@import './Colors.css';
+
+.footer {
+  height: 100px;
+  background-color: var(--color4);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  & a {
+    color: white;
+    &:hover {
+      color: var(--color3);
+    }
+    &:visited {
+      color: color(var(--color3) blackness(50%));
+    }
+  }
+}

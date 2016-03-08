@@ -11,7 +11,7 @@ export default class App extends Component {
   render() {
     const { history } = this.props;
     return (
-      <div>
+      <div style={{minHeight: '100%', height: '100%'}}>
         <Router history={history}>
           <Route path="/" component={InnerApp}>
             <IndexRoute component={Home}/>

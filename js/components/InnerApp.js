@@ -1,13 +1,23 @@
 import React, {Component} from 'react';
 import Header from './Header';
+import Footer from './Footer';
 
 export default class InnerApp extends Component {
   render() {
+    const styles = {
+      display: 'flex',
+      flexDirection: 'column',
+      minHeight: '100%'
+    };
+
     return (
-      <div>
+      <div style={styles}>
         <Header/>
-        {this.props.children}
+        <div style={{flex: '1'}}>
+          {this.props.children}
+        </div>
+        <Footer/>
       </div>
-    );  
+    );
   }
 }
