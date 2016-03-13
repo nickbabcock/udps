@@ -3,7 +3,6 @@ import GridList from 'material-ui/lib/grid-list/grid-list';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import GridTile from 'material-ui/lib/grid-list/grid-tile';
-import styles from '../../css/app.css';
 import Map from './Map';
 import Welcome from './Welcome';
 import * as HomeActions from '../actions/HomeActions';
@@ -37,8 +36,8 @@ class Home extends Component {
       <main>
         { welcomeMessage !== false ? <Welcome closeFn={closeFn}/> : null }
         <Map/>
-        <div style={styles.root}>
-          <GridList cellHeight={300} style={styles.gridList} cols={4}>
+        <div>
+          <GridList cellHeight={300} cols={4}>
             {data.map((x) =>
               <GridTile
                 key={x.id}

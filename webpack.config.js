@@ -31,8 +31,7 @@ module.exports = {
       title: 'Umich DPS',
       template: 'index.ejs'
     }),
-    devFlagPlugin,
-    new ExtractTextPlugin('app.css')
+    devFlagPlugin
   ],
   module: {
     loaders: [

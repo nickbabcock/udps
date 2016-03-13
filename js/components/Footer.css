@@ -1,5 +1,5 @@
-@import './Main.css';
-@import './Colors.css';
+@import '../../css/Main.css';
+@import '../../css/Colors.css';
 
 .footer {
   height: 100px;
