@@ -9,20 +9,19 @@
 }
 
 .nav {
-  lost-center: 1100px;
-  lost-utility: clearfix;
+  margin: 0 auto;
+  width: var(--mainWidth);
+  display: flex;
   align-items: center;
 
-  & .col {
-    lost-column: 1/1;
+  & .links {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+  }
 
-    &:first-child {
-      lost-offset: 1/3;
-    }
-
-    @media (min-width: 30em) {
-      lost-column: 1/4;
-    }
+  & a:link, & a:visited, & a:hover, & a:active {
+    text-decoration: none;
   }
 }
 

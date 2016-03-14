@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router'
+import FlatButton from 'material-ui/lib/flat-button';
+import { darkBlack } from 'material-ui/lib/styles/colors';
 import styles from './Header.css';
 
 export default class Header extends Component {
@@ -7,12 +9,14 @@ export default class Header extends Component {
     return (
       <header className={styles.header}>
         <div className={styles.nav}>
-          <div className={styles.col}>
-           <Link to="/" onlyActiveOnIndex><h1>Umich DPS</h1></Link>
+          <div>
+           <Link to="/" onlyActiveOnIndex>
+            <h1 style={{'color': darkBlack}}>Umich DPS</h1>
+           </Link>
           </div>
-          <div className={styles.col}>
-            <div><Link to='/statistics'>Statistics</Link></div>
-            <div><Link to='/about'>About</Link></div>
+          <div className={styles.links}>
+            <Link to='/statistics'><FlatButton label="Statistics"/></Link>
+            <Link to='/about'><FlatButton label="About"/></Link>
           </div>
         </div>
       </header>
