@@ -1,8 +1,11 @@
 import {createStore, applyMiddleware, combineReducers, compose} from 'redux';
 import thunkMiddleware from 'redux-thunk';
 import {persistState} from 'redux-devtools';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 import rootReducer from '../reducers';
 import DevTools from '../containers/DevTools';
+
+injectTapEventPlugin();
 
 let createStoreWithMiddleware;
 

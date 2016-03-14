@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import GridList from 'material-ui/lib/grid-list/grid-list';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import GridTile from 'material-ui/lib/grid-list/grid-tile';
+import DatePicker from 'material-ui/lib/date-picker/date-picker';
 import Map from './Map';
 import Welcome from './Welcome';
 import styles from './Home.css';
@@ -21,8 +21,10 @@ class Home extends Component {
     const closeFn = actions.closeWelcomeMessage;
     return (
       <main>
+        <div>
+          <DatePicker hintText="Portrait Dialog" />
+        </div>
         { welcomeMessage !== false ? <Welcome closeFn={closeFn}/> : null }
-        <Map/>
         <div className={styles['incident-container']}>
             {data.map((x) =>
               <GridTile
