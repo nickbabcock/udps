@@ -18,20 +18,6 @@ class Home extends Component {
     const { dispatch, data, welcomeMessage } = this.props;
     const actions = bindActionCreators(HomeActions, dispatch);
     const closeFn = actions.closeWelcomeMessage;
-    const styles = {
-      root: {
-        display: 'flex',
-        flexWrap: 'wrap',
-        justifyContent: 'space-around',
-      },
-      gridList: {
-        width: '75%',
-        height: 400,
-        overflowY: 'auto',
-        marginBottom: 24,
-      },
-    };
-
     return (
       <main>
         { welcomeMessage !== false ? <Welcome closeFn={closeFn}/> : null }
