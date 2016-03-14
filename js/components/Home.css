@@ -1,0 +1,21 @@
+@import '../../css/Main.css';
+
+.incident-container {
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.incident {
+  background-color: red;
+  min-height: 250px;
+  min-width: 250px;
+  flex: 1 0 25%;
+  box-sizing: border-box;
+  margin: 0 0.5rem 1rem;
+}
+
+.incident:nth-last-child(2):nth-child(3n) {
+  min-width: 33%;
+}

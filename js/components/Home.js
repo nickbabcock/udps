@@ -5,6 +5,7 @@ import { bindActionCreators } from 'redux';
 import GridTile from 'material-ui/lib/grid-list/grid-tile';
 import Map from './Map';
 import Welcome from './Welcome';
+import styles from './Home.css';
 import * as HomeActions from '../actions/HomeActions';
 
 class Home extends Component {
@@ -22,17 +23,15 @@ class Home extends Component {
       <main>
         { welcomeMessage !== false ? <Welcome closeFn={closeFn}/> : null }
         <Map/>
-        <div>
-          <GridList cellHeight={300} cols={4}>
+        <div className={styles['incident-container']}>
             {data.map((x) =>
               <GridTile
                 key={x.id}
                 title={x.description}
                 subtitle={x.address}>
-                <img src='https://www.fillmurray.com/g/250/300'/>
+                <div className={styles['incident']}/>
               </GridTile>
             )}
-          </GridList>
         </div>
       </main>
     );
