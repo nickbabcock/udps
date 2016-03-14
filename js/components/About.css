@@ -2,7 +2,7 @@
 
 .textual {
   max-width: var(--mainWidth);
-  margin: 20px auto;
+  margin: 0 auto;
 
   & p, & li {
     font-size: 1.25rem;

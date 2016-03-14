@@ -1,19 +1,14 @@
 import React, {Component} from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import styles from './InnerApp.css';
 
 export default class InnerApp extends Component {
   render() {
-    const styles = {
-      display: 'flex',
-      flexDirection: 'column',
-      minHeight: '100%'
-    };
-
     return (
-      <div style={styles}>
+      <div className={styles.app}>
         <Header/>
-        <div style={{flex: '1'}}>
+        <div className={styles.content}>
           {this.props.children}
         </div>
         <Footer/>
