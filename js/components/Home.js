@@ -16,13 +16,19 @@ class Home extends Component {
   }
 
   render() {
-    const { dispatch, data, welcomeMessage } = this.props;
+    const { dispatch, data, welcomeMessage, date } = this.props;
     const actions = bindActionCreators(HomeActions, dispatch);
     const closeFn = actions.closeWelcomeMessage;
     return (
       <main>
         <div>
-          <DatePicker hintText="Portrait Dialog" />
+          <label className={styles['date-label']}>
+            Date of Incidents
+            <DatePicker 
+              className={styles['date-picker']}
+              value={date}
+              onChange={(e, d) => actions.mapDateChange(d)} />
+          </label>
         </div>
         { welcomeMessage !== false ? <Welcome closeFn={closeFn}/> : null }
         <div className={styles['incident-container']}>
@@ -43,7 +49,8 @@ class Home extends Component {
 function select(state) {
   return {
     data: state.data,
-    welcomeMessage: state.welcomeMessage
+    welcomeMessage: state.welcomeMessage,
+    date: state.date
   }
 }
 

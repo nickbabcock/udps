@@ -3,7 +3,7 @@ import fetch from 'isomorphic-fetch';
 import * as localforage from 'localforage';
 const moment = require('moment');
 import geocode from '../utils/geocode';
-import { REQUEST_DPS, REQUEST_DPS_DONE, SHOW_WELCOME } from '../constants/ActionTypes';
+import { REQUEST_DPS, REQUEST_DPS_DONE, SHOW_WELCOME, MAP_DATE_CHANGE } from '../constants/ActionTypes';
 
 function fetchData(dispatch) {
   dispatch({ type: REQUEST_DPS });
@@ -51,6 +51,13 @@ export function closeWelcomeMessage() {
       type: SHOW_WELCOME,
       data: false
     });
+  }
+}
+
+export function mapDateChange(value) {
+  return {
+    type: MAP_DATE_CHANGE,
+    data: value
   }
 }
 
