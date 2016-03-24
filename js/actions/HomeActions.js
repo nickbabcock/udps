@@ -3,35 +3,40 @@ import fetch from 'isomorphic-fetch';
 import * as localforage from 'localforage';
 const moment = require('moment');
 import geocode from '../utils/geocode';
-import { REQUEST_DPS, REQUEST_DPS_DONE, SHOW_WELCOME, MAP_DATE_CHANGE } from '../constants/ActionTypes';
+import {
+  REQUEST_DPS,
+  REQUEST_DPS_DONE,
+  SHOW_WELCOME,
+  MAP_DATE_CHANGE
+} from '../constants/ActionTypes';
 
 function fetchData(dispatch) {
   dispatch({ type: REQUEST_DPS });
   return fetch('/app.json').then((x) => x.json());
 }
 
-async function recent(data) {
-  data = take(sortBy(data, (x) => -(+moment(x.date))), 10);
-  const addrs =
-    data.map((x) => getLatLng(x.address)
-      .then((geometry) => merge(x, { geometry })));
-  const res = await Promise.all(addrs);
+async function getLatLng(address) {
+  const addr = await localforage.getItem(address);
+  if (addr) {
+    return addr;
+  }
+
+  const addrReq = await geocode(`${address}, ANN ARBOR, MI`);
+  const result = {
+    lat: addrReq[0].geometry.location.lat(),
+    lng: addrReq[0].geometry.location.lng()
+  };
+
+  await localforage.setItem(address, result);
+  return result;
 }
 
-async function getLatLng(address) {
-    const addr = await localforage.getItem(address);
-    if (addr) {
-      return addr;
-    }
-
-    const addrReq = await geocode(address + ', ANN ARBOR, MI');
-    const result = {
-      lat: addrReq[0].geometry.location.lat(),
-      lng: addrReq[0].geometry.location.lng()
-    };
-
-    await localforage.setItem(address, result);
-    return result;
+async function recent(data) {
+  const ndata = take(sortBy(data, (x) => -(+moment(x.date))), 10);
+  const addrs =
+    ndata.map((x) => getLatLng(x.address)
+      .then((geometry) => merge(x, { geometry })));
+  await Promise.all(addrs);
 }
 
 export function updateWelcomeMessage() {
@@ -41,7 +46,7 @@ export function updateWelcomeMessage() {
       type: SHOW_WELCOME,
       data: welcomeMessage
     });
-  }
+  };
 }
 
 export function closeWelcomeMessage() {
@@ -51,14 +56,14 @@ export function closeWelcomeMessage() {
       type: SHOW_WELCOME,
       data: false
     });
-  }
+  };
 }
 
 export function mapDateChange(value) {
   return {
     type: MAP_DATE_CHANGE,
     data: value
-  }
+  };
 }
 
 export function fetchPostsIfNeeded() {
@@ -71,5 +76,5 @@ export function fetchPostsIfNeeded() {
     await localforage.setItem('last-update', moment().format());
     await localforage.setItem('data', data);
     dispatch({ type: REQUEST_DPS_DONE, data });
-  }
+  };
 }
