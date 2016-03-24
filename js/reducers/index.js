@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { routerReducer } from 'react-router-redux'
+import { routerReducer } from 'react-router-redux';
 import mostRecent from './mostRecent';
 import data from './data';
 import date from './date';

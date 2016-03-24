@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import GridTile from 'material-ui/lib/grid-list/grid-tile';
@@ -24,20 +24,20 @@ class Home extends Component {
         <div>
           <label className={styles['date-label']}>
             Date of Incidents
-            <DatePicker 
+            <DatePicker
               className={styles['date-picker']}
               value={date}
               onChange={(e, d) => actions.mapDateChange(d)} />
           </label>
         </div>
-        { welcomeMessage !== false ? <Welcome closeFn={closeFn}/> : null }
+        { welcomeMessage !== false ? <Welcome closeFn={closeFn} /> : null }
         <div className={styles['incident-container']}>
             {data.map((x) =>
               <GridTile
                 key={x.id}
                 title={x.description}
                 subtitle={x.address}>
-                <div className={styles['incident']}/>
+                <div className={styles['incident']} />
               </GridTile>
             )}
         </div>
@@ -51,7 +51,7 @@ function select(state) {
     data: state.data,
     welcomeMessage: state.welcomeMessage,
     date: state.date
-  }
+  };
 }
 
-export default connect(select)(Home)
+export default connect(select)(Home);

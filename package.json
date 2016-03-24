@@ -5,7 +5,7 @@
     "start": "better-npm-run start",
     "build": "webpack -p --config webpack.production.js",
     "build-dev": "webpack -p",
-    "lint": "eslint ."
+    "lint": "eslint --fix ."
   },
   "betterScripts": {
     "start": {

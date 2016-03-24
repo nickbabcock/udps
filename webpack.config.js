@@ -41,7 +41,7 @@ module.exports = {
       { test: /\.scss$/, loaders: ['style', 'css', 'sass'] }
     ]
   },
-  postcss: function(webpack) {
+  postcss: function (webpack) {
     return [
       require('postcss-import')({
         addDependencyTo: webpack
@@ -51,7 +51,7 @@ module.exports = {
       require('postcss-reporter')({
         clearMessages: true
       })
-    ]
+    ];
   },
   resolve: {
     extensions: ['', '.js', '.json']
