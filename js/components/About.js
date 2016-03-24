@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Message from './About.md';
 import styles from './About.css';
 
@@ -11,7 +11,7 @@ export default class About extends Component {
 
   render() {
     return (
-      <div className={styles.textual} dangerouslySetInnerHTML={this.markup()}/>
+      <div className={styles.textual} dangerouslySetInnerHTML={this.markup()} />
     );
   }
 }
