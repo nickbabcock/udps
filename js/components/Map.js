@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { Gmaps } from 'react-gmaps';
 
 export default class Map extends Component {
@@ -31,3 +31,6 @@ Map.defaultProps = {
   }
 };
 
+Map.propTypes = {
+  coords: PropTypes.object.isRequired
+};

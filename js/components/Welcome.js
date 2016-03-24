@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import Message from './Welcome.md';
 import styles from './Welcome.css';
 import FlatButton from 'material-ui/lib/flat-button';
@@ -24,3 +24,7 @@ export default class Welcome extends Component {
     );
   }
 }
+
+Welcome.propTypes = {
+  closeFn: PropTypes.func.isRequired
+};
