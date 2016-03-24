@@ -10,7 +10,7 @@ const Header = () =>
       <div className={styles.nav}>
         <div>
          <Link to="/" onlyActiveOnIndex>
-          <h1 style={{ 'color': darkBlack }}>Umich DPS</h1>
+          <h1 style={{ color: darkBlack }}>Umich DPS</h1>
          </Link>
         </div>
         <div className={styles.links}>

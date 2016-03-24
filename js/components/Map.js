@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Gmaps, Marker, InfoWindow, Circle } from 'react-gmaps';
+import { Gmaps } from 'react-gmaps';
 
 export default class Map extends Component {
   onMapCreated(map) {
@@ -19,8 +19,7 @@ export default class Map extends Component {
         zoom={12}
         loadingMessage={'Be happy'}
         params={{ v: '3.exp' }}
-        onMapCreated={this.onMapCreated}>
-      </Gmaps>
+        onMapCreated={this.onMapCreated} />
     );
   }
 }

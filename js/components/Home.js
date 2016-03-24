@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import GridTile from 'material-ui/lib/grid-list/grid-tile';
 import DatePicker from 'material-ui/lib/date-picker/date-picker';
-import Map from './Map';
 import Welcome from './Welcome';
 import styles from './Home.css';
 import * as HomeActions from '../actions/HomeActions';
@@ -27,7 +26,8 @@ class Home extends Component {
             <DatePicker
               className={styles['date-picker']}
               value={date}
-              onChange={(e, d) => actions.mapDateChange(d)} />
+              onChange={(e, d) => actions.mapDateChange(d)}
+            />
           </label>
         </div>
         { welcomeMessage !== false ? <Welcome closeFn={closeFn} /> : null }
@@ -37,7 +37,7 @@ class Home extends Component {
                 key={x.id}
                 title={x.description}
                 subtitle={x.address}>
-                <div className={styles['incident']} />
+                <div className={styles.incident} />
               </GridTile>
             )}
         </div>
