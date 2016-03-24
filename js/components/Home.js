@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import GridTile from 'material-ui/lib/grid-list/grid-tile';
@@ -45,6 +45,13 @@ class Home extends Component {
     );
   }
 }
+
+Home.propTypes = {
+  dispatch: PropTypes.func.isRequired,
+  data: PropTypes.array.isRequired,
+  welcomeMessage: PropTypes.bool,
+  date: PropTypes.object.isRequired
+};
 
 function select(state) {
   return {
