@@ -36,7 +36,8 @@ class Home extends Component {
               <GridTile
                 key={x.id}
                 title={x.description}
-                subtitle={x.address}>
+                subtitle={x.address}
+              >
                 <div className={styles.incident} />
               </GridTile>
             )}
