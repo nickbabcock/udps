@@ -19,7 +19,8 @@ export default class Map extends Component {
         zoom={12}
         loadingMessage={'Be happy'}
         params={{ v: '3.exp' }}
-        onMapCreated={this.onMapCreated} />
+        onMapCreated={this.onMapCreated}
+      />
     );
   }
 }

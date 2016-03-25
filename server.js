@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const webpack = require('webpack');
 const express = require('express');
 const config = require('./webpack.config');
@@ -16,7 +17,7 @@ new WebpackDevServer(webpack(config), {
   proxy: {
     '/app.json': `http://localhost:${port + 1}`
   }
-}).listen(port, host, (err, result) => {
+}).listen(port, host, (err) => {
   if (err) {
     console.log(err);
   } else {
@@ -31,7 +32,7 @@ app.get('/app.json', (req, res) => {
   res.sendFile(path.join(__dirname, 'test-data.json'));
 });
 
-app.listen(port + 1, host, (err, result) => {
+app.listen(port + 1, host, (err) => {
   if (err) {
     console.log(err);
   }

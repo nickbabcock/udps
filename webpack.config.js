@@ -1,9 +1,8 @@
-var path = require('path');
-var webpack = require('webpack');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-var devFlagPlugin = new webpack.DefinePlugin({
+const devFlagPlugin = new webpack.DefinePlugin({
   __DEV__: JSON.stringify(JSON.parse(process.env.DEBUG || 'false'))
 });
 
@@ -41,18 +40,17 @@ module.exports = {
       { test: /\.scss$/, loaders: ['style', 'css', 'sass'] }
     ]
   },
-  postcss: function (webpack) {
-    return [
+  postcss: (wb) =>
+    [
       require('postcss-import')({
-        addDependencyTo: webpack
+        addDependencyTo: wb
       }),
       require('postcss-cssnext')(),
       require('lost')(),
       require('postcss-reporter')({
         clearMessages: true
       })
-    ];
-  },
+    ],
   resolve: {
     extensions: ['', '.js', '.json']
   }
