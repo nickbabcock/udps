@@ -69,12 +69,13 @@ export function mapDateChange(value) {
 export function fetchPostsIfNeeded() {
   return async (dispatch) => {
     const lastUpdate = await localforage.getItem('last-update');
-    const data = !lastUpdate || !moment().isSame(lastUpdate, 'day') ?
+    let data = !lastUpdate || !moment().isSame(lastUpdate, 'day') ?
       await fetchData(dispatch) :
       await localforage.getItem('data');
     recent(data);
     await localforage.setItem('last-update', moment().format());
     await localforage.setItem('data', data);
+    data = data.map((x) => Object.assign(x, { date: moment(x.date) }));
     dispatch({ type: REQUEST_DPS_DONE, data });
   };
 }
