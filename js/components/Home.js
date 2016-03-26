@@ -6,17 +6,17 @@ import DatePicker from 'material-ui/lib/date-picker/date-picker';
 import Welcome from './Welcome';
 import styles from './Home.css';
 import * as HomeActions from '../actions/HomeActions';
+import { getSelectedData } from '../selectors';
 
 class Home extends Component {
   componentDidMount() {
-    const { dispatch } = this.props;
-    dispatch(HomeActions.fetchPostsIfNeeded());
-    dispatch(HomeActions.updateWelcomeMessage());
+    const { actions } = this.props;
+    actions.fetchPostsIfNeeded();
+    actions.updateWelcomeMessage();
   }
 
   render() {
-    const { dispatch, data, welcomeMessage, date } = this.props;
-    const actions = bindActionCreators(HomeActions, dispatch);
+    const { data, welcomeMessage, date, actions, selectedData } = this.props;
     const closeFn = actions.closeWelcomeMessage;
     return (
       <main>
@@ -30,6 +30,11 @@ class Home extends Component {
             />
           </label>
         </div>
+        <ul>
+          {selectedData.map((x) =>
+            <li>{x.address}</li>
+          )}
+        </ul>
         { welcomeMessage !== false ? <Welcome closeFn={closeFn} /> : null }
         <div className={styles['incident-container']}>
             {data.map((x) =>
@@ -48,18 +53,22 @@ class Home extends Component {
 }
 
 Home.propTypes = {
-  dispatch: PropTypes.func.isRequired,
+  actions: PropTypes.object.isRequired,
+  selectedData: PropTypes.array.isRequired,
   data: PropTypes.array.isRequired,
   welcomeMessage: PropTypes.bool,
   date: PropTypes.object.isRequired
 };
 
-function select(state) {
-  return {
-    data: state.data,
-    welcomeMessage: state.welcomeMessage,
-    date: state.date
-  };
-}
+const mapStateToProps = (state) => ({
+  data: state.data,
+  welcomeMessage: state.welcomeMessage,
+  date: state.date,
+  selectedData: getSelectedData(state)
+});
 
-export default connect(select)(Home);
+const mapDispatchToProps = (dispatch) => ({
+  actions: bindActionCreators(HomeActions, dispatch)
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home);

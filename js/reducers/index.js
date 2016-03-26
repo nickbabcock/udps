@@ -1,12 +1,35 @@
 import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
-import mostRecent from './mostRecent';
-import data from './data';
-import date from './date';
-import welcomeMessage from './welcomeMessage';
+import * as ActionTypes from '../constants/ActionTypes';
+
+const date = (state = new Date(), action) => {
+  switch (action.type) {
+    case ActionTypes.MAP_DATE_CHANGE:
+      return action.data;
+    default:
+      return state;
+  }
+};
+
+const welcomeMessage = (state = true, action) => {
+  switch (action.type) {
+    case ActionTypes.SHOW_WELCOME:
+      return action.data;
+    default:
+      return state;
+  }
+};
+
+const data = (state = [], action) => {
+  switch (action.type) {
+    case ActionTypes.REQUEST_DPS_DONE:
+      return action.data;
+    default:
+      return state;
+  }
+};
 
 export default combineReducers({
-  mostRecent,
   data,
   welcomeMessage,
   date,
