@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import GridTile from 'material-ui/lib/grid-list/grid-tile';
 import DatePicker from 'material-ui/lib/date-picker/date-picker';
-import Welcome from './Welcome';
+import Welcome from '../components/Welcome';
 import styles from './Home.css';
 import * as HomeActions from '../actions/HomeActions';
 import { getSelectedData } from '../selectors';

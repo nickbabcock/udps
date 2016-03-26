@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import { Router, Route, IndexRoute } from 'react-router';
-import Home from '../components/Home';
+import Home from './Home';
 import DevTools from './DevTools';
 import Statistics from '../components/Statistics';
 import About from '../components/About';
