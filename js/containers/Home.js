@@ -16,7 +16,7 @@ class Home extends Component {
   }
 
   render() {
-    const { data, welcomeMessage, date, actions, selectedData } = this.props;
+    const { welcomeMessage, date, actions, selectedData } = this.props;
     const closeFn = actions.closeWelcomeMessage;
     return (
       <main>
@@ -30,14 +30,9 @@ class Home extends Component {
             />
           </label>
         </div>
-        <ul>
-          {selectedData.map((x) =>
-            <li>{x.address}</li>
-          )}
-        </ul>
         { welcomeMessage !== false ? <Welcome closeFn={closeFn} /> : null }
         <div className={styles['incident-container']}>
-            {data.map((x) =>
+            {selectedData.map((x) =>
               <GridTile
                 key={x.id}
                 title={x.description}
@@ -55,13 +50,11 @@ class Home extends Component {
 Home.propTypes = {
   actions: PropTypes.object.isRequired,
   selectedData: PropTypes.array.isRequired,
-  data: PropTypes.array.isRequired,
   welcomeMessage: PropTypes.bool,
   date: PropTypes.object.isRequired
 };
 
 const mapStateToProps = (state) => ({
-  data: state.data,
   welcomeMessage: state.welcomeMessage,
   date: state.date,
   selectedData: getSelectedData(state)
