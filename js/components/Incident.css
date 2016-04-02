@@ -6,16 +6,15 @@
 
 .appearActive {
   opacity: 1;
-  transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out
 }
 
 .incident {
-  background-color: red;
   min-height: 250px;
   min-width: 250px;
   flex: 1 0 25%;
   box-sizing: border-box;
-  margin: 0 0.5rem 1rem;
+  padding: 0 0.5rem 1rem;
 }
 
 .incident:nth-last-child(2):nth-child(3n) {
