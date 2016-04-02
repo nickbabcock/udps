@@ -1,0 +1,41 @@
+@import '../../css/Main.css';
+
+.enter {
+  opacity: 0.01;
+}
+
+.enterActive {
+  opacity: 1;
+  transition: opacity 1.5s ease-in;
+}
+
+.leave {
+  opacity: 1;
+}
+
+.leaveActive {
+  opacity: 0.01;
+  transition: opacity 1.5s ease-in;
+}
+
+.appear {
+  opacity: 0.01;
+}
+
+.appearActive {
+  opacity: 1;
+  transition: opacity 2.5s ease-in;
+}
+
+.incident {
+  background-color: red;
+  min-height: 250px;
+  min-width: 250px;
+  flex: 1 0 25%;
+  box-sizing: border-box;
+  margin: 0 0.5rem 1rem;
+}
+
+.incident:nth-last-child(2):nth-child(3n) {
+  min-width: 33%;
+}
