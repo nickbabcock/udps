@@ -6,8 +6,6 @@ import GridTile from 'material-ui/lib/grid-list/grid-tile';
 const Incident = ({ incident }) => (
   <ReactCSSTransitionGroup
     transitionName={styles}
-    transitionEnterTimeout={1000}
-    transitionLeaveTimeout={1000}
     transitionAppear
     transitionAppearTimeout={500}
   >

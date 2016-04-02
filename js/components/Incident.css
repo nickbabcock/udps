@@ -1,30 +1,12 @@
 @import '../../css/Main.css';
 
-.enter {
-  opacity: 0.01;
-}
-
-.enterActive {
-  opacity: 1;
-  transition: opacity 1.5s ease-in;
-}
-
-.leave {
-  opacity: 1;
-}
-
-.leaveActive {
-  opacity: 0.01;
-  transition: opacity 1.5s ease-in;
-}
-
 .appear {
   opacity: 0.01;
 }
 
 .appearActive {
   opacity: 1;
-  transition: opacity 2.5s ease-in;
+  transition: opacity .5s ease-in-out;
 }
 
 .incident {
