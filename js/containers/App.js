@@ -11,6 +11,7 @@ const App = ({ history }) => (
     <Router history={history}>
       <Route path="/" component={InnerApp}>
         <IndexRoute component={Home} />
+        <Route path="/date/:incidentDate" component={Home} />
         <Route path="/statistics" component={Statistics} />
         <Route path="/about" component={About} />
       </Route>

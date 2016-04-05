@@ -1,4 +1,5 @@
 import { sortBy, take, merge } from 'lodash';
+import { browserHistory } from 'react-router';
 import fetch from 'isomorphic-fetch';
 import * as localforage from 'localforage';
 const moment = require('moment');
@@ -60,6 +61,8 @@ export function closeWelcomeMessage() {
 }
 
 export function mapDateChange(value) {
+  const date = moment(value).format('YYYY-MM-DD');
+  browserHistory.push(`/date/${date}`);
   return {
     type: MAP_DATE_CHANGE,
     data: value

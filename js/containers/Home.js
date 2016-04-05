@@ -16,7 +16,7 @@ class Home extends Component {
   }
 
   render() {
-    const { welcomeMessage, date, actions, selectedData } = this.props;
+    const { welcomeMessage, date, actions, selectedData, params } = this.props;
     const closeFn = actions.closeWelcomeMessage;
     return (
       <main>
@@ -47,7 +47,8 @@ Home.propTypes = {
   actions: PropTypes.object.isRequired,
   selectedData: PropTypes.array.isRequired,
   welcomeMessage: PropTypes.bool,
-  date: PropTypes.object.isRequired
+  date: PropTypes.object.isRequired,
+  params: PropTypes.object
 };
 
 const mapStateToProps = (state) => ({
