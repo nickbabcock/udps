@@ -1,9 +1,11 @@
 const moment = require('moment');
 import { createSelector } from 'reselect';
 
-const getDate = (state) => state.date;
+const getDate = (state, props) =>
+  moment(props.params.incidentDate).toDate() || state.date;
 const getData = (state) => state.data;
 
+export const getSelectedDate = createSelector([getDate], (date) => date);
 export const getSelectedData = createSelector(
   [getData, getDate],
   (data, date) =>

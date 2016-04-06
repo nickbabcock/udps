@@ -35,7 +35,8 @@ module.exports = {
   entry,
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: 'bundle-[hash].js',
+    publicPath: '/',
     hot: __DEV__
   },
   plugins,

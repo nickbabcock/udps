@@ -6,7 +6,7 @@ import Welcome from '../components/Welcome';
 import Incident from '../components/Incident';
 import styles from './Home.css';
 import * as HomeActions from '../actions/HomeActions';
-import { getSelectedData } from '../selectors';
+import { getSelectedData, getSelectedDate } from '../selectors';
 
 class Home extends Component {
   componentDidMount() {
@@ -51,10 +51,10 @@ Home.propTypes = {
   params: PropTypes.object
 };
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = (state, ownProps) => ({
   welcomeMessage: state.welcomeMessage,
-  date: state.date,
-  selectedData: getSelectedData(state)
+  date: getSelectedDate(state, ownProps),
+  selectedData: getSelectedData(state, ownProps)
 });
 
 const mapDispatchToProps = (dispatch) => ({
