@@ -3,6 +3,7 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import styles from './Incident.css';
 import Map from './Map';
 import GridTile from 'material-ui/lib/grid-list/grid-tile';
+import Paper from 'material-ui/lib/paper';
 
 const Incident = ({ incident }) => (
   <ReactCSSTransitionGroup
@@ -13,13 +14,15 @@ const Incident = ({ incident }) => (
     transitionAppearTimeout={500}
   >
     <div className={styles.incident}>
-      <GridTile
-        key={incident.id}
-        title={incident.description}
-        subtitle={incident.address}
-      >
-        <Map address={incident.address} />
-      </GridTile>
+      <Paper zDepth={2}>
+        <GridTile
+          key={incident.id}
+          title={incident.description}
+          subtitle={incident.address}
+        >
+          <Map address={incident.address} />
+        </GridTile>
+      </Paper>
     </div>
   </ReactCSSTransitionGroup>
 );
