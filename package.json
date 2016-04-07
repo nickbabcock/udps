@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "start": "better-npm-run start",
-    "build": "webpack -p",
+    "build": "better-npm-run build",
     "build-dev": "better-npm-run build-dev",
     "lint": "eslint --fix ."
   },
@@ -18,6 +18,12 @@
       "command": "webpack -p",
       "env": {
         "DEBUG": true
+      }
+    },
+    "build": {
+      "command": "webpack -p",
+      "env": {
+        "NODE_ENV": "production"
       }
     }
   },
