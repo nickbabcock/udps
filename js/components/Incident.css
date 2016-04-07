@@ -20,3 +20,12 @@
 .incident:nth-last-child(2):nth-child(3n) {
   min-width: 33%;
 }
+
+.incidentInfo {
+  width: 250px;
+  height: 250px;
+  & p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+}

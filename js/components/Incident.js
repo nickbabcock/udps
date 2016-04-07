@@ -22,6 +22,12 @@ const Incident = ({ incident }) => (
         >
           <Map address={incident.address} />
         </GridTile>
+        <div className={styles.incidentInfo}>
+          <p>{"id: " + incident.id}</p>
+          <p>{"date: " + incident.date}</p>
+          <p>{"address: " + incident.address}</p>
+          <p>{"description: " + incident.narrative}</p>
+        </div>
       </Paper>
     </div>
   </ReactCSSTransitionGroup>
