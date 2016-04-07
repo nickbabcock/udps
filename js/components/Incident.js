@@ -4,6 +4,7 @@ import styles from './Incident.css';
 import Map from './Map';
 import GridTile from 'material-ui/lib/grid-list/grid-tile';
 import Paper from 'material-ui/lib/paper';
+const moment = require('moment');
 
 const Incident = ({ incident }) => (
   <ReactCSSTransitionGroup
@@ -24,7 +25,7 @@ const Incident = ({ incident }) => (
         </GridTile>
         <div className={styles.incidentInfo}>
           <p>{"id: " + incident.id}</p>
-          <p>{"date: " + incident.date}</p>
+          <p>{"date: " + moment(incident.date).format('llll')}</p>
           <p>{"address: " + incident.address}</p>
           <p>{"description: " + incident.narrative}</p>
         </div>
