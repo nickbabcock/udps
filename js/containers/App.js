@@ -16,9 +16,7 @@ const App = ({ history }) => (
         <Route path="/about" component={About} />
       </Route>
     </Router>
-    {/* only renders when running in DEV mode */
-      <DevTools />
-    }
+    { __DEV__ ? <DevTools /> : null }
   </div>
 );
 
