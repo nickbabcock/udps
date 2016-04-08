@@ -2,14 +2,15 @@
 # This script will request incident data from the university's site up to
 # PREVIOUS_DAYS ago and save each response as a file under DIR. After all
 # PREVIOUS_DAYS requests are fulfilled, the script will aggregate all data (not
-# just PREVIOUS_DAYS) into a single json file via jq.
+# just PREVIOUS_DAYS) into a single json file via jq output to the parent data
+# directory.
 #
 # To get the most of this script, place it in cron, executing 9am everyday as
 # the incident log states that "Information is generally available by 9:00am
 # each weekday."
 
-PREVIOUS_DAYS=$(seq 1 ${1})
-DIR="dps-json"
+PREVIOUS_DAYS=$(seq 1 ${1:-1})
+DIR="${2:-"dps-json"}"
 mkdir -p ${DIR}
 
 for i in ${PREVIOUS_DAYS}; do
@@ -32,4 +33,4 @@ for i in $(seq 1 $(ls "${DIR}"/*.json | wc -l)); do
 done;
 JQ_QUERY=$(printf "%s\n" ${JQ_QUERY[@]} | paste -sd '+')
 
-jq -c -s "${JQ_QUERY}" ${JSON_FILES} > data.json
+jq -c -s "${JQ_QUERY}" ${JSON_FILES} > "${DIR}/../data.json"
