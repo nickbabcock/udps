@@ -1,5 +1,6 @@
+# udps (Univerisity of Michigan's Department of Public Safety)
 
-# udps (udps)
+This website is not endorsed by anyone other than the enthusiastic author.
 
 > Umich dps service
 
