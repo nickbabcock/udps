@@ -5,7 +5,9 @@
 
 :root {
   --mainWidth: 960px;
+  --smallWidth: 480px;
 }
+
 
 html, body {
   height: 100%;

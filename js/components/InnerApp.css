@@ -10,4 +10,7 @@
   flex: 1;
   margin: 0 auto;
   width: var(--mainWidth);
+  @media (width < 960px) {
+    width: var(--smallWidth);
+  }
 }

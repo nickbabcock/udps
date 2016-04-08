@@ -11,6 +11,14 @@
 .nav {
   margin: 0 auto;
   width: var(--mainWidth);
+  @media (width < 960px) {
+    width: var(--smallWidth);
+  }
+  @media (width < 480px) {
+    width: auto;
+    max-width: var(--smallWidth);
+  }
+
   display: flex;
   align-items: center;
 
