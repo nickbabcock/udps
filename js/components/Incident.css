@@ -21,9 +21,25 @@
   min-width: 33%;
 }
 
+.off {
+  opacity: 0.01;
+}
+
+.on {
+  opacity: 1;
+}
+
+.transition {
+  transition: opacity 0.5s ease-out;
+}
+
 .incidentInfo {
   width: 250px;
   height: 250px;
+  position: absolute;
+  z-index: 1;
+  background: white;
+  padding: 5px;
   & p {
     margin-top: 4px;
     margin-bottom: 4px;
