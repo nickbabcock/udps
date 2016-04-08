@@ -33,8 +33,8 @@ class Home extends Component {
         { welcomeMessage !== false ? <Welcome closeFn={closeFn} /> : null }
         <div className={styles['incident-container']}>
             {selectedData.map((x) =>
-              <div className={styles.incident}>
-                <Incident key={x.id} incident={x} />
+              <div key={x.id} className={styles.incident}>
+                <Incident incident={x} />
               </div>
             )}
         </div>
