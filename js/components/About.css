@@ -1,7 +1,6 @@
 @import '../../css/Main.css';
 
 .textual {
-  max-width: var(--mainWidth);
   margin: 0 auto;
 
   & p, & li {
