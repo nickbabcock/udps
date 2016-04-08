@@ -4,7 +4,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ip = require('ip').address();
 
 const __DEV__ = JSON.parse(process.env.DEBUG || 'false');
-const devFlagPlugin = new webpack.DefinePlugin({ __DEV__ });
+const devFlagPlugin = new webpack.DefinePlugin({
+  __DEV__,
+  'process.env.NODE_ENV': `"${process.env.NODE_ENV}"`
+});
 const htmlWebPackPlugin = new HtmlWebpackPlugin({
   title: 'Umich DPS',
   template: 'index.ejs'
@@ -16,6 +19,7 @@ const plugins = __DEV__ ? [
   htmlWebPackPlugin,
   devFlagPlugin
 ] : [
+  devFlagPlugin,
   new webpack.optimize.OccurrenceOrderPlugin(),
   new webpack.optimize.DedupePlugin(),
   new webpack.optimize.UglifyJsPlugin({
