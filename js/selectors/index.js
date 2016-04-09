@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect';
-import { head, last } from 'lodash';
+import { head, last, partition, sortBy, compact } from 'lodash';
 const moment = require('moment');
 
 const getDate = (state, props) =>
@@ -22,18 +22,12 @@ export const getBetterDates = createSelector(
       return [];
     }
 
-    const prev = last(data.filter((x) => moment(x.date).isBefore(date, 'day')));
-    const next = head(data.filter((x) => moment(x.date).isAfter(date, 'day')));
+    const [bf, af] = partition(data, (x) => moment(x.date).isBefore(date, 'day'));
+    const result = [
+      last(sortBy(bf.map((x) => x.date))),
+      head(sortBy(af.map((x) => x.date)))
+    ];
 
-    const result = [];
-    if (prev) {
-      result.push(prev.date);
-    }
-
-    if (next) {
-      result.push(next.date);
-    }
-
-    return result;
+    return compact(result);
   }
 );
