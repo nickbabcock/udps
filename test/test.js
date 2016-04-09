@@ -1,5 +1,5 @@
 import chai, { expect } from 'chai';
-import { getSelectedDate } from '../js/selectors';
+import { getSelectedDate, getSelectedData } from '../js/selectors';
 const moment = require('moment');
 
 chai.use(require('chai-datetime'));
@@ -16,6 +16,53 @@ describe('Selectors', function () {
       const state = { date: new Date() };
       const expected = moment(incidentDate).toDate();
       expect(getSelectedDate(state, { params: { incidentDate } })).to.equalDate(expected);
+    });
+  });
+
+  describe('#getSelectedData', function () {
+    it('should return no data if data is empty', function () {
+      const state = {
+        data: [],
+        date: new Date()
+      };
+
+      const props = { params: {} };
+      const actual = getSelectedData(state, props);
+      expect(actual).to.be.empty;
+    });
+
+    it('should return no data if date is not found', function () {
+      const state = {
+        data: [{
+          date: moment('2012-02-02').toDate()
+        }, {
+          date: moment('2012-02-03').toDate()
+        }, {
+          date: moment('2012-02-04').toDate()
+        }],
+        date: new Date()
+      };
+
+      const props = { params: {} };
+      const actual = getSelectedData(state, props);
+      expect(actual).to.be.empty;
+    });
+
+    it('should return all data if date is found', function () {
+      const state = {
+        data: [{
+          date: moment('2012-02-02').toDate()
+        }, {
+          date: moment('2012-02-03').toDate()
+        }, {
+          date: moment('2012-02-04').toDate()
+        }],
+        date: moment('2012-02-03').toDate()
+      };
+
+      const props = { params: {} };
+      const actual = getSelectedData(state, props);
+      expect(actual).to.eql([{ date: moment('2012-02-03').toDate() }]);
     });
   });
 });
