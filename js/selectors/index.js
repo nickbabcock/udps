@@ -3,7 +3,8 @@ import { head, last } from 'lodash';
 const moment = require('moment');
 
 const getDate = (state, props) =>
-  moment(props.params.incidentDate).toDate() || state.date;
+  props.params.incidentDate ? moment(props.params.incidentDate).toDate() :
+    state.date;
 const getData = (state) => state.data;
 
 export const getSelectedDate = createSelector([getDate], (date) => date);
