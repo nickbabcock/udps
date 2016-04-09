@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nickbabcock/udps.svg?branch=master)](https://travis-ci.org/nickbabcock/udps)
+
 # udps (Univerisity of Michigan's Department of Public Safety)
 
 This website is not endorsed by anyone other than the enthusiastic author.
