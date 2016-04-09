@@ -1,12 +1,14 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+import { Link } from 'react-router';
 import DatePicker from 'material-ui/lib/date-picker/date-picker';
 import Welcome from '../components/Welcome';
 import Incident from '../components/Incident';
 import styles from './Home.css';
 import * as HomeActions from '../actions/HomeActions';
-import { getSelectedData, getSelectedDate } from '../selectors';
+import { getSelectedData, getSelectedDate, getBetterDates } from '../selectors';
+const moment = require('moment');
 
 class Home extends Component {
   componentDidMount() {
@@ -16,8 +18,17 @@ class Home extends Component {
   }
 
   render() {
-    const { welcomeMessage, date, actions, selectedData } = this.props;
+    const { welcomeMessage, date, actions, selectedData, betterDates } = this.props;
     const closeFn = actions.closeWelcomeMessage;
+    const suggestions = selectedData.length !== 0 ? null : (
+      <div>
+        No incidents happened on {moment(date).format('LL')}, how about trying the following:
+          {betterDates.map((x) =>
+            <Link to={`/date/${moment(x).format('YYYY-MM-DD')}`}>{moment(x).format('LL')}</Link>
+          )}
+      </div>
+    );
+
     return (
       <main>
         <div>
@@ -30,6 +41,7 @@ class Home extends Component {
             />
           </label>
         </div>
+        { suggestions }
         { welcomeMessage !== false ? <Welcome closeFn={closeFn} /> : null }
         <div className={styles['incident-container']}>
             {selectedData.map((x) =>
@@ -54,7 +66,8 @@ Home.propTypes = {
 const mapStateToProps = (state, ownProps) => ({
   welcomeMessage: state.welcomeMessage,
   date: getSelectedDate(state, ownProps),
-  selectedData: getSelectedData(state, ownProps)
+  selectedData: getSelectedData(state, ownProps),
+  betterDates: getBetterDates(state, ownProps)
 });
 
 const mapDispatchToProps = (dispatch) => ({
