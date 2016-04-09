@@ -16,7 +16,7 @@ class Home extends Component {
   }
 
   render() {
-    const { welcomeMessage, date, actions, selectedData, params } = this.props;
+    const { welcomeMessage, date, actions, selectedData } = this.props;
     const closeFn = actions.closeWelcomeMessage;
     return (
       <main>

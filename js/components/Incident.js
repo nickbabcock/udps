@@ -31,11 +31,14 @@ export default class Incident extends Component {
       >
         <div key={incident.id} className={styles.incident}>
           <Paper zDepth={2}>
-            <div className={classNames(styles.incidentInfo, cls, styles.transition)} onClick={() => this.onClick()}>
-              <p>{"id: " + incident.id}</p>
-              <p>{"date: " + moment(incident.date).format('llll')}</p>
-              <p>{"address: " + incident.address}</p>
-              <p>{"description: " + incident.narrative}</p>
+            <div
+              className={classNames(styles.incidentInfo, cls, styles.transition)}
+              onClick={() => this.onClick()}
+            >
+              <p>{`id: ${incident.id}`}</p>
+              <p>{`date: ${moment(incident.date).format('llll')}`}</p>
+              <p>{`address: ${incident.address}`}</p>
+              <p>{`description: ${incident.narrative}`}</p>
             </div>
             <GridTile
               key={incident.id}
@@ -50,7 +53,7 @@ export default class Incident extends Component {
       </ReactCSSTransitionGroup>
     );
   }
-};
+}
 
 Incident.propTypes = {
   incident: PropTypes.object.isRequired
