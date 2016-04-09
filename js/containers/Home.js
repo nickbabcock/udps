@@ -24,7 +24,9 @@ class Home extends Component {
       <div>
         No incidents happened on {moment(date).format('LL')}, how about trying the following:
           {betterDates.map((x) =>
-            <Link key={x} to={`/date/${moment(x).format('YYYY-MM-DD')}`}>{moment(x).format('LL')}</Link>
+            <Link key={x} to={`/date/${moment(x).format('YYYY-MM-DD')}`}>
+              {moment(x).format('LL')}
+            </Link>
           )}
       </div>
     );
@@ -58,7 +60,8 @@ Home.propTypes = {
   selectedData: PropTypes.array.isRequired,
   welcomeMessage: PropTypes.bool,
   date: PropTypes.object.isRequired,
-  params: PropTypes.object
+  params: PropTypes.object,
+  betterDates: PropTypes.array
 };
 
 const mapStateToProps = (state, ownProps) => ({

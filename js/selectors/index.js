@@ -3,8 +3,9 @@ import { head, last } from 'lodash';
 const moment = require('moment');
 
 const getDate = (state, props) =>
-  props.params.incidentDate ? moment(props.params.incidentDate).toDate() :
-    state.date;
+  (!props.params.incidentDate ? state.date :
+    moment(props.params.incidentDate).toDate());
+
 const getData = (state) => state.data;
 
 export const getSelectedDate = createSelector([getDate], (date) => date);
@@ -24,7 +25,7 @@ export const getBetterDates = createSelector(
     const prev = last(data.filter((x) => moment(x.date).isBefore(date, 'day')));
     const next = head(data.filter((x) => moment(x.date).isAfter(date, 'day')));
 
-    let result = [];
+    const result = [];
     if (prev) {
       result.push(prev.date);
     }
