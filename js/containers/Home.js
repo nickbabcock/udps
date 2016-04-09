@@ -31,15 +31,13 @@ class Home extends Component {
 
     return (
       <main>
-        <div>
-          <label className={styles['date-label']}>
-            Date of Incidents
-            <DatePicker
-              className={styles['date-picker']}
-              value={date}
-              onChange={(e, d) => actions.mapDateChange(d)}
-            />
-          </label>
+        <div className={styles['date-label']}>
+          <h2>Date of Incidents</h2>
+          <DatePicker
+            className={styles['date-picker']}
+            value={date}
+            onChange={(e, d) => actions.mapDateChange(d)}
+          />
         </div>
         { suggestions }
         { welcomeMessage !== false ? <Welcome closeFn={closeFn} /> : null }
