@@ -8,8 +8,8 @@ describe('Selectors', function () {
   const febData = [{
     date: moment('2012-02-02').toDate()
   }, {
-      date: moment('2012-02-03').toDate()
-    }, {
+    date: moment('2012-02-03').toDate()
+  }, {
       date: moment('2012-02-04').toDate()
     }];
 
@@ -100,8 +100,8 @@ describe('Selectors', function () {
       const data = [{
         date: moment('2012-02-02').toDate()
       }, {
-          date: moment('2012-02-04').toDate()
-        }];
+        date: moment('2012-02-04').toDate()
+      }];
 
       const state = { data, date: moment('2012-02-03').toDate() };
       const props = { params: {} };
