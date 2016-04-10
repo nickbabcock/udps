@@ -10,8 +10,8 @@ describe('Selectors', function () {
   }, {
     date: moment('2012-02-03').toDate()
   }, {
-      date: moment('2012-02-04').toDate()
-    }];
+    date: moment('2012-02-04').toDate()
+  }];
 
   describe('#getDate()', function () {
     it('should return state date when param not specified', function () {

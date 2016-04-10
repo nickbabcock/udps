@@ -36,6 +36,9 @@ const entry = ['eventsource-polyfill', 'babel-polyfill'].concat(
   __DEV__ ? [`webpack-dev-server/client?http://${ip}:3000`, 'webpack/hot/only-dev-server'] : []
 ).concat(['./js/index.js']);
 
+const jsInclude = (__DEV__ ? [path.resolve(__dirname, 'test')] : []).
+  concat([path.resolve(__dirname, 'js')]);
+
 module.exports = {
   devtool: __DEV__ ? 'cheap-module-eval-source-map' : 'source-map',
   entry,
@@ -48,9 +51,10 @@ module.exports = {
   plugins,
   module: {
     loaders: [
-      { test: /\.js$/, loaders: ['babel'], include: [path.resolve(__dirname, 'js')] },
+      { test: /\.js$/, loaders: ['babel'], include: jsInclude },
       { test: /\.css$/, loaders: ['style', 'css?modules&sourceMap', 'postcss'] },
-      { test: /\.md$/, loaders: ['html', 'markdown'] }
+      { test: /\.md$/, loaders: ['html', 'markdown'] },
+      { test: /\.json$/, loaders: ['json'] }
     ]
   },
   postcss: (wb) =>
