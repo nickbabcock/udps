@@ -48,7 +48,7 @@ module.exports = {
   plugins,
   module: {
     loaders: [
-      { test: /\.js$/, loaders: ['babel'], exclude: /node_modules/ },
+      { test: /\.js$/, loaders: ['babel'], include: [path.resolve(__dirname, 'js')] },
       { test: /\.css$/, loaders: ['style', 'css?modules&sourceMap', 'postcss'] },
       { test: /\.md$/, loaders: ['html', 'markdown'] }
     ]
