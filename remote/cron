@@ -1,2 +1,2 @@
-# 9am let's refresh the data from the past couple days
-0 9 * * * dps 2 /var/www/udps/data/daily
+# 9am let's refresh the data from the past week
+0 9 * * * /usr/local/bin/dps 7 /var/www/udps/data/daily
