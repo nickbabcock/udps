@@ -1,5 +1,6 @@
 const webpackConfig = require('./webpack.config');
 webpackConfig.devtool = 'inline-source-map';
+webpackConfig.module.noParse = [ /\/sinon\.js/ ];
 webpackConfig.externals = {
   'react/lib/ExecutionEnvironment': true,
   'react/lib/ReactContext': 'window'
@@ -9,7 +10,7 @@ module.exports = (config) => {
   config.set({
     browsers: ['PhantomJS'],
     singleRun: true,
-    frameworks: ['mocha', 'chai'],
+    frameworks: ['mocha', 'chai', 'sinon', 'sinon-chai'],
     files: ['tests.webpack.js'],
     plugins: [
       'karma-phantomjs-launcher',
@@ -17,7 +18,9 @@ module.exports = (config) => {
       'karma-mocha',
       'karma-sourcemap-loader',
       'karma-webpack',
-      'karma-mocha-reporter'
+      'karma-mocha-reporter',
+      'karma-sinon',
+      'karma-sinon-chai'
     ],
     preprocessors: {
       'tests.webpack.js': ['webpack', 'sourcemap']

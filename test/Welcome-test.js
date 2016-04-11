@@ -8,5 +8,12 @@ describe('<Welcome />', function () {
     const wrapper = mount(<Welcome closeFn={() => { } } />);
     expect(wrapper.text()).to.contain('Clery Act');
   });
+
+  it('should call closeFn once when button is clicked', function() {
+    const spy = sinon.spy();
+    const wrapper = mount(<Welcome closeFn={spy} />);
+    wrapper.find('button').simulate('click');
+    expect(spy).to.be.calledOnce;
+  });
 });
 
