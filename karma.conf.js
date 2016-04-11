@@ -1,6 +1,5 @@
 const webpackConfig = require('./webpack.config');
 webpackConfig.devtool = 'inline-source-map';
-webpackConfig.module.noParse = [/\/sinon\.js/];
 webpackConfig.externals = {
   'react/lib/ExecutionEnvironment': true,
   'react/lib/ReactContext': 'window'
