@@ -23,4 +23,17 @@ describe('<Incident />', function () {
     expect(styles.incident).to.not.be.empty;
     expect(wrapper.closest(`div.${styles.incident}`)).to.have.length(1);
   });
+
+  it('should change the text state on clicking the GridTile', function () {
+    const wrapper = mount(<Incident incident={incident} />);
+    wrapper.find('GridTile').simulate('click');
+    expect(wrapper.state().showText).to.eql(true);
+  });
+
+  it('should change the text state back to default on clicking the textual incident', function () {
+    const wrapper = mount(<Incident incident={incident} />);
+    wrapper.find('GridTile').simulate('click');
+    wrapper.find(`.${styles.incidentInfo}`).simulate('click');
+    expect(wrapper.state().showText).to.eql(false);
+  });
 });
