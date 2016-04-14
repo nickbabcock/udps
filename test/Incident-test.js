@@ -33,7 +33,14 @@ describe('<Incident />', function () {
   it('should change the text state back to default on clicking the textual incident', function () {
     const wrapper = mount(<Incident incident={incident} />);
     wrapper.find('GridTile').simulate('click');
+    expect(wrapper.state().showText).to.eql(true);
     wrapper.find(`.${styles.incidentInfo}`).simulate('click');
     expect(wrapper.state().showText).to.eql(false);
+  });
+
+  it('should contain friendly date', function () {
+    const wrapper = mount(<Incident incident={incident} />);
+    wrapper.find('GridTile').simulate('click');
+    expect(wrapper.find(`.${styles.incidentInfo}`).text()).to.contain('Wed, Feb 3, 2016 12:00 AM');
   });
 });
