@@ -1,17 +1,21 @@
 import chai, { expect } from 'chai';
 import { getSelectedDate, getSelectedData, getBetterDates } from '../js/selectors';
+import { assign } from 'lodash';
 const moment = require('moment');
 
 chai.use(require('chai-datetime'));
 
 describe('Selectors', function () {
-  const febData = [{
-    date: moment('2012-02-02').toDate()
-  }, {
-    date: moment('2012-02-03').toDate()
-  }, {
-    date: moment('2012-02-04').toDate()
-  }];
+  let febData = [];
+  beforeEach(function () {
+    febData = [{
+      date: moment('2012-02-02')
+    }, {
+       date: moment('2012-02-03')
+     }, {
+        date: moment('2012-02-04')
+      }];
+  });
 
   describe('#getDate()', function () {
     it('should return state date when param not specified', function () {
@@ -53,11 +57,12 @@ describe('Selectors', function () {
     it('should return all data if date is found', function () {
       const state = {
         data: febData,
-        date: moment('2012-02-03').toDate()
+        date: moment('2012-02-03')
       };
 
       const props = { params: {} };
-      const actual = getSelectedData(state, props);
+      const actual = getSelectedData(state, props)
+        .map(x => assign({}, x, { date: x.date.toDate() }));
       expect(actual).to.eql([{ date: moment('2012-02-03').toDate() }]);
     });
   });
@@ -66,7 +71,7 @@ describe('Selectors', function () {
     it('should return the empty list if selected data exists', function () {
       const state = {
         data: febData,
-        date: moment('2012-02-03').toDate()
+        date: moment('2012-02-03')
       };
 
       const props = { params: {} };
@@ -77,52 +82,52 @@ describe('Selectors', function () {
     it('should return a past date when in the future', function () {
       const state = {
         data: febData,
-        date: moment('2012-02-06').toDate()
+        date: moment('2012-02-06')
       };
 
       const props = { params: {} };
-      const actual = getBetterDates(state, props);
+      const actual = getBetterDates(state, props).map(x => x.toDate());
       expect(actual).to.eql([new Date(2012, 1, 4)]);
     });
 
     it('should return a future date when in the past', function () {
       const state = {
         data: febData,
-        date: moment('2012-01-06').toDate()
+        date: moment('2012-01-06')
       };
 
       const props = { params: {} };
-      const actual = getBetterDates(state, props);
+      const actual = getBetterDates(state, props).map(x => x.toDate());
       expect(actual).to.eql([new Date(2012, 1, 2)]);
     });
 
     it('should return past and future date', function () {
       const data = [{
-        date: moment('2012-02-02').toDate()
+        date: moment('2012-02-02')
       }, {
-        date: moment('2012-02-04').toDate()
+        date: moment('2012-02-04')
       }];
 
-      const state = { data, date: moment('2012-02-03').toDate() };
+      const state = { data, date: moment('2012-02-03') };
       const props = { params: {} };
-      const actual = getBetterDates(state, props);
+      const actual = getBetterDates(state, props).map(x => x.toDate());
       expect(actual).to.eql([new Date(2012, 1, 2), new Date(2012, 1, 4)]);
     });
 
     it('should not matter how the data is sorted', function () {
       const data = [{
-        date: moment('2012-02-04').toDate()
+        date: moment('2012-02-04')
       }, {
-        date: moment('2012-02-02').toDate()
+        date: moment('2012-02-02')
       }, {
-        date: moment('2012-02-05').toDate()
+        date: moment('2012-02-05')
       }, {
-        date: moment('2012-02-01').toDate()
+        date: moment('2012-02-01')
       }];
 
-      const state = { data, date: moment('2012-02-03').toDate() };
+      const state = { data, date: moment('2012-02-03') };
       const props = { params: {} };
-      const actual = getBetterDates(state, props);
+      const actual = getBetterDates(state, props).map(x => x.toDate());
       expect(actual).to.eql([new Date(2012, 1, 2), new Date(2012, 1, 4)]);
     });
   });

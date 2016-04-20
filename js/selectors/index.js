@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect';
-import { head, last, partition, sortBy, compact } from 'lodash';
+import { partition, compact, minBy, maxBy } from 'lodash';
 const moment = require('moment');
 
 // If someone navigates to the page like /2016-01-01, that takes precedent over
@@ -16,7 +16,7 @@ export const getSelectedDate = createSelector([getDate], (date) => date);
 export const getSelectedData = createSelector(
   [getData, getDate],
   (data, date) =>
-    data.filter((x) => moment(x.date).isSame(date, 'day'))
+    data.filter((x) => x.date.isSame(date, 'day'))
 );
 
 // If no incidents occurred on a given day select the nearest past and future
@@ -28,12 +28,8 @@ export const getBetterDates = createSelector(
       return [];
     }
 
-    const [bf, af] = partition(data, (x) => moment(x.date).isBefore(date, 'day'));
-    const result = [
-      last(sortBy(bf.map((x) => x.date))),
-      head(sortBy(af.map((x) => x.date)))
-    ];
-
-    return compact(result);
+    const [bf, af] = partition(data, (x) => x.date.isBefore(date, 'day'));
+    const result = [maxBy(bf, x => x.date), minBy(af, x => x.date)];
+    return compact(result).map(x => x.date);
   }
 );
