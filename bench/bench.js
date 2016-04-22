@@ -31,6 +31,6 @@ suite.add('getBetterDates', () => currentGetBetterDates(data, date))
 .add('oldGetBetterDates', () => oldGetBetterDates(data, date))
 .on('complete', function() {
   for (let i = 0; i < this.length; i++) {
-    console.log(`${this[i].name}: ${(this[i].stats.mean * 1000).toFixed(2)}ms`);
+    console.log(`${this[i].name}: ${(this[i].stats.mean * 1000 * 1000).toFixed(2)}us`);
   }
 }).run();
