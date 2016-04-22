@@ -11,9 +11,9 @@ describe('Selectors', function () {
     febData = [{
       date: moment('2012-02-02')
     }, {
-       date: moment('2012-02-03')
+      date: moment('2012-02-03')
     }, {
-       date: moment('2012-02-04')
+      date: moment('2012-02-04')
     }];
   });
 
