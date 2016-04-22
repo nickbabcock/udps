@@ -36,8 +36,8 @@ export function closeWelcomeMessage() {
 }
 
 export function mapDateChange(value) {
-  const date = moment(value).format('YYYY-MM-DD');
-  browserHistory.push(`/date/${date}`);
+  const date = moment(value);
+  browserHistory.push(`/date/${date.format('YYYY-MM-DD')}`);
   return {
     type: MAP_DATE_CHANGE,
     data: value
