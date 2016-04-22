@@ -38,7 +38,7 @@ class Home extends Component {
           <h2>Date of Incidents</h2>
           <DatePicker
             className={styles['date-picker']}
-            value={date}
+            value={date.toDate()}
             onChange={(e, d) => actions.mapDateChange(d)}
           />
         </div>

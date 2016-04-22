@@ -6,7 +6,7 @@ const moment = require('moment');
 // any previous state
 const getDate = (state, props) =>
   (!props.params.incidentDate ? state.date :
-    moment(props.params.incidentDate).toDate());
+    moment(props.params.incidentDate));
 
 const getData = (state) => state.data;
 
@@ -16,7 +16,9 @@ export const getSelectedDate = createSelector([getDate], (date) => date);
 export const getSelectedData = createSelector(
   [getData, getDate],
   (data, date) =>
-    data.filter((x) => x.date.isSame(date, 'day'))
+    data.filter((x) => x.date.year() === date.year() &&
+      x.date.month() === date.month() &&
+      x.date.day() === date.day())
 );
 
 // If no incidents occurred on a given day select the nearest past and future

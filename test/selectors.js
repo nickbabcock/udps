@@ -12,22 +12,22 @@ describe('Selectors', function () {
       date: moment('2012-02-02')
     }, {
        date: moment('2012-02-03')
-     }, {
-        date: moment('2012-02-04')
-      }];
+    }, {
+       date: moment('2012-02-04')
+    }];
   });
 
   describe('#getDate()', function () {
     it('should return state date when param not specified', function () {
-      const date = new Date();
-      expect(getSelectedDate({ date }, { params: {} })).to.equal(date);
+      const date = moment();
+      expect(getSelectedDate({ date }, { params: {} }).toDate()).to.equal(date.toDate());
     });
 
     it('should return param when param is specified', function () {
       const incidentDate = '2016-02-04';
-      const state = { date: new Date() };
+      const state = { date: moment() };
       const expected = moment(incidentDate).toDate();
-      expect(getSelectedDate(state, { params: { incidentDate } })).to.equalDate(expected);
+      expect(getSelectedDate(state, { params: { incidentDate } }).toDate()).to.equalDate(expected);
     });
   });
 
@@ -35,7 +35,7 @@ describe('Selectors', function () {
     it('should return no data if data is empty', function () {
       const state = {
         data: [],
-        date: new Date()
+        date: moment()
       };
 
       const props = { params: {} };
@@ -46,7 +46,7 @@ describe('Selectors', function () {
     it('should return no data if date is not found', function () {
       const state = {
         data: febData,
-        date: new Date()
+        date: moment()
       };
 
       const props = { params: {} };
