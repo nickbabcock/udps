@@ -22,7 +22,7 @@ class Home extends Component {
     const closeFn = actions.closeWelcomeMessage;
     const suggestions = selectedData.length !== 0 ? null : (
       <div>
-        No incidents happened on {moment(date).format('LL')}, how about trying the following:
+        No incidents happened on {date.format('LL')}, how about trying the following:
           {betterDates.map((x) =>
             <Link key={x} to={`/date/${moment(x).format('YYYY-MM-DD')}`}>
               {moment(x).format('LL')}
