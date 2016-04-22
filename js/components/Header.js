@@ -8,9 +8,9 @@ const Header = () => (
   <header className={styles.header}>
     <div className={styles.nav}>
       <div>
-       <Link to="/" onlyActiveOnIndex>
-        <h1 style={{ color: darkBlack }}>Umich DPS</h1>
-       </Link>
+        <Link to="/" onlyActiveOnIndex>
+          <h1 style={{ color: darkBlack }}>Umich DPS</h1>
+        </Link>
       </div>
       <div className={styles.links}>
         <Link to="/statistics"><FlatButton label="Statistics" /></Link>

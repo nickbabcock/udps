@@ -13,10 +13,12 @@ export default class Welcome extends Component {
     const { closeFn } = this.props;
     return (
       <div className={styles.leader}>
-        <div className={styles.largeFont}
+        <div
+          className={styles.largeFont}
           dangerouslySetInnerHTML={this.markup()}
         />
-        <FlatButton label="x"
+        <FlatButton
+          label="x"
           style={{ alignSelf: 'flex-start', marginTop: '14px' }}
           onClick={closeFn}
         />

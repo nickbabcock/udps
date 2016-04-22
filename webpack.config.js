@@ -1,3 +1,4 @@
+/* eslint-disable global-require,no-underscore-dangle */
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');

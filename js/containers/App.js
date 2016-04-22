@@ -16,7 +16,7 @@ const App = ({ history }) => (
         <Route path="/about" component={About} />
       </Route>
     </Router>
-    { __DEV__ ? <DevTools /> : null }
+    {__DEV__ ? <DevTools /> : null}
   </div>
 );
 

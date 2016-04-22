@@ -33,7 +33,7 @@ class Home extends Component {
 
     return (
       <main>
-        { welcomeMessage !== false ? <Welcome closeFn={closeFn} /> : null }
+        {welcomeMessage !== false ? <Welcome closeFn={closeFn} /> : null}
         <div className={styles['date-label']}>
           <h2>Date of Incidents</h2>
           <DatePicker
@@ -42,7 +42,7 @@ class Home extends Component {
             onChange={(e, d) => actions.mapDateChange(d)}
           />
         </div>
-        { suggestions }
+        {suggestions}
         <div className={styles['incident-container']}>
             {selectedData.map((x) =>
               <div key={x.id} className={styles.incident}>
