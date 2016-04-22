@@ -30,7 +30,7 @@ const date2 = moment('2000-02-04');
 
 const sameDay = (d) => date.isSame(d, 'day');
 const sameDayManual = (d) => date.year() === d.year() &&
-  date.month() === d.month() && date.day() === d.month();
+  date.month() === d.month() && date.date() === d.date();
 
 suite.add('getBetterDates', () => currentGetBetterDates(data, date))
 .add('oldGetBetterDates', () => oldGetBetterDates(data, date))

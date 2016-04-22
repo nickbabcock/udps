@@ -18,7 +18,7 @@ export const getSelectedData = createSelector(
   (data, date) =>
     data.filter((x) => x.date.year() === date.year() &&
       x.date.month() === date.month() &&
-      x.date.day() === date.day())
+      x.date.date() === date.date())
 );
 
 // If no incidents occurred on a given day select the nearest past and future
