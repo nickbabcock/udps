@@ -8,11 +8,10 @@ const data = require('../test-data.json')
   .map(x => Object.assign({}, x, { date: moment(x.date) }));
 
 // Doesn't use the convenient moment js function of `isBefore` and instead,
-// gains more than 10x throughput
+// gains more than 30x throughput
 const getBetterDateswoMoment = (incidents, date) => {
-  const [bf, af] = partition(incidents, (x) =>
-    x.date.year() <= date.year() && x.date.month() <= date.month() &&
-    x.date.date() < date.date());
+  const epc = +date;
+  const [bf, af] = partition(incidents, (x) => +x.date < epc);
   const result = [maxBy(bf, x => x.date), minBy(af, x => x.date)];
   return compact(result).map(x => x.date);
 };

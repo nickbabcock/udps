@@ -130,5 +130,24 @@ describe('Selectors', function () {
       const actual = getBetterDates(state, props).map(x => x.toDate());
       expect(actual).to.eql([new Date(2012, 1, 2), new Date(2012, 1, 4)]);
     });
+
+    it('should not matter how the data is sorted with full year', function () {
+      const data = [{
+        date: moment('2011-02-04')
+      }, {
+        date: moment('2011-03-04')
+      }, {
+        date: moment('2012-02-02')
+      }, {
+        date: moment('2012-02-05')
+      }, {
+        date: moment('2012-02-01')
+      }];
+
+      const state = { data, date: moment('2012-02-06') };
+      const props = { params: {} };
+      const actual = getBetterDates(state, props).map(x => x.toDate());
+      expect(actual).to.eql([new Date(2012, 1, 5)]);
+    });
   });
 });
