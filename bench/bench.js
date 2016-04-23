@@ -7,6 +7,16 @@ const suite = new Benchmark.Suite;
 const data = require('../test-data.json')
   .map(x => Object.assign({}, x, { date: moment(x.date) }));
 
+// Doesn't use the convenient moment js function of `isBefore` and instead,
+// gains more than 10x throughput
+const getBetterDateswoMoment = (incidents, date) => {
+  const [bf, af] = partition(incidents, (x) =>
+    x.date.year() <= date.year() && x.date.month() <= date.month() &&
+    x.date.date() < date.date());
+  const result = [maxBy(bf, x => x.date), minBy(af, x => x.date)];
+  return compact(result).map(x => x.date);
+};
+
 const currentGetBetterDates = (incidents, date) => {
   const [bf, af] = partition(incidents, (x) => x.date.isBefore(date, 'day'));
   const result = [maxBy(bf, x => x.date), minBy(af, x => x.date)];
@@ -33,6 +43,7 @@ const sameDayManual = (d) => date.year() === d.year() &&
   date.month() === d.month() && date.date() === d.date();
 
 suite.add('getBetterDates', () => currentGetBetterDates(data, date))
+.add('getBetterDateswoMoment', () => getBetterDateswoMoment(data, date))
 .add('oldGetBetterDates', () => oldGetBetterDates(data, date))
 .add('sameDay', () => sameDay(date2))
 .add('sameDayManual', () => sameDayManual(date2))

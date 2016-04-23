@@ -30,7 +30,9 @@ export const getBetterDates = createSelector(
       return [];
     }
 
-    const [bf, af] = partition(data, (x) => x.date.isBefore(date, 'day'));
+    const [bf, af] = partition(data, (x) =>
+      x.date.year() <= date.year() && x.date.month() <= date.month() &&
+      x.date.date() < date.date());
     const result = [maxBy(bf, x => x.date), minBy(af, x => x.date)];
     return compact(result).map(x => x.date);
   }
