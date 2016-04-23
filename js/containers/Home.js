@@ -5,6 +5,7 @@ import { Link } from 'react-router';
 import DatePicker from 'material-ui/lib/date-picker/date-picker';
 import Welcome from '../components/Welcome';
 import Incident from '../components/Incident';
+import BetterDate from '../components/BetterDate';
 import styles from './Home.css';
 import * as HomeActions from '../actions/HomeActions';
 import { getSelectedData, getSelectedDate, getBetterDates } from '../selectors';
@@ -20,20 +21,10 @@ class Home extends Component {
   render() {
     const { welcomeMessage, date, actions, selectedData, betterDates } = this.props;
     const closeFn = actions.closeWelcomeMessage;
-    const suggestions = selectedData.length !== 0 ? null : (
-      <div>
-        No incidents happened on {date.format('LL')}, how about trying the following:
-          {betterDates.map((x) =>
-            <Link key={x} to={`/date/${moment(x).format('YYYY-MM-DD')}`}>
-              {moment(x).format('LL')}
-            </Link>
-          )}
-      </div>
-    );
-
     return (
       <main>
         {welcomeMessage !== false ? <Welcome closeFn={closeFn} /> : null}
+        {selectedData.length !== 0 ? null : <BetterDate date={date} betterDates={betterDates} />}
         <div className={styles['date-label']}>
           <h2>Date of Incidents</h2>
           <DatePicker
