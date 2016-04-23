@@ -1,7 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { Link } from 'react-router';
 import DatePicker from 'material-ui/lib/date-picker/date-picker';
 import Welcome from '../components/Welcome';
 import Incident from '../components/Incident';
@@ -9,7 +8,6 @@ import BetterDate from '../components/BetterDate';
 import styles from './Home.css';
 import * as HomeActions from '../actions/HomeActions';
 import { getSelectedData, getSelectedDate, getBetterDates } from '../selectors';
-const moment = require('moment');
 
 class Home extends Component {
   componentDidMount() {
@@ -24,7 +22,6 @@ class Home extends Component {
     return (
       <main>
         {welcomeMessage !== false ? <Welcome closeFn={closeFn} /> : null}
-        {selectedData.length !== 0 ? null : <BetterDate date={date} betterDates={betterDates} />}
         <div className={styles['date-label']}>
           <h2>Date of Incidents</h2>
           <DatePicker
@@ -33,7 +30,7 @@ class Home extends Component {
             onChange={(e, d) => actions.mapDateChange(d)}
           />
         </div>
-        {suggestions}
+        {selectedData.length !== 0 ? null : <BetterDate date={date} betterDates={betterDates} />}
         <div className={styles['incident-container']}>
             {selectedData.map((x) =>
               <div key={x.id} className={styles.incident}>
