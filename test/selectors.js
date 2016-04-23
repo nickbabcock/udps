@@ -65,7 +65,54 @@ describe('Selectors', function () {
         .map(x => assign({}, x, { date: x.date.toDate() }));
       expect(actual).to.eql([{ date: moment('2012-02-03').toDate() }]);
     });
+
+    it('should return data if on start of interval', function () {
+      const state = {
+        data: febData,
+        date: moment('2012-02-02')
+      };
+
+      const props = { params: {} };
+      const actual = getSelectedData(state, props)
+        .map(x => assign({}, x, { date: x.date.toDate() }));
+      expect(actual).to.eql([{ date: moment('2012-02-02').toDate() }]);
+    });
+
+    it('should return data if on end of interval', function () {
+      const state = {
+        data: febData,
+        date: moment('2012-02-04')
+      };
+
+      const props = { params: {} };
+      const actual = getSelectedData(state, props)
+        .map(x => assign({}, x, { date: x.date.toDate() }));
+      expect(actual).to.eql([{ date: moment('2012-02-04').toDate() }]);
+    });
+
+    it('should not return data if one day before interval', function () {
+      const state = {
+        data: febData,
+        date: moment('2012-02-01')
+      };
+
+      const props = { params: {} };
+      const actual = getSelectedData(state, props);
+      expect(actual).to.eql([]);
+    });
+
+    it('should not return data if one day after interval', function () {
+      const state = {
+        data: febData,
+        date: moment('2012-02-05')
+      };
+
+      const props = { params: {} };
+      const actual = getSelectedData(state, props);
+      expect(actual).to.eql([]);
+    });
   });
+
 
   describe('#getBetterDates()', function () {
     it('should return the empty list if selected data exists', function () {
