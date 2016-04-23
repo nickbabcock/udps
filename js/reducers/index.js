@@ -3,7 +3,7 @@ import { routerReducer } from 'react-router-redux';
 import * as ActionTypes from '../constants/ActionTypes';
 const moment = require('moment');
 
-const date = (state = moment().subtract(1, 'day'), action) => {
+export const date = (state = moment().subtract(1, 'day').startOf('day'), action) => {
   switch (action.type) {
     case ActionTypes.MAP_DATE_CHANGE:
       return action.data;
@@ -12,7 +12,7 @@ const date = (state = moment().subtract(1, 'day'), action) => {
   }
 };
 
-const welcomeMessage = (state = true, action) => {
+export const welcomeMessage = (state = true, action) => {
   switch (action.type) {
     case ActionTypes.SHOW_WELCOME:
       return action.data;
@@ -21,7 +21,7 @@ const welcomeMessage = (state = true, action) => {
   }
 };
 
-const data = (state = [], action) => {
+export const data = (state = [], action) => {
   switch (action.type) {
     case ActionTypes.REQUEST_DPS_DONE:
       return action.data;
