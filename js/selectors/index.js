@@ -15,10 +15,10 @@ export const getSelectedDate = createSelector([getDate], (date) => date);
 // Filter to incidents that occurred as the same day that is selected
 export const getSelectedData = createSelector(
   [getData, getDate],
-  (data, date) =>
-    data.filter((x) => x.date.year() === date.year() &&
-      x.date.month() === date.month() &&
-      x.date.date() === date.date())
+  (data, date) => {
+    const [yester, nextday] = [+date, +date.add(1, 'days')]
+    return data.filter((x) => +x.date < nextday && +x.date >= yester)
+  }
 );
 
 // If no incidents occurred on a given day select the nearest past and future
