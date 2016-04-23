@@ -40,7 +40,7 @@ export function mapDateChange(value) {
   browserHistory.push(`/date/${date.format('YYYY-MM-DD')}`);
   return {
     type: MAP_DATE_CHANGE,
-    data: value
+    data: date
   };
 }
 
