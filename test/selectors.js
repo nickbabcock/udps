@@ -114,6 +114,20 @@ describe('Selectors', function () {
       expect(actual).to.eql([new Date(2012, 1, 2), new Date(2012, 1, 4)]);
     });
 
+    it('should not modify state', function () {
+      const data = [{
+        date: moment('2012-02-02')
+      }, {
+        date: moment('2012-02-04')
+      }];
+
+      const state = { data, date: moment('2012-02-03') };
+      const props = { params: {} };
+      const actual = getBetterDates(state, props).map(x => x.toDate());
+      expect(actual).to.eql([new Date(2012, 1, 2), new Date(2012, 1, 4)]);
+      expect(state.date.toDate()).to.eql(moment('2012-02-03').toDate());
+    });
+
     it('should not matter how the data is sorted', function () {
       const data = [{
         date: moment('2012-02-04')

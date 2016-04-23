@@ -16,7 +16,8 @@ export const getSelectedDate = createSelector([getDate], (date) => date);
 export const getSelectedData = createSelector(
   [getData, getDate],
   (data, date) => {
-    const [yester, nextday] = [+date, +date.add(1, 'days')];
+    // "All moment objects are mutable" - Moment docs - Oof :(
+    const [yester, nextday] = [+date, +date.clone().add(1, 'days')];
     return data.filter((x) => +x.date < nextday && +x.date >= yester);
   }
 );
