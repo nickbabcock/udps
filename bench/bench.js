@@ -36,7 +36,7 @@ const oldGetBetterDates = (incidents, date) => {
 // Cache the dates so it is not constructed on each test run
 const date = moment('2000-02-03');
 const date2 = moment('2000-02-04');
-const [yester, nextday] = [+date, +date.add(1, 'day')]
+const [yester, nextday] = [+date, +date.add(1, 'day')];
 
 const sameDay = (d) => date.isSame(d, 'day');
 const sameDayManual = (d) => date.year() === d.year() &&
