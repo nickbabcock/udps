@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import { Router, Route, IndexRoute } from 'react-router';
 import Home from './Home';
 import DevTools from './DevTools';
-import Statistics from '../components/Statistics';
+import Statistics from './Statistics';
 import About from '../components/About';
 import InnerApp from '../components/InnerApp';
 
