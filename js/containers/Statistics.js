@@ -5,6 +5,9 @@ import { Line as LineChart } from 'react-chartjs';
 import * as HomeActions from '../actions/HomeActions';
 import { groupBy } from 'lodash';
 
+// Given incident data that may contain gaps, return an array representing
+// months (first in the tuple) and the incidents that occurred in that month
+// (second in the tuple).
 const months = (data) => {
   const shortMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
     'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
