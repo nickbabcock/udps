@@ -1,5 +1,5 @@
 import chai, { expect } from 'chai';
-import { getSelectedDate, getSelectedData, getBetterDates } from '../js/selectors';
+import { getSelectedDate, getSelectedData, getBetterDates, getMonthlyData } from '../js/selectors';
 import { assign } from 'lodash';
 const moment = require('moment');
 
@@ -209,6 +209,48 @@ describe('Selectors', function () {
       const props = { params: {} };
       const actual = getBetterDates(state, props).map(x => x.toDate());
       expect(actual).to.eql([new Date(2012, 1, 5)]);
+    });
+  });
+
+  describe('#getMonthlyData()', function () {
+    it('should fill out all missing data in chronological order', function () {
+      const state = { data: [] };
+      const actual = getMonthlyData(state);
+      expect(actual).to.eql([
+        ['Jan', []],
+        ['Feb', []],
+        ['Mar', []],
+        ['Apr', []],
+        ['May', []],
+        ['Jun', []],
+        ['Jul', []],
+        ['Aug', []],
+        ['Sep', []],
+        ['Oct', []],
+        ['Nov', []],
+        ['Dec', []]
+      ]);
+    });
+
+    it('should fill out all missing data in chronological order', function () {
+      const state = { data: [
+        { date: moment('2012-02-01') },
+        { date: moment('2012-02-01') }
+      ] };
+      const actual = getMonthlyData(state);
+      expect(actual[0]).to.eql(['Jan', []]);
+      expect(actual[1][0]).to.eql('Feb');
+      expect(actual[1][1]).to.have.length(2);
+      expect(actual[2]).to.eql(['Mar', []]);
+      expect(actual[3]).to.eql(['Apr', []]);
+      expect(actual[4]).to.eql(['May', []]);
+      expect(actual[5]).to.eql(['Jun', []]);
+      expect(actual[6]).to.eql(['Jul', []]);
+      expect(actual[7]).to.eql(['Aug', []]);
+      expect(actual[8]).to.eql(['Sep', []]);
+      expect(actual[9]).to.eql(['Oct', []]);
+      expect(actual[10]).to.eql(['Nov', []]);
+      expect(actual[11]).to.eql(['Dec', []]);
     });
   });
 });

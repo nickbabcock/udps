@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect';
-import { partition, compact, minBy, maxBy } from 'lodash';
+import { partition, compact, minBy, maxBy, groupBy } from 'lodash';
 const moment = require('moment');
 
 // If someone navigates to the page like /2016-01-01, that takes precedent over
@@ -37,3 +37,13 @@ export const getBetterDates = createSelector(
     return compact(result).map(x => x.date);
   }
 );
+
+// Given incident data that may contain gaps, return an array representing
+// months (first in the tuple) and the incidents that occurred in that month
+// (second in the tuple).
+export const getMonthlyData = createSelector([getData], (data) => {
+  const shortMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const monthlyData = groupBy(data, x => x.date.month());
+  return shortMonths.map((x, i) => [x, monthlyData[i] || []]);
+});

@@ -3,17 +3,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { Line as LineChart } from 'react-chartjs';
 import * as HomeActions from '../actions/HomeActions';
-import { groupBy } from 'lodash';
-
-// Given incident data that may contain gaps, return an array representing
-// months (first in the tuple) and the incidents that occurred in that month
-// (second in the tuple).
-const months = (data) => {
-  const shortMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  const monthlyData = groupBy(data, x => x.date.month());
-  return shortMonths.map((x, i) => [x, monthlyData[i] || []]);
-};
+import { getMonthlyData } from '../selectors';
 
 class Statistics extends Component {
   componentDidMount() {
@@ -55,8 +45,8 @@ Statistics.propTypes = {
   data: PropTypes.array.isRequired
 };
 
-const mapStateToProps = (state, ownProps) => ({
-  data: months(state.data)
+const mapStateToProps = (state) => ({
+  data: getMonthlyData(state)
 });
 
 const mapDispatchToProps = (dispatch) => ({
