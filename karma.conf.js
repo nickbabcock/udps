@@ -2,7 +2,8 @@ const webpackConfig = require('./webpack.config');
 webpackConfig.devtool = 'inline-source-map';
 webpackConfig.externals = {
   'react/lib/ExecutionEnvironment': true,
-  'react/lib/ReactContext': 'window'
+  'react/lib/ReactContext': 'window',
+  'react/addons': true
 };
 
 module.exports = (config) => {
