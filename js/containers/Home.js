@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import DatePicker from 'material-ui/lib/date-picker/date-picker';
+import DatePicker from 'material-ui/DatePicker';
 import Welcome from '../components/Welcome';
 import Incident from '../components/Incident';
 import BetterDate from '../components/BetterDate';
@@ -27,6 +27,7 @@ class Home extends Component {
           <DatePicker
             className={styles['date-picker']}
             value={date.toDate()}
+            name={"date-picker"}
             onChange={(e, d) => actions.mapDateChange(d)}
           />
         </div>

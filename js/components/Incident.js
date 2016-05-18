@@ -2,8 +2,8 @@ import React, { Component, PropTypes } from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import styles from './Incident.css';
 import Map from './Map';
-import GridTile from 'material-ui/lib/grid-list/grid-tile';
-import Paper from 'material-ui/lib/paper';
+import GridTile from 'material-ui/GridList/GridTile';
+import Paper from 'material-ui/Paper';
 import classNames from 'classnames';
 const moment = require('moment');
 
