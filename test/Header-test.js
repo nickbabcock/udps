@@ -1,6 +1,6 @@
 import React from 'react';
 import { expect } from 'chai';
-import { shallow } from 'enzyme';
+import { shallow } from './utils';
 import Header from '../js/components/Header';
 
 describe('<Header />', function () {

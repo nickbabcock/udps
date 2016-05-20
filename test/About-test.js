@@ -1,6 +1,6 @@
 import React from 'react';
 import { expect } from 'chai';
-import { render } from 'enzyme';
+import { render } from './utils';
 import About from '../js/components/About';
 
 describe('<About />', function () {

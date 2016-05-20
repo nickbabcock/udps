@@ -1,6 +1,6 @@
 import React from 'react';
 import { expect } from 'chai';
-import { shallow } from 'enzyme';
+import { shallow } from './utils';
 import InnerApp from '../js/components/InnerApp';
 import Header from '../js/components/Header';
 import Footer from '../js/components/Footer';
