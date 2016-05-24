@@ -47,3 +47,12 @@ export const getMonthlyData = createSelector([getData], (data) => {
   const monthlyData = groupBy(data, x => x.date.month());
   return shortMonths.map((x, i) => [x, monthlyData[i] || []]);
 });
+
+// Given incident data that may contain gaps, return an array representing
+// weeks (0 is sunday and first in tuple) and the incidents that occurred on
+// that day (second in the tuple)
+export const getWeeklyData = createSelector([getData], (data) => {
+  const shortWeeks = ['Sun', 'Mon', 'Tues', 'Wed', 'Thur', 'Fri', 'Sat'];
+  const weeklyData = groupBy(data, x => x.date.day());
+  return shortWeeks.map((x, i) => [x, weeklyData[i] || []]);
+});

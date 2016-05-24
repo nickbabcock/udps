@@ -1,9 +1,9 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { Line as LineChart } from 'react-chartjs';
+import { Line as LineChart, Bar as BarChart } from 'react-chartjs';
 import * as HomeActions from '../actions/HomeActions';
-import { getMonthlyData } from '../selectors';
+import { getMonthlyData, getWeeklyData } from '../selectors';
 
 class Statistics extends Component {
   componentDidMount() {
@@ -12,7 +12,7 @@ class Statistics extends Component {
   }
 
   render() {
-    const { data } = this.props;
+    const { data, weeklyData } = this.props;
     const chartData = {
       labels: data.map(([mon]) => mon),
       datasets: [{
@@ -30,11 +30,20 @@ class Statistics extends Component {
         }]
       }
     };
+
+    const chartData2 = {
+      labels: weeklyData.map(([mon]) => mon),
+      datasets: [{
+        label: '# of Incidents',
+        data: weeklyData.map(([, val]) => val.length)
+      }]
+    };
+
     return (
       <div>
         <h2>Statistics</h2>
-        <LineChart options={options} data={chartData} width={"250"} />
-        <p>This page is under construction!</p>
+        <BarChart options={options} data={chartData} width={"250"} />
+        <BarChart options={options} data={chartData2} width={"250"}/>
       </div>
     );
   }
@@ -46,7 +55,8 @@ Statistics.propTypes = {
 };
 
 const mapStateToProps = (state) => ({
-  data: getMonthlyData(state)
+  data: getMonthlyData(state),
+  weeklyData: getWeeklyData(state)
 });
 
 const mapDispatchToProps = (dispatch) => ({

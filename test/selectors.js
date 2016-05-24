@@ -1,5 +1,5 @@
 import chai, { expect } from 'chai';
-import { getSelectedDate, getSelectedData, getBetterDates, getMonthlyData } from '../js/selectors';
+import { getSelectedDate, getSelectedData, getBetterDates, getMonthlyData, getWeeklyData } from '../js/selectors';
 import { assign } from 'lodash';
 const moment = require('moment');
 
@@ -251,6 +251,38 @@ describe('Selectors', function () {
       expect(actual[9]).to.eql(['Oct', []]);
       expect(actual[10]).to.eql(['Nov', []]);
       expect(actual[11]).to.eql(['Dec', []]);
+    });
+  });
+
+  describe('#getWeeklyData()', function () {
+    it('should fill out all missing data in chronological order', function () {
+      const state = { data: [] };
+      const actual = getWeeklyData(state);
+      expect(actual).to.eql([
+        ['Sun', []],
+        ['Mon', []],
+        ['Tues', []],
+        ['Wed', []],
+        ['Thur', []],
+        ['Fri', []],
+        ['Sat', []]
+      ]);
+    });
+
+    it('should fill out all missing data in chronological order', function () {
+      const state = { data: [
+        { date: moment('2012-02-01') },
+        { date: moment('2012-02-01') }
+      ] };
+      const actual = getWeeklyData(state);
+      expect(actual[0]).to.eql(['Sun', []]);
+      expect(actual[1]).to.eql(['Mon', []]);
+      expect(actual[2]).to.eql(['Tues', []]);
+      expect(actual[3][0]).to.eql('Wed');
+      expect(actual[3][1]).to.have.length(2);
+      expect(actual[4]).to.eql(['Thur', []]);
+      expect(actual[5]).to.eql(['Fri', []]);
+      expect(actual[6]).to.eql(['Sat', []]);
     });
   });
 });
