@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect';
-import { partition, compact, minBy, maxBy, groupBy } from 'lodash';
+import { partition, compact, minBy, maxBy, groupBy, times } from 'lodash';
 import moment from 'moment';
 
 // If someone navigates to the page like /2016-01-01, that takes precedent over
@@ -55,4 +55,13 @@ export const getWeeklyData = createSelector([getData], (data) => {
   const shortWeeks = ['Sun', 'Mon', 'Tues', 'Wed', 'Thur', 'Fri', 'Sat'];
   const weeklyData = groupBy(data, x => x.date.day());
   return shortWeeks.map((x, i) => [x, weeklyData[i] || []]);
+});
+
+// Given incident data that may contain gaps, return an array representing
+// weeks (0 is sunday and first in tuple) and the incidents that occurred on
+// that day (second in the tuple)
+export const getHourlyData = createSelector([getData], (data) => {
+  const shortHours = times(24, String);
+  const hourData = groupBy(data, x => x.date.hour());
+  return shortHours.map((x, i) => [x, hourData[i] || []]);
 });

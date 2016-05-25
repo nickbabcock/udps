@@ -1,6 +1,6 @@
 import chai, { expect } from 'chai';
-import { getSelectedDate, getSelectedData, getBetterDates, getMonthlyData, getWeeklyData } from '../js/selectors';
-import { assign } from 'lodash';
+import { getSelectedDate, getSelectedData, getBetterDates, getMonthlyData, getWeeklyData, getHourlyData } from '../js/selectors';
+import { assign, times } from 'lodash';
 import moment from 'moment';
 
 chai.use(require('chai-datetime'));
@@ -283,6 +283,54 @@ describe('Selectors', function () {
       expect(actual[4]).to.eql(['Thur', []]);
       expect(actual[5]).to.eql(['Fri', []]);
       expect(actual[6]).to.eql(['Sat', []]);
+    });
+  });
+
+  describe('#getHourlyData()', function () {
+    it('should fill out all missing data in chronological order', function () {
+      const state = { data: [] };
+      const actual = getHourlyData(state);
+      expect(actual).to.eql([
+        ['0', []],
+        ['1', []],
+        ['2', []],
+        ['3', []],
+        ['4', []],
+        ['5', []],
+        ['6', []],
+        ['7', []],
+        ['8', []],
+        ['9', []],
+        ['10', []],
+        ['11', []],
+        ['12', []],
+        ['13', []],
+        ['14', []],
+        ['15', []],
+        ['16', []],
+        ['17', []],
+        ['18', []],
+        ['19', []],
+        ['20', []],
+        ['21', []],
+        ['22', []],
+        ['23', []]
+      ]);
+    });
+
+    it('should fill out all missing data in chronological order', function () {
+      const state = { data: [
+        { date: moment('2012-02-01 01:00:00') },
+        { date: moment('2012-02-01 01:00:00') }
+      ] };
+      const actual = getHourlyData(state);
+      times(24).forEach((x) => {
+        if (x !== 1) {
+          expect(actual[x][1]).to.have.length(0);
+        } else {
+          expect(actual[x][1]).to.have.length(2);
+        }
+      });
     });
   });
 });
