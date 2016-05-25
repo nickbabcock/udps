@@ -1,6 +1,6 @@
 import { createSelector } from 'reselect';
 import { partition, compact, minBy, maxBy, groupBy } from 'lodash';
-const moment = require('moment');
+import moment from 'moment';
 
 // If someone navigates to the page like /2016-01-01, that takes precedent over
 // any previous state

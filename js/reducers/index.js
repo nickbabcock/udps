@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
+import moment from 'moment';
 import * as ActionTypes from '../constants/ActionTypes';
-const moment = require('moment');
 
 export const date = (state = moment().subtract(1, 'day').startOf('day'), action) => {
   switch (action.type) {

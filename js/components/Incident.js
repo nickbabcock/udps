@@ -5,7 +5,7 @@ import Map from './Map';
 import GridTile from 'material-ui/GridList/GridTile';
 import Paper from 'material-ui/Paper';
 import classNames from 'classnames';
-const moment = require('moment');
+import moment from 'moment';
 
 export default class Incident extends Component {
   constructor() {

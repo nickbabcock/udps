@@ -2,7 +2,7 @@ import { sortBy, take, merge } from 'lodash';
 import { browserHistory } from 'react-router';
 import fetch from 'isomorphic-fetch';
 import * as localforage from 'localforage';
-const moment = require('moment');
+import moment from 'moment';
 import {
   REQUEST_DPS,
   REQUEST_DPS_DONE,
