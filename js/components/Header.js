@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import FlatButton from 'material-ui/FlatButton';
-import {darkBlack} from 'material-ui/styles/colors';
+import { darkBlack } from 'material-ui/styles/colors';
 import styles from './Header.css';
 
 const Header = () => (

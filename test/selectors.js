@@ -1,5 +1,12 @@
 import chai, { expect } from 'chai';
-import { getSelectedDate, getSelectedData, getBetterDates, getMonthlyData, getWeeklyData, getHourlyData } from '../js/selectors';
+import {
+  getSelectedDate,
+  getSelectedData,
+  getBetterDates,
+  getMonthlyData,
+  getWeeklyData,
+  getHourlyData
+} from '../js/selectors';
 import { assign, times } from 'lodash';
 import moment from 'moment';
 

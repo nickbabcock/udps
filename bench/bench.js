@@ -53,4 +53,5 @@ suite.add('getBetterDates', () => currentGetBetterDates(data, date))
   for (let i = 0; i < suite.length; i++) {
     console.log(`${suite[i].name}: ${(suite[i].stats.mean * 1000 * 1000).toFixed(2)}us`);
   }
-}).run();
+})
+.run();

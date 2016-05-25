@@ -8,7 +8,7 @@ import moment from 'moment';
 
 describe('<Incident />', function () {
   const muiTheme = getMuiTheme();
-  const mountWithContext = (node) => shallow(node, {context: {muiTheme}});
+  const mountWithContext = (node) => shallow(node, { context: { muiTheme } });
   const incident = {
     id: '23103810',
     date: moment('2016-02-03'),

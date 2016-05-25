@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { Line as LineChart, Bar as BarChart } from 'react-chartjs';
+import { Bar as BarChart } from 'react-chartjs';
 import * as HomeActions from '../actions/HomeActions';
 import { getMonthlyData, getWeeklyData } from '../selectors';
 
@@ -43,7 +43,7 @@ class Statistics extends Component {
       <div>
         <h2>Statistics</h2>
         <BarChart options={options} data={chartData} width={"250"} />
-        <BarChart options={options} data={chartData2} width={"250"}/>
+        <BarChart options={options} data={chartData2} width={"250"} />
       </div>
     );
   }
@@ -51,7 +51,8 @@ class Statistics extends Component {
 
 Statistics.propTypes = {
   actions: PropTypes.object.isRequired,
-  data: PropTypes.array.isRequired
+  data: PropTypes.array.isRequired,
+  weeklyData: PropTypes.array.isRequired
 };
 
 const mapStateToProps = (state) => ({
