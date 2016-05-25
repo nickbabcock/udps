@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { Bar as BarChart } from 'react-chartjs';
 import * as HomeActions from '../actions/HomeActions';
-import { getMonthlyData, getWeeklyData } from '../selectors';
+import { getMonthlyData, getWeeklyData, getHourlyData } from '../selectors';
 
 class Statistics extends Component {
   componentDidMount() {
@@ -12,7 +12,7 @@ class Statistics extends Component {
   }
 
   render() {
-    const { data, weeklyData } = this.props;
+    const { data, weeklyData, hourlyData } = this.props;
     const chartData = {
       labels: data.map(([mon]) => mon),
       datasets: [{
@@ -39,11 +39,20 @@ class Statistics extends Component {
       }]
     };
 
+    const chartData3 = {
+      labels: hourlyData.map(([mon]) => mon),
+      datasets: [{
+        label: '# of Incidents',
+        data: hourlyData.map(([, val]) => val.length)
+      }]
+    };
+
     return (
       <div>
         <h2>Statistics</h2>
         <BarChart options={options} data={chartData} width={"250"} />
         <BarChart options={options} data={chartData2} width={"250"} />
+        <BarChart options={options} data={chartData3} width={"250"} />
       </div>
     );
   }
@@ -52,12 +61,14 @@ class Statistics extends Component {
 Statistics.propTypes = {
   actions: PropTypes.object.isRequired,
   data: PropTypes.array.isRequired,
-  weeklyData: PropTypes.array.isRequired
+  weeklyData: PropTypes.array.isRequired,
+  hourlyData: PropTypes.array.isRequired
 };
 
 const mapStateToProps = (state) => ({
   data: getMonthlyData(state),
-  weeklyData: getWeeklyData(state)
+  weeklyData: getWeeklyData(state),
+  hourlyData: getHourlyData(state)
 });
 
 const mapDispatchToProps = (dispatch) => ({
