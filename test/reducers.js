@@ -1,6 +1,6 @@
 import chai, { expect } from 'chai';
 import { date } from '../js/reducers';
-const moment = require('moment');
+import moment from 'moment';
 chai.use(require('chai-datetime'));
 
 describe('Reducers', function () {

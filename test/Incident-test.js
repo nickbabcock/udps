@@ -4,7 +4,7 @@ import { shallow } from 'enzyme';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import Incident from '../js/components/Incident';
 import styles from '../js/components/Incident.css';
-const moment = require('moment');
+import moment from 'moment';
 
 describe('<Incident />', function () {
   const muiTheme = getMuiTheme();

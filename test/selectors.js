@@ -1,7 +1,7 @@
 import chai, { expect } from 'chai';
 import { getSelectedDate, getSelectedData, getBetterDates, getMonthlyData, getWeeklyData } from '../js/selectors';
 import { assign } from 'lodash';
-const moment = require('moment');
+import moment from 'moment';
 
 chai.use(require('chai-datetime'));
 

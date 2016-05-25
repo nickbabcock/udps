@@ -3,7 +3,7 @@ import { expect } from 'chai';
 import { shallow, render } from 'enzyme';
 import { Link } from 'react-router';
 import BetterDate from '../js/components/BetterDate';
-const moment = require('moment');
+import moment from 'moment';
 
 describe('<BetterDate />', function () {
   it('should contain nice date formats', function () {

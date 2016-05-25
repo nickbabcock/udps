@@ -2,7 +2,7 @@ import React from 'react';
 import { expect } from 'chai';
 import { shallow } from 'enzyme';
 import Footer from '../js/components/Footer';
-const moment = require('moment');
+import moment from 'moment';
 
 describe('<Footer />', function () {
   it('should give credit to the original author', function () {
