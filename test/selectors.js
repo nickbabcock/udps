@@ -27,7 +27,7 @@ describe('Selectors', function () {
   describe('#getDate()', function () {
     it('should return state date when param not specified', function () {
       const date = moment();
-      expect(getSelectedDate({ date }, { params: {} }).toDate()).to.equal(date.toDate());
+      expect(+getSelectedDate({ date }, { params: {} }).toDate()).to.equal(+date.toDate());
     });
 
     it('should return param when param is specified', function () {
